@@ -1,4 +1,2 @@
 ﻿name: Ryan Laffoon, Software Developer
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-relative_permalinks: false
