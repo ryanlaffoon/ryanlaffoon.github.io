@@ -6,10 +6,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>Ryan Laffoon's Blog</title>
-  <link href="http://ryanlaffoon.github.io/blog/atom.xml" rel="self"/>
-  <link href="http://ryanlaffoon.github.io/blog"/>
+  <link href="http://ryanlaffoon.github.io/notes/atom.xml" rel="self"/>
+  <link href="http://ryanlaffoon.github.io/notes"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://ryanlaffoon.github.io/blog</id>
+  <id>http://ryanlaffoon.github.io/notes</id>
   <author>
     <name>Ryan Laffoon</name>
     <email>ryan_laffoon@msn.com</email>
