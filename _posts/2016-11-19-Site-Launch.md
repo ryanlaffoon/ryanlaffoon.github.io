@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Ryan Laffoon - Site Launch
-date: 2016-11-19
+title: Site Launch
 author: Ryan Laffoon
 ---
 Finally got around to putting a portfolio site together. Soon enough, I'll get round to cleaning this post up.
