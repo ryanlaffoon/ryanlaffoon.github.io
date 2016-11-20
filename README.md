@@ -10,4 +10,4 @@ I wanted to create a starting point for an online portfolio, using GitHub Pages.
 
 ## License
 
-MIT
+Licensed under a Creative Commons Attribution 3.0 Unported License.
