@@ -51,10 +51,10 @@ ul.listnotes li {line-height: 30px; }
     .cv h1 {
         font-size: 32.5px;
     }
-    .cv experience-project, experience-header {
+    experience-project, experience-header {
         font-weight: bold;
     }
-    .cv experience-tags{
+    experience-tags{
         font-style: italic;
     }
 
