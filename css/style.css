@@ -37,10 +37,26 @@ ul.listnotes li {line-height: 30px; }
 .note h2.date, .swatch-log h2.date { font-size: 24.5px; font-weight: 300; font-style: italic; }
 
 /* CV */
-.cv {line-height: 23px; width: 90%; margin: 0 auto;}
-.cv li { line-height: 23px; }
-.cv h2 { font-size: 26.5px; }
-.cv h1 { font-size: 32.5px; }
+.cv {
+    line-height: 23px;
+    width: 90%;
+    margin: 0 auto;
+}
+    .cv li {
+        line-height: 23px;
+    }
+    .cv h2 {
+        font-size: 26.5px;
+    }
+    .cv h1 {
+        font-size: 32.5px;
+    }
+    .cv experience-project, experience-header {
+        font-weight: bold;
+    }
+    .cv experience-tags{
+        font-style: italic;
+    }
 
 .notes, .contact, .about, .cv, .projects, .error { margin-bottom: 30px; }
 
