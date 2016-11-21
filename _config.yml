@@ -1,5 +1,5 @@
-﻿name: Ryan Laffoon, Software Developer
+name: Ryan Laffoon, Software Developer
 markdown: kramdown
 collections:
-  projects:
-	output: true
+ - projects:
+     output: true
