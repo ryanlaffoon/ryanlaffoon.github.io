@@ -66,14 +66,14 @@ ul.listprojects li {line-height: 30px; }
 .notes, .contact, .about, .cv, .projects, .error { margin-bottom: 30px; margin-top: 50px; }
 
 /* Contact */
-.contactIcons, .contactForm { display: inline-block; }
+.contactIcons, .contactForm { display: inline-block; margin: 10px; }
 
 .contactIcons .contactIcon{
 	display: inline-block;	
 }
 
 .contactForm input{
-	margin: 10px;	
+	margin: 10px 0;	
 }
 
 /* About */
