@@ -28,7 +28,7 @@ img.avatar { margin-bottom: 30px; }
 .marketing p.lead { line-height: 30px; }
 
 /* Notes */
-.notelist, projectlist { width: 600px; margin: 0 auto; }
+.notelist, projectlist { margin: 0 auto; }
 ul.listnotes { margin: 0 auto; }
 ul.listnotes li {line-height: 30px; } 
 
@@ -37,7 +37,7 @@ ul.listnotes li {line-height: 30px; }
 .note h2.date { font-size: 24.5px; font-weight: 300; font-style: italic; }
 
 /* Projects */
-.listprojects { width: 600px; margin: 0 auto; }
+.listprojects { margin: 0 auto; }
 ul.listprojects { margin: 0 auto; }
 ul.listprojects li {line-height: 30px; } 
 
