@@ -67,10 +67,7 @@ ul.listprojects li {line-height: 30px; }
 
 /* Contact */
 .contactIcons, .contactForm { 
-	display: inline-block; 
-	margin: 10px; 
 	vertical-align: top;
-	
 }
 
 .contactIcons .contactIcon{
