@@ -3,6 +3,8 @@ layout: project
 title: Quote Tool
 author: Ryan Laffoon
 url: http://www.google.com
-date: 2016-01-01
+year: 2016
 ---
-A pretty cool tool...
+Tool allowing sales associates to produce custom order quotes for customers.
+Increased responsiveness and performance from older systems.
+C#, ASP.Net, MVC, Web API, SQL, JavaScript
