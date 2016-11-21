@@ -63,7 +63,7 @@ ul.listprojects li {line-height: 30px; }
         font-style: italic;
     }
 
-.notes, .contact, .about, .cv, .projects, .error { margin-bottom: 30px; }
+.notes, .contact, .about, .cv, .projects, .error { margin-bottom: 30px; margin-top: 50px; }
 
 /* Contact */
 .contactIcons, .contactForm { width: 50%; display: inline; }
