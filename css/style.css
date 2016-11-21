@@ -68,6 +68,10 @@ ul.listprojects li {line-height: 30px; }
 /* Contact */
 .contactIcons, .contactForm { display: inline-block; }
 
+.contactIcons .contactIcon{
+	display: inline-block;	
+}
+
 .contactForm input{
 	margin: 10px;	
 }
