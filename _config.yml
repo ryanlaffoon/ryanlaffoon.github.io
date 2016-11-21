@@ -2,5 +2,5 @@
 markdown: kramdown
 collections:
   projects:
+	label: projects
     output: true
-	permalink: /projects/:path/
