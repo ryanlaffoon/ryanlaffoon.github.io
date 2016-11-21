@@ -66,8 +66,7 @@ ul.listprojects li {line-height: 30px; }
 .notes, .contact, .about, .cv, .projects, .error { margin-bottom: 30px; }
 
 /* Contact */
-.contactIcons, .contactForm { width: 50%; display: inline-block; }
-iframe {font-family: 'Rubik', sans-serif; font-size: 16px;}
+.contactIcons, .contactForm { width: 50%; display: inline; }
 
 /* About */
 .about ul.list-unstyled li { line-height: 30px; text-indent: -30px; margin-left: 30px;}
