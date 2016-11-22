@@ -1,0 +1,10 @@
+- name: Quote Tool
+  author: Ryan Laffoon
+  year: 2014
+  type: proprietary
+  owner: Lowe's
+  shortdesc: Tool allowing sales associates to produce custom order quotes for customers. Increased responsiveness and performance from older systems.
+  longdesc: This project was guided by my team from the planning phases through development, as we had historically supported the tool's legacy predecessor. The framework for the tool utilized N-Tier architecture to move data through a Web API service and serve the front-end using MVC & asynchronous JavaScript.
+  purpose: The purpose of this project was to replace a legacy predecessor system with a more efficient & scalable solution.
+  result: Increased performance, testability & scalability in comparison with older systems with responsive design.
+  tags: C#, ASP.Net, MVC, Web API, SQL, JavaScript
