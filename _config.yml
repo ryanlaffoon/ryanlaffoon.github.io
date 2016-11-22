@@ -1,7 +1,6 @@
-﻿name: Ryan Laffoon, Software Developer
+name: Ryan Laffoon
 markdown: kramdown
 collections:
   projects:
-	label: projects
     output: true
-	permalink: /projects/:path/
+    permalink: /projects/:title/
