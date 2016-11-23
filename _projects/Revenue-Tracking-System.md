@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Revenue Tracking System
+project: Revenue Tracking System
 author: Ryan Laffoon
 url: http://www.google.com
 year: 2013
