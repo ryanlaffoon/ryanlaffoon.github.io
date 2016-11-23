@@ -1,4 +1,5 @@
-- name: Quote Tool
+quote-tool:
+  name: Quote Tool
   author: Ryan Laffoon
   year: 2016
   type: proprietary
@@ -9,7 +10,8 @@
   result: Increased performance, testability & scalability in comparison with older systems with responsive design.
   url:
   tags: C#, ASP.Net, MVC, Web API, SQL, JavaScript
-- name: Web Platform Upgrade
+web-platform-upgrade:
+  name: Web Platform Upgrade
   author: Ryan Laffoon
   year: 2015
   type: proprietary
@@ -20,7 +22,8 @@
   result: Resulted in increased site performance, testing coverage & maintainability.
   url:
   tags: C#, ASP.Net, MVC, SQL, JavaScript
-- name: Conversion Tracking System
+conversion-tracking-system:
+  name: Conversion Tracking System
   author: Ryan Laffoon
   year: 2014
   type: proprietary
@@ -31,7 +34,8 @@
   result: Increased performance, testability & scalability in comparison with older systems with responsive design.
   url:
   tags: C#, ASP.Net, MVC, Web API, SQL, JavaScript
-- name: Revenue Tracking System
+revenue-tracking-system:
+  name: Revenue Tracking System
   author: Ryan Laffoon
   year: 2013
   type: proprietary
@@ -42,7 +46,8 @@
   result: Increased performance, testability & scalability in comparison with older systems with responsive design.
   url:
   tags: C#, ASP.Net, MVC, Web API, SQL, JavaScript
-- name: Pack Check
+pack-check:
+  name: Pack Check
   author: Ryan Laffoon
   year: 2012
   type: proprietary
@@ -53,7 +58,8 @@
   result: Increased performance, testability & scalability in comparison with older systems with responsive design.
   url: http://fluentedge.com/index.php/products/18-products/26-pack-check
   tags: C#, Windows Forms, SQL
-- name: Ecometry Data Merge
+ecometry-data-merge:
+  name: Ecometry Data Merge
   author: Ryan Laffoon
   year: 2011
   type: proprietary
