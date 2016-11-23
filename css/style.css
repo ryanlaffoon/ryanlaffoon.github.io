@@ -55,13 +55,9 @@ ul.listnotes li {
 } 
 
 /* Note */
-.note, .project, .contact, .about, .error { 
-	width: 85%; 
-	margin: 0 auto; 
-	line-height: 26px; 
-}
+
 .note h2.credit { 
-	font-size: 24.5px; 
+	font-size: 2.5em; 
 	font-weight: 300; 
 	font-style: italic; 
 }
