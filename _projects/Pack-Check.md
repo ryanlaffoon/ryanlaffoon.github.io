@@ -1,5 +1,5 @@
 ---
 layout: project
-project: Pack Check
+project: pack-check
 year: 2011
 ---
