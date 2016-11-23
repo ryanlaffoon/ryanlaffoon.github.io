@@ -1,7 +1,13 @@
 <div class="projectlist">
     {% for project in site.projects | sort: 'project.year' %}
     <ul class="listprojects list-unstyled">
-        <li><span>{{project.year}} &raquo; </span> <a href="{{ project.url }}">{{ project.title }}</a></li>
+        <li>
+            <span>
+                <i class="{{ project.icon }}"></i> 
+                {{ project.year }} &raquo; 
+            </span> 
+            <a href="{{ project.url }}">{{ project.title }}</a>
+        </li>
     </ul>
     {% endfor %}
 </div>
