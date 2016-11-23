@@ -51,9 +51,8 @@ ul.listnotes {
 }
 ul.listnotes li {
 	line-height: 30px; 
+	text-indent: 10px;
 } 
-
-
 
 /* Note */
 .note, .project, .contact, .about, .error { 
@@ -66,8 +65,6 @@ ul.listnotes li {
 	font-weight: 300; 
 	font-style: italic; 
 }
-
-
 
 /* Projects */
 .listprojects { 
@@ -84,8 +81,6 @@ ul.listprojects li {
 	font-weight: 300; 
 	font-style: italic; 
 }
-
-
 
 /* CV */
 .cv {
@@ -128,5 +123,7 @@ ul.listprojects li {
 
 /* About */
 .about ul.list-unstyled li { 
-	line-height: 30px; text-indent: -30px; margin-left: 30px;
+	line-height: 30px; 
+	text-indent: -30px; 
+	margin-left: 30px;
 }
