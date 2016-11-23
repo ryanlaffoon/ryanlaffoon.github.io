@@ -7,23 +7,37 @@ projects: active
 
 <div class="projects">
     <div class="project single">
-        <h1 class="title">{{ page.project}}</h1>
         <h1 class="title">{{ project.name }}</h1>
 
-        <h2 class="credit">
-            <info year="{{ project.year }}">
-                {{ project.year }} {% if project.author %} by {{ project.author }} {% endif %}
-            </info>
-        </h2>
+        <span class="credit">
+            Created in {{ project.year }} {% if project.author %} by {{ project.author }} {% endif %} {% if project.owner %} for {{ project.owner }} {% endif %}
+        </span>
         <!-- Project content -->
+        {% if project.purpose %}
+        <div class="projectbody">
+            {{ project.purpose }}
+        </div>
+        {% endif %}
+        
+        {% if project.description %}
         <div class="projectbody">
             {{ project.description }}
-            {{ content }}
+        </div> 
+        {% endif %}
+        
+        {% if project.result %}
+        <div class="projectbody">
+            {{ project.result }}
         </div>
+        {% endif %}
+        
         <!-- Project info -->
+        {% if project.tags %}
         <div class="projectinfo">
             <!-- include some categories and tags maybe? -->
+            {{ project.tags }}
         </div>
+        {% endif %}
 
         <hr>
         <!-- Project comments -->
