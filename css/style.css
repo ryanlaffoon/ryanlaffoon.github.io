@@ -69,8 +69,9 @@ ul.listprojects {
 	margin: 0 auto; 
 }
 ul.listprojects li {
-	line-height: 30px; 
-	text-indent: 10px;
+	line-height: 30px;
+	text-indent: -10px;
+	margin-left: 20px;
 } 
 .project .credit { 
 	font-weight: 200; 
