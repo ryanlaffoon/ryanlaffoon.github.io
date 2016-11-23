@@ -79,12 +79,7 @@ ul.listprojects li {line-height: 30px; }
 }
 
 .contactIcons{
-	margin:auto;
-	display:block;
-}
-.contactIcon{
-	margin:auto;
-	display:block;
+	text-align: center;
 }
 
 .contactForm input{
