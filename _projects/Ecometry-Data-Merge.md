@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Ecometry Data Merge
+project: Ecometry Data Merge
 author: Ryan Laffoon
 url: http://www.google.com
 year: 2011
