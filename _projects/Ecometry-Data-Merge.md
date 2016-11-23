@@ -1,5 +1,5 @@
 ---
 layout: project
-project: Ecometry Data Merge
+project: ecometry-data-merge
 year: 2011
 ---
