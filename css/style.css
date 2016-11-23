@@ -75,6 +75,7 @@ ul.listprojects {
 }
 ul.listprojects li {
 	line-height: 30px; 
+	text-indent: 10px;
 } 
 .project .credit { 
 	font-size: 24.5px; 
