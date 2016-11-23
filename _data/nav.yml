@@ -1,0 +1,15 @@
+cv:
+ title: CV
+ url: /cv/
+
+projects:
+ title: Projects
+ url: /projects/
+ 
+notes:
+ title: Notes
+ url: /notes/
+ 
+contact:
+ title: Contact
+ url: /contact/

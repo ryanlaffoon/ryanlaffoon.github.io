@@ -1,0 +1,21 @@
+me:
+ name:
+  first: Ryan
+  last: Laffoon
+  middle: Todd
+  suffix: Sr
+ address:
+  street: 20812 52nd Ave W
+  city: Lynnwood
+  state: WA
+  zip: 98036
+  country: USA
+ social:
+  facebook: ryanlaffoon
+  github: ryanlaffoon
+  linkedin: ryan-laffoon
+  twitter: ryan_laffoon
+ gender: Male
+ birth: 1983-05-19
+ image-url: ryan.jpg
+ 
