@@ -86,7 +86,7 @@ ul.listprojects li {line-height: 30px; }
 	margin: 10px 0;	
 }
 
-.contactForm btn{
+.contactForm btn, .contactForm h4{
 	font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal;
 }
 
