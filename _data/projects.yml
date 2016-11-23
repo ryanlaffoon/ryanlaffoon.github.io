@@ -2,7 +2,7 @@
   author: Ryan Laffoon
   year: 2016
   type: proprietary
-  owner: [Lowe's](http://lowes.com)
+  owner: Lowe's
   blurb: Tool allowing sales associates to produce custom order quotes for customers. Increased responsiveness and performance from older systems.
   description: This project was guided by my team from the planning phases through development, as we had historically supported the tool's legacy predecessor. The framework for the tool utilized N-Tier architecture to move data through a Web API service and serve the front-end using MVC & asynchronous JavaScript.
   purpose: The purpose of this project was to replace a legacy predecessor system with a more efficient & scalable solution.
@@ -13,7 +13,7 @@
   author: Ryan Laffoon
   year: 2015
   type: proprietary
-  owner: [Lowe's](http://lowes.com)
+  owner: Lowe's
   blurb: Upgrade of three customer-facing e-commerce websites using multi-tier architecture. Resulted in increased site performance, testing coverage & maintainability.
   description:
   purpose: The purpose of this project was to replace a legacy predecessor system with a more efficient & scalable solution.
@@ -24,7 +24,7 @@
   author: Ryan Laffoon
   year: 2014
   type: proprietary
-  owner: [SurfMyAds.com](http://surfmyads.com)
+  owner: SurfMyAds.com
   blurb: Web interface and service for tracking and analyzing promotion usage, interfacing with revenue tracking system for appropriation of earnings.
   description: Web interface and service for tracking and analyzing promotion usage, interfacing with revenue tracking system for appropriation of earnings.
   purpose: The purpose of this project was to create a legacy predecessor system with a more efficient & scalable solution.
@@ -35,7 +35,7 @@
   author: Ryan Laffoon
   year: 2013
   type: proprietary
-  owner: [SurfMyAds.com](http://surfmyads.com)
+  owner: SurfMyAds.com
   blurb: Web interface and service for tracking and reporting commissionable earnings from affiliate partners.
   description:
   purpose: The purpose of this project was to create an automated solution to replace a manual revenue tracking and reporting process.
@@ -46,7 +46,7 @@
   author: Ryan Laffoon
   year: 2012
   type: proprietary
-  owner: [Fluent Edge Technologies](http://fluentedge.com)
+  owner: Fluent Edge Technologies
   blurb: Windows application for Ecometry Open-Systems to improve warehouse order packing accuracy and efficiency.
   description: Windows application for Ecometry Open-Systems to improve warehouse order packing accuracy and efficiency.
   purpose: The purpose of this project was to replace a legacy predecessor system with a more efficient & scalable solution.
@@ -57,7 +57,7 @@
   author: Ryan Laffoon
   year: 2011
   type: proprietary
-  owner: [Fluent Edge Technologies](http://fluentedge.com)
+  owner: Fluent Edge Technologies
   blurb: Multi-threaded program to merge complete ecommerce data sets into a single source while preserving data integrity.
   description: Multi-threaded program to merge complete ecommerce data sets into a single source while preserving data integrity.
   purpose: The purpose of this project was to replace a legacy predecessor system with a more efficient & scalable solution.
