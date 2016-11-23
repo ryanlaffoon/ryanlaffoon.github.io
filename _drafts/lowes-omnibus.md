@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Transition
+title: Lowe's Omnibus
 author: Ryan Laffoon
 ---
 Notes about the transition from ATGStores.com to Lowes.com employees.
