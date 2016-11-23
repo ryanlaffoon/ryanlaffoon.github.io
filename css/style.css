@@ -88,7 +88,7 @@ ul.listprojects li {line-height: 30px; }
 }
 
 .contactForm .btn, .contact h4{
-	font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal;
+	font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; text-align: center;
 }
 
 /* About */
