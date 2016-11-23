@@ -82,6 +82,10 @@ ul.listprojects li {line-height: 30px; }
 	margin:auto;
 	display:block;
 }
+.contactIcon{
+	margin:auto;
+	display:block;
+}
 
 .contactForm input{
 	margin: 10px 0;	
