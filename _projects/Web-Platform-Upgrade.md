@@ -1,10 +1,5 @@
 ---
 layout: project
-project: Web Platform Upgrade
-author: Ryan Laffoon
-url: http://www.google.com
+project: web-platform-upgrade
 year: 2015
 ---
-Upgrade of three customer-facing e-commerce websites using multi-tier architecture.
-Resulted in increased site performance, testing coverage & maintainability.
-C#, ASP.Net, MVC, SQL, JavaScript
