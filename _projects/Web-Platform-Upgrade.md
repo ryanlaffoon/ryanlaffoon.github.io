@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Web Platform Upgrade
+project: Web Platform Upgrade
 author: Ryan Laffoon
 url: http://www.google.com
 year: 2015
