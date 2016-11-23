@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Quote Tool
+project: Quote Tool
 author: Ryan Laffoon
 url: http://www.google.com
 year: 2016
