@@ -126,13 +126,17 @@ ul.listprojects li {
 	margin: 10px 0;	
 }
 
+.contactIcon{
+	margin:auto;
+	display:block;
+}
+
 .contactForm .btn, .contact h4{
 	font-family: 'Montserrat', Helvetica, sans-serif; 
 	text-transform: uppercase; 
 	font-weight: normal; 
 	text-align: center;
 }
-
 
 /* About */
 .about ul.list-unstyled li { 
