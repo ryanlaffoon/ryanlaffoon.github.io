@@ -7,8 +7,10 @@ projects: active
 
 <div class="projects">
     <div class="project single">
-        
-        <span class="title"><i class="{{ project.icon }} fa-4x"></i><h2>{{ project.name }}</h2></span>
+        <div class="row">
+            <span><i class="{{ project.icon }} fa-4x"></i></span>
+            <span><h2 class="title">{{ project.name }}</h2></span>
+        </div>
 
         <h3 class="credit">
             Created in {{ project.year }} {% if project.author %} by {{ project.author }} {% endif %} {% if project.owner %} for {{ project.owner }} {% endif %}
