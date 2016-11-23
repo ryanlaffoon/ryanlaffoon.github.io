@@ -41,7 +41,7 @@
   purpose: The purpose of this project was to create an automated solution to replace a manual revenue tracking and reporting process.
   result: Increased performance, testability & scalability in comparison with older systems with responsive design.
   url:
-  tags: C#, ASP.Net, MVC, Web API, SQL (SQL Server), JavaScript
+  tags: C#, ASP.Net, MVC, Web API, SQL, JavaScript
 - name: Pack Check
   author: Ryan Laffoon
   year: 2012
