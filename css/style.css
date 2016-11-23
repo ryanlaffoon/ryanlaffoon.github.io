@@ -12,8 +12,8 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 /* Masthead */
 .header, .footer, .header { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
 
-body > .container{
-	margin-bottom: 70px;	
+.container{
+	margin-bottom: 70px;
 }
 
 .footer{
