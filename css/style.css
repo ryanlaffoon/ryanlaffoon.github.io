@@ -111,6 +111,14 @@ ul.listprojects li {
 	padding-top: 10px;
 }
 
+.submit:before {
+    font-family: 'FontAwesome';
+    content: '\f003';
+    padding-right: 5px;
+    position: relative;
+    font-size: 90%;
+}
+
 .margin-bottom-sm{
 	margin-bottom: 5px;	
 }
