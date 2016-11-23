@@ -7,6 +7,7 @@ projects: active
 
 <div class="projects">
     <div class="project single">
+        <i class="{{ project.icon }} fa-5x"></i>
         <h1 class="title">{{ project.name }}</h1>
 
         <h3 class="credit">
@@ -14,21 +15,21 @@ projects: active
         </h3>
         <!-- Project content -->
         {% if project.purpose %}
-        <h4>Purpose</h4>
+        <h4 class="title">Purpose</h4>
         <div class="projectbody">
             {{ project.purpose }}
         </div>
         {% endif %}
         
         {% if project.description %}
-        <h4>Description</h4>
+        <h4 class="title">Description</h4>
         <div class="projectbody">
             {{ project.description }}
         </div> 
         {% endif %}
         
         {% if project.result %}
-        <h4>Results</h4>
+        <h4 class="title">Results</h4>
         <div class="projectbody">
             {{ project.result }}
         </div>
@@ -37,7 +38,7 @@ projects: active
         <!-- Project info -->
         {% if project.tags %}
         <div class="projectinfo">
-            <!-- include some categories and tags maybe? -->
+            <h5>Tags</h5>
             {{ project.tags }}
         </div>
         {% endif %}
