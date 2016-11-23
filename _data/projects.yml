@@ -28,7 +28,7 @@
   blurb: Web interface and service for tracking and analyzing promotion usage, interfacing with revenue tracking system for appropriation of earnings.
   description: Web interface and service for tracking and analyzing promotion usage, interfacing with revenue tracking system for appropriation of earnings.
   purpose: The purpose of this project was to create a legacy predecessor system with a more efficient & scalable solution.
-  result:
+  result: Increased performance, testability & scalability in comparison with older systems with responsive design.
   url:
   tags: C#, ASP.Net, MVC, Web API, SQL, JavaScript
 - name: Revenue Tracking System
@@ -39,7 +39,7 @@
   blurb: Web interface and service for tracking and reporting commissionable earnings from affiliate partners.
   description:
   purpose: The purpose of this project was to create an automated solution to replace a manual revenue tracking and reporting process.
-  result:
+  result: Increased performance, testability & scalability in comparison with older systems with responsive design.
   url:
   tags: C#, ASP.Net, MVC, Web API, SQL, JavaScript
 - name: Pack Check
@@ -50,9 +50,9 @@
   blurb: Windows application for Ecometry Open-Systems to improve warehouse order packing accuracy and efficiency.
   description: Windows application for Ecometry Open-Systems to improve warehouse order packing accuracy and efficiency.
   purpose: The purpose of this project was to replace a legacy predecessor system with a more efficient & scalable solution.
-  result:
+  result: Increased performance, testability & scalability in comparison with older systems with responsive design.
   url: http://fluentedge.com/index.php/products/18-products/26-pack-check
-  tags: C#, Windows Forms, SQL
+  tags: C#, Windows Forms, SQL (
 - name: Ecometry Data Merge
   author: Ryan Laffoon
   year: 2011
@@ -61,6 +61,6 @@
   blurb: Multi-threaded program to merge complete ecommerce data sets into a single source while preserving data integrity.
   description: Multi-threaded program to merge complete ecommerce data sets into a single source while preserving data integrity.
   purpose: The purpose of this project was to replace a legacy predecessor system with a more efficient & scalable solution.
-  result:
+  result: Increased performance, testability & scalability in comparison with older systems with responsive design.
   url:
-  tags: C#, SQL
+  tags: C#, SQL (Oracle, SQL Server), Multi-Threading
