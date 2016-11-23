@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Conversion Tracking System
+project: Conversion Tracking System
 author: Ryan Laffoon
 url: http://www.google.com
 year: 2014
