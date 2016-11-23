@@ -9,9 +9,9 @@ projects: active
     <div class="project single">
         <h1 class="title">{{ project.name }}</h1>
 
-        <span class="credit">
+        <h3 class="credit">
             Created in {{ project.year }} {% if project.author %} by {{ project.author }} {% endif %} {% if project.owner %} for {{ project.owner }} {% endif %}
-        </span>
+        </h3>
         <!-- Project content -->
         {% if project.purpose %}
         <h4>Purpose</h4>
