@@ -14,18 +14,21 @@ projects: active
         </span>
         <!-- Project content -->
         {% if project.purpose %}
+        <h4>Purpose</h4>
         <div class="projectbody">
             {{ project.purpose }}
         </div>
         {% endif %}
         
         {% if project.description %}
+        <h4>Description</h4>
         <div class="projectbody">
             {{ project.description }}
         </div> 
         {% endif %}
         
         {% if project.result %}
+        <h4>Results</h4>
         <div class="projectbody">
             {{ project.result }}
         </div>
