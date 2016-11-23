@@ -120,6 +120,7 @@ ul.listprojects li {
 .contactIcons, .contactForm { 
 	vertical-align: top;
 	text-align: center;
+	padding-top: 10px;
 }
 
 .contactForm input{
@@ -128,8 +129,8 @@ ul.listprojects li {
 
 .contactIcon{
 	margin:auto;
-	display:block;
-	padding: 0 5px;
+	display: inline-block;
+	padding: 0 10px;
 }
 
 .contactForm .btn, .contact h4{
