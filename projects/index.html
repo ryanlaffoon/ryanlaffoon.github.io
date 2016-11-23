@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Projects
+tagline: Here's a list of projects that I've worked on. Dive in for more information!
 cv: passive
 projects: active
 notes: passive
@@ -8,5 +9,17 @@ contact: passive
 description: Projects by Ryan Laffoon, A Developer and Musician living and working in Seattle.
 ---
 <div class="projects">
-    {% include project-list.html %}
+    <div class="title">
+        <h3 class="title">
+            {{ page.title }}
+        </h3>
+    </div>
+    <div class="tagline">
+        <p class="tagline">
+            {{ page.tagline }}
+        </p>
+    </div>
+    <div class="content">
+        {% include project-list.html %}
+    </div>
 </div>
