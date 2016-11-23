@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Pack Check
+project: Pack Check
 author: Ryan Laffoon
 url: http://www.google.com
 year: 2011
