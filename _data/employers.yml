@@ -1,0 +1,50 @@
+lowes:
+  name: Lowe's
+  start: 2015-06-07
+  end: 2016-08-23
+  address:
+   street: 11410 NE 122nd Way #200
+   city: Kirkland
+   state: WA
+   zip: 98034
+   country: USA  
+  url: http://www.lowes.com
+  phone: (425) 814-2515
+  blurb: Web and application development
+  description: Fortune 40 Home Improvement Retail Corporation
+  methodology: agile, scrum
+  tags: C#, ASP.Net, MVC, Web API, SQL, JavaScript, Retail, Fortune 40
+  
+surfmyads:
+  name: SurfMyAds.com
+  start: 2012-07-07
+  end: 2015-02-28
+  address:
+   street: 321 Santa Monica Blvd, Suite 300
+   city: Santa Monica 
+   state: CA
+   zip: 90401
+   country: USA  
+  url: http://www.surfmyads.com
+  phone: (424) 214-5470
+  blurb: Web and application development
+  description: Startup affiliate marketing and internet promotions agency.
+  methodology: waterfall
+  tags: C#, ASP.Net, MVC, Web API, SQL, JavaScript, Marketing
+  
+fluentedge:
+  name: Fluent Edge Technologies
+  start: 2010-07-10
+  end: 2012-06-30
+  address:
+   street: 250 Northwest Blvd, Suite 105
+   city: Coeur d'Alene
+   state: ID
+   zip: 83814
+   country: USA    
+  url: http://www.fluentedge.com
+  phone: (208) 765-2900
+  blurb: Web and application development
+  description: Startup, small development shop built around servicing enterprise ecommerce data solutions & custom web application development.
+  methodology: waterfall
+  tags: C#, ASP.Net, VB.Net, ASP, MVC, Web API, SQL, JavaScript, B2B
