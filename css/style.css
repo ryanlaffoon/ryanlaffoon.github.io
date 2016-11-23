@@ -10,7 +10,7 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 
 
 /* Masthead */
-.header, .footer, .header { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
+.header, .footer, .header, .title, .submit { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
 
 .container{
 	padding: 50px 15px;
@@ -124,13 +124,6 @@ ul.listprojects li {
 	margin:auto;
 	display: inline-block;
 	padding: 0 10px;
-}
-
-.contactForm .btn, .contact h4{
-	font-family: 'Montserrat', Helvetica, sans-serif; 
-	text-transform: uppercase; 
-	font-weight: normal; 
-	text-align: center;
 }
 
 /* About */
