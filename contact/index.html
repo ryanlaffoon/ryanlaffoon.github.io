@@ -7,6 +7,9 @@ notes: passive
 contact: active
 description: Contact, Connect, and Collaborate with Ryan Laffoon, A Developer and Musician living and working in Seattle.
 ---
+
+{% assign contact = site.data.profiles[me].contact %}
+{{contact.email}}
 <div class="contact row">
     <div class="contactForm col-md-6">
         <h4 class="title">Contact</h4>
