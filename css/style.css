@@ -55,13 +55,9 @@ ul.listnotes li {
 } 
 
 /* Note */
-.note, .project, .contact, .about, .error { 
-	width: 85%; 
-	margin: 0 auto; 
-	line-height: 26px; 
-}
+
 .note h2.credit { 
-	font-size: 24.5px; 
+	font-size: 2.5em; 
 	font-weight: 300; 
 	font-style: italic; 
 }
@@ -75,6 +71,7 @@ ul.listprojects {
 }
 ul.listprojects li {
 	line-height: 30px; 
+	text-indent: 10px;
 } 
 .project .credit { 
 	font-size: 24.5px; 
@@ -109,6 +106,14 @@ ul.listprojects li {
 	vertical-align: top;
 	text-align: center;
 	padding-top: 10px;
+}
+
+.submit:before {
+    font-family: 'FontAwesome';
+    content: '\f003';
+    padding-right: 5px;
+    position: relative;
+    font-size: 90%;
 }
 
 .margin-bottom-sm{
