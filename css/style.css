@@ -56,9 +56,8 @@ ul.listnotes li {
 
 /* Note */
 
-.note h2.credit { 
-	font-size: 2.5em; 
-	font-weight: 300; 
+.note .credit { 
+	font-weight: 200; 
 	font-style: italic; 
 }
 
