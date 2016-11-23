@@ -41,7 +41,7 @@
   purpose: The purpose of this project was to create an automated solution to replace a manual revenue tracking and reporting process.
   result: Increased performance, testability & scalability in comparison with older systems with responsive design.
   url:
-  tags: C#, ASP.Net, MVC, Web API, SQL, JavaScript
+  tags: C#, ASP.Net, MVC, Web API, SQL (SQL Server), JavaScript
 - name: Pack Check
   author: Ryan Laffoon
   year: 2012
@@ -52,7 +52,7 @@
   purpose: The purpose of this project was to replace a legacy predecessor system with a more efficient & scalable solution.
   result: Increased performance, testability & scalability in comparison with older systems with responsive design.
   url: http://fluentedge.com/index.php/products/18-products/26-pack-check
-  tags: C#, Windows Forms, SQL (
+  tags: C#, Windows Forms, SQL
 - name: Ecometry Data Merge
   author: Ryan Laffoon
   year: 2011
@@ -63,4 +63,4 @@
   purpose: The purpose of this project was to replace a legacy predecessor system with a more efficient & scalable solution.
   result: Increased performance, testability & scalability in comparison with older systems with responsive design.
   url:
-  tags: C#, SQL (Oracle, SQL Server), Multi-Threading
+  tags: C#, SQL, Multi-Threading
