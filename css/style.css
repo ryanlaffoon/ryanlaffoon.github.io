@@ -78,8 +78,9 @@ ul.listprojects li {line-height: 30px; }
 	vertical-align: top;
 }
 
-.contactIcon{
-	margin: auto;	
+.contactIcons{
+	margin:auto;
+	display:block;
 }
 
 .contactForm input{
