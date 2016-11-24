@@ -1,5 +1,6 @@
 <div class="projectlist">
-    {% for project in site.projects | sort: "year" %}
+    {% assign sorted_projects = (site.projects | sort: 'year') %}
+    {% for project in sorted_projects" %}
     <ul class="listprojects list-unstyled">
         <li>
             <span>
