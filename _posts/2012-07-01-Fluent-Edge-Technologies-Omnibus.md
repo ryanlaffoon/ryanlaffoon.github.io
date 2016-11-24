@@ -2,6 +2,7 @@
 layout: post
 title: Fluent Edge Technologies Omnibus
 author: Ryan Laffoon
+icon: fa fa-archive
 ---
 Notes about the my time working with Fluent Edge Technologies.
 
