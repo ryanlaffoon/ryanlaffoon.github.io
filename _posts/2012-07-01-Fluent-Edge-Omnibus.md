@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fluent Edge Technologies Omnibus
+title: Fluent Edge Omnibus
 author: Ryan Laffoon
 icon: fa fa-archive
 ---
