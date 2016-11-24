@@ -3,11 +3,18 @@ layout: post
 title: Lowe's Omnibus
 author: Ryan Laffoon
 ---
-Notes about the transition from ATGStores.com to Lowes.com employees.
+Notes about my time working with ATGStores.com & Lowe's.
 
+* The Interview
+* Enterprise Day One, I guess
+* Spaghetti
+* Imposter!
+* The Settling Period
+* Ravioli
+* Foosball
 * Management and bureaucracy
 * Meetings Meetings Meetings
-* Shifts in Organization
+* Now We're Doing It This Way
 * The Replacements
 * Losing the Director
 * The First Layoffs
