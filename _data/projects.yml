@@ -12,8 +12,8 @@ quote-tool:
   tags: C#, ASP.Net, MVC, Web API, SQL, JavaScript
   icon: fa fa-question-circle-o
   
-web-platform-upgrade:
-  name: Web Platform Upgrade
+platform-redesign:
+  name: Platform Redesign
   author: Ryan Laffoon
   year: 2015
   type: proprietary
@@ -27,8 +27,8 @@ web-platform-upgrade:
   tags: C#, ASP.Net, MVC, SQL, JavaScript
   icon: fa fa-question-circle-o
   
-conversion-tracking-system:
-  name: Conversion Tracking System
+conversion-dashboard:
+  name: Conversion Dashboard
   author: Ryan Laffoon
   year: 2014
   type: proprietary
@@ -41,8 +41,8 @@ conversion-tracking-system:
   tags: C#, ASP.Net, MVC, Web API, SQL, JavaScript
   icon: fa fa-bar-chart
   
-revenue-tracking-system:
-  name: Revenue Tracking System
+revenue-dashboard:
+  name: Revenue Dashboard
   author: Ryan Laffoon
   year: 2013
   type: proprietary
@@ -69,8 +69,8 @@ pack-check:
   tags: C#, Windows Forms, SQL
   icon: fa fa-check-circle-o
   
-ecometry-data-merge:
-  name: Ecometry Data Merge
+ecometry-merge:
+  name: Ecometry Merge
   author: Ryan Laffoon
   year: 2011
   type: proprietary
