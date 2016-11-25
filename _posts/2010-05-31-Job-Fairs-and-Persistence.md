@@ -4,6 +4,7 @@ title: Job Fairs and Persistence
 parent: Fluent Edge Omnibus
 author: Ryan Laffoon
 date: 2010-05-31
+icon: fa fa-handshake-o
 ---
 I first met Brian Looyenga at the Job Fair in my final quarter at Eastern. I remember reading up on Fluent Edge from the fair attendance flyer, but they frankly weren't at the top of my list to visit that day. I recognized another developer on their team which graduated the year before and with whom I had worked on a class project, so there was at least a connection there. Every student attending seemed to want the attention of the new game development company recruiter near the entrance, including me - I'd even been first in line. I would later interview with that company unsuccessfully, my first taste of interviewing in the tech industry outside of The Internship.
 
