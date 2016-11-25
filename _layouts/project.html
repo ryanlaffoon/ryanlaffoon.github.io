@@ -12,8 +12,8 @@ projects: active
             <h1 class="title">
                 <i class="{{ project.icon }}"></i>&nbsp;&nbsp;{{ project.name }}
             </h1>
-            <div>
-                <a href="/projects/"><i class="fa fa-arrow-circle-o-up fa-fw"></i> Back to Projects</a>
+            <div class="pagenavigation">
+                <a href="/projects/"><i class="fa fa-arrow-circle-up"></i>&nbsp;Projects</a>
             </div>
         </div>
         
@@ -22,21 +22,21 @@ projects: active
         </h4>
         <!-- Project content -->
         {% if project.purpose %}
-        <h4 class="title">Purpose</h4>
+        <h4 class="sectiontitle">Purpose</h4>
         <div class="projectbody">
             {{ project.purpose }}
         </div>
         {% endif %}
         
         {% if project.description %}
-        <h4 class="title">Description</h4>
+        <h4 class="sectiontitle">Description</h4>
         <div class="projectbody">
             {{ project.description }}
         </div> 
         {% endif %}
         
         {% if project.result %}
-        <h4 class="title">Results</h4>
+        <h4 class="sectiontitle">Results</h4>
         <div class="projectbody">
             {{ project.result }}
         </div>
@@ -45,15 +45,15 @@ projects: active
         <!-- Project info -->
         {% if project.tags %}
         <div class="projectinfo">
-            <h4 class="title">Tags</h4>
+            <h4 class="sectiontitle">Tags</h4>
             {{ project.tags }}
         </div>
         {% endif %}
 
         <!-- Project navigation -->
         <div class="projectnav">
-            <h4 class="title">More Projects</h4>
-            <div><a href="/projects/"><i class="fa fa-arrow-circle-up"></i>&nbsp;All Projects</a></div>
+            <h4 class="sectiontitle">More Projects</h4>
+            <div class="pagenavigation"><a href="/projects/"><i class="fa fa-arrow-circle-up"></i>&nbsp;All Projects</a></div>
             {% include pagenavigation.html %}
         </div>
         
