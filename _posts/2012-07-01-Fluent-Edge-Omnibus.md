@@ -8,7 +8,7 @@ icon: fa fa-archive
 
 {% include omnibusblurb.html %}
 
-* <a href="https://ryanlaffoon.github.io/2010/05/31/Job-Fairs-and-Persistence.html">Job Fairs and Persistence</a>
+* <a href="https://ryanlaffoon.github.io/2010/05/31/The-Job-Fair.html">The Job Fair</a>
 * The House and the Interview
 * First Job, First Day
 * The Panic
