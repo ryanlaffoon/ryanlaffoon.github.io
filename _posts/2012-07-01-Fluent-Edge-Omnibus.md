@@ -8,8 +8,6 @@ icon: fa fa-archive
 
 {% include omnibusblurb.html %}
 
-Enjoy!
-
 * <a href="https://ryanlaffoon.github.io/2010/05/31/Job-Fairs-and-Persistence.html">Job Fairs and Persistence</a>
 * The House and the Interview
 * First Job, First Day
