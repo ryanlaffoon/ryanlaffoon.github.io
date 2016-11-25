@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Fluent Edge Omnibus
+subtitle: Notes about my time working with Fluent Edge Technologies.
 author: Ryan Laffoon
 icon: fa fa-archive
 ---
-_Notes about my time working with Fluent Edge Technologies._
-
 For a long time, I've been wanting to construct a portfolio site and blog to highlight my achievements, connect with other great mentors, stand out among my peers & ensure my career growth.
 
 I wanted to be honest about it though, and share the reality of working in the industry from my personal perspective. I wanted to explain myself technically, but paint a picture with my personality. That's the point of a blog, right?
