@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fluent Edge Omnibus
-subtitle: Notes about my time working with Fluent Edge Technologies.
+subtitle: Notes about my time working with Fluent Edge Technologies
 author: Ryan Laffoon
 icon: fa fa-archive
 ---
