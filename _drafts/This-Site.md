@@ -4,14 +4,16 @@ title: How I made this profile site
 author: Ryan Laffoon
 ---
 ##Constant WIP!!
-Followed Jon's post
-Copied Jon's site, Replaced info & pictures
-Menu & Responsiveness upgrades
-Tons of Mobile testing & fiddling
-Addition of Font Awesome icons
+- Followed Jon's post
+- Copied Jon's site, Replaced info & pictures
+- Menu & Responsiveness upgrades
+- Tons of Mobile testing & fiddling
+- Addition of Font Awesome icons
+
 Major Contact page update
 - Social Icons + Email Icon
 - Contact Form instead of Email Icon
+
 Added Projects in style of Blog
 - Didn't Work at first
 - Discovered collections
