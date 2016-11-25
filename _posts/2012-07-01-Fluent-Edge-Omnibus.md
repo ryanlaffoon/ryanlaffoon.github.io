@@ -18,7 +18,7 @@ To Note - This collection of stories pertains to my time working for a private e
 
 Enjoy!
 
-* Job Fairs and Persistance
+* <a href="https://ryanlaffoon.github.io/2010/05/31/Job-Fairs-and-Persistence.html">Job Fairs and Persistence</a>
 * The House and the Interview
 * First Job, First Day
 * The Panic
