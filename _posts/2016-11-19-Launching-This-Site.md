@@ -10,7 +10,7 @@ The impetus for this has definitely been centered around my recent experiences w
 
 >"What have you been working on lately?"
 
-The answer is right here, friend.
+_The answer is right here, friend._
 
 I always wanted to set up an interactive website and blog for my professional & personal pursuits, but I had never taken the steps to accomplish that goal - I felt overwhelmed and didn't how to go about starting such an endeavor (Obligatory Plug: Thank you, Github Pages!). Now that I've laid the foundation, I genuinely feel more excitement about developing software, building experiences and advancing my career than I ever have before. I look forward to continuing the journey, fleshing out this site & sharing my experiences. 
 
