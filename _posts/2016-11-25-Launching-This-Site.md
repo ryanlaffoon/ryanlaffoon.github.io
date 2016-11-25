@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Launching This Site
+title: Leaving the Launchpad
+subtitle: Building a portfolio & Excitement about the future
 author: Ryan Laffoon
 icon: fa fa-rocket
 ---
-So, I Finally got around to putting a portfolio site together! I suppose you could say it's better late than never, and I would definitely agree, but I've been frankly wondering what took me so long to get started. 
-
-The impetus for this has definitely been centered around my recent experiences with unemployment & that wonderful question...
+So, I Finally got around to putting a portfolio site together! You could say it's better late than never, and I would definitely agree, but now that I'm here I wonder what took me so long to get started. The impetus for the launch has definitely been centered around my recent experiences with unemployment & that wonderful question...
 
 >"What have you been working on lately?"
 
