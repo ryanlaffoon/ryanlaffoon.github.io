@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lowe's Omnibus
-subtitle: Notes about my time working with ATGStores.com & Lowe's.
+subtitle: Notes about my time working with ATGStores.com & Lowe's
 author: Ryan Laffoon
 icon: fa fa-archive
 ---
