@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SurfMyAds Omnibus
-subtitle: Notes about the my time working with SurfMyAds.com.
+subtitle: Notes about the my time working with SurfMyAds.com
 author: Ryan Laffoon
 icon: fa fa-archive
 ---
