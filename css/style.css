@@ -16,6 +16,10 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 	font-weight: normal; 
 }
 
+.title{
+	display: inline-block;	
+}
+
 .container{
 	padding: 50px 15px;
 }
