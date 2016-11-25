@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Job Fairs and Persistence
+title: The Job Fair
+subtitle: The Art of Persistence
 parent: Fluent Edge Omnibus
 author: Ryan Laffoon
 date: 2010-05-31
