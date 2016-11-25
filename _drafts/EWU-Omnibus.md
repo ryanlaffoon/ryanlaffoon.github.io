@@ -3,7 +3,7 @@ layout: post
 title: Education Omnibus
 author: Ryan Laffoon
 ---
-Notes about my time in post-secondary education at Yakima Valley Community College and Eastern Washington University
+_Notes about my time in post-secondary education at Yakima Valley Community College and Eastern Washington University_
 
 * Testing ad infinitum
 * Working and Learning
