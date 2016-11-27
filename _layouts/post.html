@@ -4,24 +4,55 @@ notes: active
 ---
 <div class="notes">
     <div class="note single">
-        <h1 class="title">{{ page.title }}</h1>
-
-        <h2 class="credit">
+        
+        <!-- Breadcrumb link -->
+        <div class="clearfix">
+            <div class="pagenavigation pull-left">
+                <a href="/notes/"><i class="fa fa-arrow-circle-up"></i>&nbsp;Notes</a>
+            </div>        
+        </div>
+        
+        <!-- Note Title -->
+        <div>
+            <h1 class="title"><i class="{{ page.icon }}"></i>&nbsp;&nbsp;{{ page.title }}</h1>
+        </div>
+        
+        <!-- Note Subtitle -->
+        <div>
+            <h5 class="title">{{page.subtitle}}</h5>
+        </div>
+        
+        <!-- Note Credits -->
+        <h4 class="credit">
             <info datetime="{{ page.date }}">
                 {{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
             </info>
-        </h2>
-        <!-- Post content -->
+        </h4>
+        
+        <hr />
+        
+        <!-- Note Content -->
         <div class="notebody">
             {{ content }}
         </div>
-        <!-- Post info -->
-        <div class="noteinfo">
-            <!-- include some categories and tags maybe? -->
+        
+        <!-- Note Signature -->
+        <div class="notesignature">
+            
         </div>
-
-        <hr>
-        <!-- Post comments -->
+        
+        <hr />
+        
+        <!-- Note Navigation -->
+        <div class="notenav">      
+            <h4 class="sectiontitle">More Notes</h4>
+            <div class="pagenavigation"><a href="/notes/"><i class="fa fa-arrow-circle-up"></i>&nbsp;All Notes</a></div>
+            {% include pagenavigation.html %}
+        </div>
+        
+        <hr />
+        
+        <!-- Note comments -->
         <div class="notecomments">
             {% include disqus.html %}
         </div>

@@ -7,29 +7,38 @@ projects: active
 
 <div class="projects">
     <div class="project single">
-        <i class="{{ project.icon }} fa-5x"></i>
-        <h1 class="title">{{ project.name }}</h1>
-
-        <h3 class="credit">
-            Created in {{ project.year }} {% if project.author %} by {{ project.author }} {% endif %} {% if project.owner %} for {{ project.owner }} {% endif %}
-        </h3>
+        <div class="clearfix">
+            <div class="pagenavigation pull-left">
+                <a href="/projects/"><i class="fa fa-arrow-circle-up"></i>&nbsp;Projects</a>
+            </div>        
+        </div>
+        <div>
+        <h1 class="title"><i class="{{ project.icon }}"></i>&nbsp;&nbsp;{{ project.name }}</h1>
+        </div>
+        
+        <h4 class="credit">
+            Created in {{ project.year }} {% if project.owner %} for {{ project.owner }} {% endif %}
+        </h4>
+        
+        <hr />
+        
         <!-- Project content -->
         {% if project.purpose %}
-        <h4 class="title">Purpose</h4>
+        <h4 class="sectiontitle">Purpose &amp; Background</h4>
         <div class="projectbody">
             {{ project.purpose }}
         </div>
         {% endif %}
         
         {% if project.description %}
-        <h4 class="title">Description</h4>
+        <h4 class="sectiontitle">Additional Details</h4>
         <div class="projectbody">
             {{ project.description }}
         </div> 
         {% endif %}
         
         {% if project.result %}
-        <h4 class="title">Results</h4>
+        <h4 class="sectiontitle">Results</h4>
         <div class="projectbody">
             {{ project.result }}
         </div>
@@ -38,12 +47,22 @@ projects: active
         <!-- Project info -->
         {% if project.tags %}
         <div class="projectinfo">
-            <h5>Tags</h5>
+            <h4 class="sectiontitle">Tags</h4>
             {{ project.tags }}
         </div>
         {% endif %}
 
-        <hr>
+        <hr />
+        
+        <!-- Project navigation -->
+        <div class="projectnav">
+            <h4 class="sectiontitle">More Projects</h4>
+            <div class="pagenavigation"><a href="/projects/"><i class="fa fa-arrow-circle-up"></i>&nbsp;All Projects</a></div>
+            {% include pagenavigation.html %}
+        </div>
+        
+        <hr />
+
         <!-- Project comments -->
         <div class="projectcomments">
             {% include disqus.html %}

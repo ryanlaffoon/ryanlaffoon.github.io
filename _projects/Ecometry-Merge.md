@@ -1,6 +1,6 @@
 ---
 layout: project
-project: ecometry-data-merge
+project: ecometry-merge
 year: 2011
 icon: fa fa-database
 ---

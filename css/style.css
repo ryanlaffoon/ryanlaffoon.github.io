@@ -10,7 +10,11 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 
 
 /* Masthead */
-.header, .footer, .header, .title, .submit { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
+.header, .footer, .header, .title, .sectiontitle, .submit, .pagenavigation { 
+	font-family: 'Montserrat', Helvetica, sans-serif; 
+	text-transform: uppercase; 
+	font-weight: normal; 
+}
 
 .container{
 	padding: 50px 15px;
@@ -25,13 +29,13 @@ img.avatar {
 	display: block;
 }
 
-
-
 /* Custom container */
 .container > hr { margin: 30px 0; }
 .container > hr.footer {margin-bottom: 15px; }
 
-
+.pagenavigation{
+	margin-top: 10px;	
+}
 
 /* Jumbotron */     
 .jumbotron { margin: 80px 0; }
@@ -50,15 +54,15 @@ ul.listnotes {
 	margin: 0 auto; 
 }
 ul.listnotes li {
-	line-height: 30px; 
-	text-indent: 10px;
+	line-height: 30px;
+	text-indent: -10px;
+	margin-left: 20px;
 } 
 
 /* Note */
 
-.note h2.credit { 
-	font-size: 2.5em; 
-	font-weight: 300; 
+.note .credit { 
+	font-weight: 200; 
 	font-style: italic; 
 }
 
@@ -70,12 +74,12 @@ ul.listprojects {
 	margin: 0 auto; 
 }
 ul.listprojects li {
-	line-height: 30px; 
-	text-indent: 10px;
+	line-height: 30px;
+	text-indent: -10px;
+	margin-left: 20px;
 } 
 .project .credit { 
-	font-size: 24.5px; 
-	font-weight: 300; 
+	font-weight: 200; 
 	font-style: italic; 
 }
 
@@ -128,7 +132,7 @@ ul.listprojects li {
 
 /* About */
 .about ul.list-unstyled li { 
-	line-height: 30px; 
-	text-indent: -30px; 
-	margin-left: 30px;
+	line-height: 30px;
+	text-indent: -10px;
+	margin-left: 10px;
 }

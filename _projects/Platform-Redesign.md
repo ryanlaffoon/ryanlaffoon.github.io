@@ -1,6 +1,6 @@
 ---
 layout: project
-project: web-platform-upgrade
+project: platform-redesign
 year: 2015
 icon: fa fa-code
 ---

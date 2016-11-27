@@ -1,7 +1,13 @@
 <div class="notelist">
     {% for post in site.posts %}
     <ul class="listnotes list-unstyled">
-        <li><span>{{ post.date | date_to_string }} &raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+        <li>
+            <span>
+            <i class="{{ post.icon }} fa-fw"></i> 
+                <span>{{ post.date | date_to_string }} &nbsp; &raquo; &nbsp;</span> 
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </span>
+        </li>
     </ul>
     {% endfor %}
 </div>
