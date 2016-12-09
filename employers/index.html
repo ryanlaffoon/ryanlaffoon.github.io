@@ -1,1 +1,26 @@
-
+---
+layout: default
+title: Employers
+tagline: A collection of employers that I've worked with over the years. Feel free to dive in for more information!
+cv: passive
+projects: passive
+employers: active
+notes: passive
+contact: passive
+description: Projects by Ryan Laffoon, A Developer and Musician living and working in Seattle.
+---
+<div class="projects">
+    <div class="title">
+        <h3 class="title">
+            {{ page.title }}
+        </h3>
+    </div>
+    <div class="tagline">
+        <p class="tagline">
+            {{ page.tagline }}
+        </p>
+    </div>
+    <div class="content">
+        {% include employer-list.html %}
+    </div>
+</div>
