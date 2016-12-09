@@ -34,9 +34,9 @@ projects: active
         <h4 class="sectiontitle">Contact</h4>
         {% if employer.address %}
         <div class="employerbody">
-            {{ employer.street }} 
+            {{ employer.address.street }} 
             
-            {{ employer.city }}, {{ employer.state }} {{ employer.zip }} {{ employer.country }}
+            {{ employer.address.city }}, {{ employer.address.state }} {{ employer.address.zip }} {{ employer.address.country }}
         </div>
         {% endif %}
         
