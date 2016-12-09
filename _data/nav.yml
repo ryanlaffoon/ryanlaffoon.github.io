@@ -1,15 +1,24 @@
 cv:
  title: CV
  url: /cv/
+ index: 1
 
 projects:
  title: Projects
  url: /projects/
+ index: 2
  
+employers:
+ title: Employers
+ url: /employers/
+ index: 3
+
 notes:
  title: Notes
  url: /notes/
+ index: 4
  
 contact:
  title: Contact
  url: /contact/
+ index: 5
