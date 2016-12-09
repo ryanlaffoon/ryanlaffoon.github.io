@@ -1,0 +1,14 @@
+<div class="employerlist">
+    {% assign sorted_employers = (site.employers | sort: 'year') %}
+    {% for employer in sorted_employers reversed" %}
+    <ul class="listemployer list-unstyled">
+        <li>
+            <span>
+                <i class="{{ employer.icon }} fa-fw"></i> 
+                {{ employer.year }} &nbsp; &raquo; &nbsp;
+            </span> 
+            <a href="{{ employer.url }}">{{ employer.title }}</a>
+        </li>
+    </ul>
+    {% endfor %}
+</div>
