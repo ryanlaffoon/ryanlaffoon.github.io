@@ -16,17 +16,30 @@ projects: active
         <h1 class="title"><i class="{{ employer.icon }}"></i>&nbsp;&nbsp;{{ employer.name }}</h1>
         </div>
         
-        <h4 class="credit">
-             {{ employer.start }} -- {{ employer.end }}
-        </h4>
+        <h5 class="credit">
+             Employed from {{ employer.start }} to {{ employer.end }}
+        </h5>
         
-        <hr />
-        
-        <!-- Employer Description content -->
-        <h4 class="sectiontitle">Purpose &amp; Background</h4>
         <div class="employerbody">
             {{ employer.blurb }}
         </div>
+        
+        <div class="employerbody">
+            {{ employer.url }}
+        </div>
+        <hr />
+        
+        <h4 class="sectiontitle">Contact</h4>
+        {% if employer.address %}
+        <div class="employerbody">
+            {{ employer.description }}
+        </div>
+        {% endif %}
+        
+        
+        
+        <!-- Employer Description content -->
+        <h4 class="sectiontitle">Description</h4>
         <div class="employerbody">
             {{ employer.description }}
         </div>
