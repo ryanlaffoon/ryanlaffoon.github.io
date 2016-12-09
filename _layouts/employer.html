@@ -26,13 +26,17 @@ projects: active
         
         <div class="employerbody">
             {{ employer.url }}
+            
+            {{ employer.phone }}
         </div>
         <hr />
         
         <h4 class="sectiontitle">Contact</h4>
         {% if employer.address %}
         <div class="employerbody">
-            {{ employer.description }}
+            {{ employer.street }} 
+            
+            {{ employer.city }}, {{ employer.state }} {{ employer.zip }} {{ employer.country }}
         </div>
         {% endif %}
         
