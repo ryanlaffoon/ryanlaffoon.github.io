@@ -10,7 +10,7 @@
         </div>
         <div class="collapse navbar-collapse navlist" id="navBar">
             {% assign sorted_nav = (site.data.nav | sort: 'index') %}
-            {% assign active = (page.nav == nav.name) %}
+            {% assign active = (page.nav == nav.name) ? "active" : "passive" %}
             <ul class="nav navbar-nav navbar-right">
             {% for nav in sorted_nav reversed %}           
               <li class="{{ active }}"><a href="{{nav.url}}" title="{{nav.title}}">{{nav.title}}</a></li>
