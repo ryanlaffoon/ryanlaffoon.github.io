@@ -10,15 +10,13 @@
         </div>
         <div class="collapse navbar-collapse navlist" id="navBar">
             {% assign sorted_nav = (site.data.nav | sort: 'index') %}
-
-            {% if page.nav == nav.name %}
-                {% assign active = "active" %}
-            {% else %}
-                {% assign active = "passive" %}
-            {% endif %}
-
             <ul class="nav navbar-nav navbar-right">
-            {% for nav in sorted_nav reversed %}           
+            {% for nav in sorted_nav %}
+                {% if page.nav == nav.name %}
+                    {% assign active = "active" %}
+                {% else %}
+                    {% assign active = "passive" %}
+                {% endif %}
               <li class="{{ active }}"><a href="{{nav.url}}" title="{{nav.title}}">{{nav.title}}</a></li>
             {% endfor %}
             </ul>
