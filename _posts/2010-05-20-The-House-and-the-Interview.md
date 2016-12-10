@@ -21,4 +21,5 @@ Joking aside, I was invited inside to sit in the "living room", while the team p
 
 Favorite interview question: 
 > "What does the COALESCE keyword do in SQL?"
+
 _I had no idea_
