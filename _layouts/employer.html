@@ -12,12 +12,11 @@ projects: active
                 <a href="/employers/"><i class="fa fa-arrow-circle-up"></i>&nbsp;Employers</a>
             </div>        
         </div>
-        <div>
+        
         <h1 class="title">{{ employer.name }}</h1>
-        </div>
         
         <h4 class="credit">
-            Employed from {{ employer.start }} to {{ employer.end }} <br />
+            Employed from {{ employer.start }} to {{ employer.end }}
         </h4>
         
         {% if employer.title %}
@@ -29,6 +28,7 @@ projects: active
             {{ employer.blurb }}
         </div>
         {% endif %}
+        
         <hr />
         
         <!-- Employer Description content -->
