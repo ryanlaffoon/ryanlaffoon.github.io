@@ -59,13 +59,11 @@ projects: active
         {% endif %}
         {% if employer.address %}
             {% for address in employer.address %}
-            <p><i class="fa fa-map-marker"></i> &nbsp; 
             <address>
-                {{ address.label }} <br />
+                <i class="fa fa-map-marker"></i> &nbsp; {{ address.label }} <br />
                 {{ address.street }} <br />
                 {{ address.city }}, {{ address.state }} {{ address.zip }} {{ address.country }}
             </address>
-            </p>
             {% endfor %}
         {% endif %}
         </div>
