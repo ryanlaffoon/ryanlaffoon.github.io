@@ -4,7 +4,7 @@ title: The Job Fair
 subtitle: The Art of Persistence
 parent: Fluent Edge Omnibus
 author: Ryan Laffoon
-date: 2010-05-31
+date: 2010-05-15
 icon: fa fa-handshake-o
 ---
 I met my first boss at a Job Fair/Career Expo during my final quarter at Eastern. I remember reading up on Fluent Edge from the attendance flyer, but they weren't at the top of my list to visit that day. Digging through pictures on their website, I recognized a member of their team who I had worked with on a class project, so there was at least a connection there. Every CS student attending seemed to want the attention of the new game development company recruiter near the entrance, including me - I'd even been first in line. I would later interview with that company unsuccessfully, my first taste of interviewing in the tech industry outside of my internship from the previous quarter.
