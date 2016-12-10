@@ -1,8 +1,6 @@
 name: Ryan Laffoon
 markdown: kramdown
 collections:
-  nav:
-    output: true
   projects:
     output: true
     permalink: /projects/:title/
