@@ -8,10 +8,10 @@
   url: "/projects/"
   index: 2
  
-- name: "employers"
-  title: "Employers"
-  url: "/employers/"
-  index: 3
+#- name: "employers"
+#  title: "Employers"
+#  url: "/employers/"
+#  index: 3
 
 - name: "notes"
   title: "Notes"
