@@ -21,10 +21,7 @@ projects: active
         </h4>
         
         {% if employer.title %}
-        <h4 class="sectiontitle">Title</h4>
-        <div class="employerbody">
-            {{ employer.title }}
-        </div>
+        <h4 class="sectiontitle">{{ employer.title }}</h4>
         {% endif %}
         
         {% if employer.blurb %}
