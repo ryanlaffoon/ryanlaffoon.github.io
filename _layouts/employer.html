@@ -13,7 +13,7 @@ projects: active
             </div>        
         </div>
         <div>
-        <h1 class="title"><i class="{{ employer.icon }}"></i>&nbsp;&nbsp;{{ employer.name }}</h1>
+        <h1 class="title">{{ employer.name }}</h1>
         </div>
         
         <h5 class="credit">
@@ -23,15 +23,13 @@ projects: active
         <div class="employerbody">
             {{ employer.blurb }}
         </div>
-        
 
         <hr />
         
         <h4 class="sectiontitle">Contact</h4>
         <div class="employerbody">
-            <i class="fa fa-globe"></i> &nbsp; <p><a href="{{ employer.url }}">{{ employer.url }}</a></p>
-            
-           <i class="fa fa-phone"></i> &nbsp; <p>{{ employer.phone }}</p>
+            <p><i class="fa fa-globe"></i> &nbsp; <a href="{{ employer.url }}">{{ employer.url }}</a></p>
+            <p><i class="fa fa-phone"></i> &nbsp; {{ employer.phone }}</p>
         </div>
         
         
