@@ -16,15 +16,22 @@ projects: active
         <h1 class="title">{{ employer.name }}</h1>
         </div>
         
-        <h5 class="credit">
+        <h4 class="credit">
             Employed from {{ employer.start }} to {{ employer.end }} <br />
-            Title: {{ employer.title }}
-        </h5>
+        </h4>
         
+        {% if employer.title %}
+        <h4 class="sectiontitle">Title</h4>
+        <div class="employerbody">
+            {{ employer.title }}
+        </div>
+        {% endif %}
+        
+        {% if employer.blurb %}
         <div class="employerbody">
             {{ employer.blurb }}
         </div>
-
+        {% endif %}
         <hr />
         
         <!-- Employer Description content -->
