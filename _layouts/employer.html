@@ -35,8 +35,8 @@ projects: active
         
         {% if employer.address %}
         <div class="employerbody">
-            <p><i class="fa fa-map-marker"></i>{{ employer.address.street }}<br />
-               {{ employer.address.city }}, {{ employer.address.state }} {{ employer.address.zip }} {{ employer.address.country }}
+            <p><i class="fa fa-map-marker"></i> &nbsp; {{ employer.address.street }}<br />
+                &nbsp;  &nbsp; {{ employer.address.city }}, {{ employer.address.state }} {{ employer.address.zip }} {{ employer.address.country }}
             </p>
         </div>
         {% endif %}
