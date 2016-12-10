@@ -33,13 +33,15 @@ projects: active
             <p><i class="fa fa-globe"></i> &nbsp; <a href="{{ employer.url }}">{{ employer.url }}</a></p>
         {% endif %}
         {% if employer.phone %}
-            <p><i class="fa fa-phone"></i> &nbsp; {{ employer.phone }}</p>
+            <p><i class="fa fa-phone"></i> &nbsp; <phone>{{ employer.phone }}</phone></p>
         {% endif %}
         {% if employer.address %}
             {% for address in employer.address %}
             <p><i class="fa fa-map-marker"></i> &nbsp; {{ address.label }} <br />
+            <address>
                 {{ address.street }} <br />
                 {{ address.city }}, {{ address.state }} {{ address.zip }} {{ address.country }}
+            </address>
             </p>
             {% endfor %}
         {% endif %}
