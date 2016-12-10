@@ -19,8 +19,7 @@ My confusion would be compounded after knocking on the door, when a shaggy man i
 
 Joking aside, I was invited inside to sit in the "living room", while the team peppered me with an assortment of questions. The barrage was difficult but manageable, and I was comfortable with my answers in the end.
 
-###Favorite interview question: 
 
-> "What does the COALESCE keyword do in SQL?"
 
-_I had no idea_
+Favorite interview question: 
+"What does the COALESCE keyword do in SQL?"
