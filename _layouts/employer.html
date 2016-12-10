@@ -26,6 +26,23 @@ projects: active
 
         <hr />
         
+        <!-- Employer Description content -->
+        {% if employer.description %}
+        <h4 class="sectiontitle">Description</h4>
+        <div class="employerbody">
+            {{ employer.description }}
+        </div>
+        {% endif %}
+        
+        <!-- Employer Methodology content -->
+        {% if employer.methodology %}
+        <div class="employerinfo">
+            <h4 class="sectiontitle">Methodology</h4>
+            {{ employer.methodology }}
+        </div>     
+        {% endif %}
+        
+        
         <!-- Employer Contact Information content -->
         <h4 class="sectiontitle">Contact</h4>
         <div class="employerbody">
@@ -46,23 +63,6 @@ projects: active
             {% endfor %}
         {% endif %}
         </div>
-
-        <!-- Employer Description content -->
-        {% if employer.description %}
-        <h4 class="sectiontitle">Description</h4>
-        <div class="employerbody">
-            {{ employer.description }}
-        </div>
-        {% endif %}
-        
-        <!-- Employer Methodology content -->
-        {% if employer.methodology %}
-        <div class="employerinfo">
-            <h4 class="sectiontitle">Methodology</h4>
-            {{ employer.methodology }}
-        </div>
-        
-        {% endif %}
         
         <!-- Employer Tags content -->
         {% if employer.tags %}
