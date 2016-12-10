@@ -61,7 +61,7 @@ ul.listnotes li {
 
 /* Note */
 
-.note .credit { 
+.credit { 
 	font-weight: 200; 
 	font-style: italic; 
 }
@@ -78,10 +78,6 @@ ul.listprojects li {
 	text-indent: -10px;
 	margin-left: 20px;
 } 
-.project .credit { 
-	font-weight: 200; 
-	font-style: italic; 
-}
 
 /* CV */
 .cv {
