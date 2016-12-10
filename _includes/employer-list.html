@@ -1,5 +1,5 @@
 <div class="employerlist">
-    {% assign sorted_employers = (site.employers | sort: 'year') %}
+    {% assign sorted_employers = (site.employers | sort: 'end') %}
     {% for employer in sorted_employers reversed" %}
     <ul class="listemployer list-unstyled">
         <li>
