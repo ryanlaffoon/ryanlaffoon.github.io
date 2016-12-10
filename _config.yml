@@ -2,7 +2,7 @@ name: Ryan Laffoon
 markdown: kramdown
 collections:
   nav:
-    output: false
+    output: true
   projects:
     output: true
     permalink: /projects/:title/
