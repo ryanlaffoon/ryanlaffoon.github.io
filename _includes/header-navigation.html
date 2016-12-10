@@ -1,9 +1,21 @@
-<div class="collapse navbar-collapse navlist">
-    {% assign sorted_nav = (site.nav | sort: 'index') %}
-    {% assign active = (page.nav == nav.name) %}
-    {% for nav in sorted_nav" %}
-    <ul class="nav navbar-nav navbar-right">
-      <li class="{{ active }}"><a href="{{nav.url}}" title="{{nav.title}}">{{nav.title}}</a></li>
-    </ul>
-    {% endfor %}
-</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">Ryan Laffoon</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navlist" id="navBar">
+            {% assign sorted_nav = (site.nav | sort: 'index') %}
+            {% assign active = (page.nav == nav.name) %}
+            {% for nav in sorted_nav" %}
+            <ul class="nav navbar-nav navbar-right">
+              <li class="{{ active }}"><a href="{{nav.url}}" title="{{nav.title}}">{{nav.title}}</a></li>
+            </ul>
+            {% endfor %}
+        </div>
+    </div>
+</nav>
