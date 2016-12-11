@@ -1,7 +1,7 @@
 {% for item in cv.experience %}  
 	{% assign company = site.data.companies[item.company] %}
 	{% assign main = "main" %}
-	{% assign address = company.address[main] %}
+	{% assign address = company.address | first %}
 	<p>
 		<span class="experience-header">
 		<span itemprop="affiliation">{{ company.name }}</span><br />
