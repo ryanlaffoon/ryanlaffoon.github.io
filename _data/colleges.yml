@@ -19,6 +19,7 @@ ewu:
  description: "Eastern Washington University is a regional, comprehensive public university located in Cheney, Washington, with programs offered at campuses in Cheney, EWU Spokane at the Riverpoint Campus and at multiple campus locations throughout the state."
  notes: "Dean's List"
  gpa: 3.68
+ 
 yvcc:
  name: "Yakima Valley Community College"
  degree: "Associate of Arts - Direct Transfer Agreement"

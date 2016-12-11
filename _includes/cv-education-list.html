@@ -7,8 +7,8 @@
 		<span itemprop="addressLocality">{{ college.address.city }}</span>, <span itemprop="addressRegion">{{ college.address.state }}</span>, {{ college.end | date: "%Y" }}</span><br />
 		<span class="experience-tags">
 			{% if college.minors %} {% for minor in college.minors %} Minor: {{ minor.minor }} <br /> {% endfor %} {% endif %}
-			{% if college.notes %}{{ college.notes }}<br />{% endif %}
-			{% if college.gpa %}GPA: {{ college.gpa }}
+			{% if college.notes %}{{ college.notes }} <br /> {% endif %}
+			{% if college.gpa %}GPA: {{ college.gpa }} {% endif %}
 		</span>
 	</p>
 {% endfor %}
