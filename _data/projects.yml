@@ -58,6 +58,7 @@ revenue-dashboard:
   result: The tracking services and reporting system were successfully developed to completion, and deployed to production use. The amount of resources reduced from the previous manual methods of tracking and reporting was phenomenal, removing several hours of tedious and error-prone verification per affiliate representative each day. The system was eventually expanded further into the Conversion Tracking System, and remains in use to this day.
   tags: C#, ASP.Net, MVC, Web API, SQL, JavaScript
   icon: fa fa-usd
+  
 pack-check:
   name: Pack Check
   author: Ryan Laffoon
@@ -69,7 +70,7 @@ pack-check:
   blurb: Windows application for Ecometry Open-Systems to improve warehouse order packing accuracy and efficiency.
   description: This project was my second major self-guided effort in professional software development. I led the project from design and negotiations through the first major deployment. The service was developed for internal warehouse order packers to scan product bar codes and verify scans against product and inventory databases. The available interface allowed minimal interaction from the average user, so a custom Windows forms program was developed to fetch and manipulate order data and expand around the shortcomings of the legacy predecessor program.
   purpose: The purpose of this project was to create a new solution for warehouse order packing in Ecometry Open-Systems based on functionality from a legacy system. The project originated from a client wishing to improve the tools used by his warehouse order packing team, and I guided the project through design and development with them. The end goal was to craft a reusable solution which could be integrated with any Ecometry Open-Systems client desiring a similar function.
-  result: The product was developed to completion for the original client and successfully deployed. Since then, multiple Ecometry clients have requested integrations and further improvements.
+  result: The product was developed to completion for the original client and successfully deployed. Since then, multiple Ecometry clients have requested integrations and further improvements. [The product is available at FluentEdge.com](http://fluentedge.com/index.php/products/18-products/26-pack-check).
   url: http://fluentedge.com/index.php/products/18-products/26-pack-check
   tags: C#, Windows Forms, SQL
   icon: fa fa-check-circle-o
