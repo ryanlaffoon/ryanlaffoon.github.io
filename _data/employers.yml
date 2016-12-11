@@ -1,7 +1,7 @@
 lowes:
   name: "Lowe's"
   title: "Senior Software Developer"
-  start: 2015-06-07
+  start: 2015-07-27
   end: 2016-08-23
   address:
    - label: "CSC-K, ATGStores.com"
@@ -10,7 +10,7 @@ lowes:
      state: "WA"
      zip: "98034"
      country: "USA"
-   - label: "CSC-M, HQ"
+   - label: "CSC-M, Corporate Headquarters"
      street: "1000 Lowes Blvd"
      city: "Mooresville"
      state: "NC"
@@ -26,8 +26,8 @@ lowes:
 surfmyads:
   name: "SurfMyAds.com"
   title: "Software Engineer"
-  start: 2012-07-07
-  end: 2015-02-28
+  start: 2012-07-16
+  end: 2015-02-27
   address:   
    - label: "Coeur d'Alene Office"
      street: "206 E Indiana Ave, Suite B"
@@ -35,7 +35,7 @@ surfmyads:
      state: "ID"
      zip: "83814"
      country: "USA" 
-   - label: "HQ"
+   - label: "Santa Monica Office"
      street: "321 Santa Monica Blvd, Suite 300"
      city: "Santa Monica"
      state: "CA"
@@ -51,21 +51,15 @@ surfmyads:
 fluentedge:
   name: "Fluent Edge Technologies"
   title: "Software Developer"
-  start: 2010-07-10
-  end: 2012-06-30
+  start: 2010-07-05
+  end: 2012-06-29
   address:
    - label: "Coeur d'Alene Office"
      street: "250 Northwest Blvd, Suite 105"
      city: "Coeur d'Alene"
      state: "ID"
      zip: "83814"
-     country: "USA" 
-   - label: "Coeur d'Alene House"
-     street: "1302 E Montana Ave"
-     city: "Coeur d'Alene"
-     state: "ID"
-     zip: "83814"
-     country: "USA"  
+     country: "USA"
   url: "http://www.fluentedge.com"
   phone: "(208) 765-2900"
   blurb: "Full stack web and application development in a small startup environment."
