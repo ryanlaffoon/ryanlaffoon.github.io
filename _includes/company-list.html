@@ -1,0 +1,13 @@
+<div class="companylist">
+    {% assign sorted_companies = (site.companies | sort: 'end') %}
+    {% for company in sorted_companies reversed" %}
+    <ul class="listcompany list-unstyled">
+        <li>
+            <span>
+                {{ company.start }} - {{ company.end }} &nbsp; &raquo; &nbsp;
+            </span> 
+            <a href="{{ company.url }}">{{ company.title }}</a>
+        </li>
+    </ul>
+    {% endfor %}
+</div>
