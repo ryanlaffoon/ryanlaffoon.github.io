@@ -2,14 +2,13 @@
 	{% assign college = site.data.colleges[item.college] %}
 	<p>
 		<span class="experience-header">{{ college.degree-short }} - 
-		{% if college.major%} {{ college.major }} {% endif %}<br />
+		{% if college.major %} {{ college.major }} {% endif %}<br />
 		<span itemprop="alumniOf">{{ college.name }}</span><br />
-		<span itemprop="addressLocality">{{ college.address.city }}</span>, <span itemprop="addressRegion">{{ college.address.state }}</span>, {{ college.end | date: "%Y" }}</span>
+		<span itemprop="addressLocality">{{ college.address.city }}</span>, <span itemprop="addressRegion">{{ college.address.state }}</span>, {{ college.end | date: "%Y" }}</span><br />
 		<span class="experience-tags">
-		
-			Minors: {% if college.minors%} {% for minor in college.minors %} {{ minor.minor }}, {% endfor %} {% endif %}<br />
-			{% if college.notes%}{{ college.notes }}<br />{% endif %}
-			GPA: {{ college.gpa }}
+			{% if college.minors %} {% for minor in college.minors %} Minor: {{ minor.minor }} <br /> {% endfor %} {% endif %}
+			{% if college.notes %}{{ college.notes }}<br />{% endif %}
+			{% if college.gpa %}GPA: {{ college.gpa }}
 		</span>
 	</p>
 {% endfor %}

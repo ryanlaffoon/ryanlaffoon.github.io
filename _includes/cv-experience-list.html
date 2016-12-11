@@ -15,7 +15,7 @@
 		{% for company-project in company.projects %}
 			{% assign project = site.data.projects[company-project.project] %}
 			<li>
-			<span class="experience-project">{{ project.title }} ({{ project.year }})</span>: {{ project.blurb }}<br />
+			<span class="experience-project">{{ project.name }} ({{ project.year }})</span>: {{ project.blurb }}<br />
 				<span class="experience-tags">{{ project.tags }}</span>
 			</li>
 		{% endfor %}
