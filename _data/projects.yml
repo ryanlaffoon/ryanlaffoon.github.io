@@ -5,6 +5,7 @@ quote-tool:
   type: proprietary
   facing: internal
   owner: Lowe's
+  company: lowes
   action: Created
   blurb: Tool allowing sales associates to produce custom order quotes for customers. Increased responsiveness and performance from older systems.
   description: This project was guided by my team from the planning phases through development, as we had historically supported the tool's legacy predecessor. The framework for the tool utilized N-Tier architecture to move data through a Web API service and serve the front-end using MVC & asynchronous JavaScript. My team designed and crafted the product alongside our business analyst and project management members through dozens of successful sprints and major organizational changes.
@@ -20,6 +21,7 @@ platform-redesign:
   type: proprietary
   facing: public
   owner: Lowe's
+  company: lowes
   action: Executed
   blurb: Upgrade of three customer-facing e-commerce websites using multi-tier architecture. Resulted in increased site performance, testing coverage & maintainability.
   description: This project was my first experience working with a collection of multiple cross-functional enterprise development teams on the same project. As the legacy platform and the development shop were written using earlier versions of the .Net framework, the collective design decision was made to migrate the existing code to the latest stable framework version using an N-Tier architecture. Legacy VB and ASP code was converted to C#, and patterns and practices for development were introduced and standardized across teams. Many challenges and obstacles were encountered by all of the teams, but were successfully overcome as the season and deployment freeze ended.
@@ -36,6 +38,7 @@ conversion-dashboard:
   type: proprietary
   facing: internal
   owner: SurfMyAds.com
+  company: surfmyads
   action: Developed
   blurb: Web interface and service for tracking and analyzing promotion usage, interfacing with revenue tracking system for appropriation of earnings.
   description: This project was an extension of the previous Revenue Tracking System which I had built and maintained for SurfMyAds. Web interface and service for tracking and analyzing promotion usage, interfacing with revenue tracking system for appropriation of earnings.
@@ -51,6 +54,7 @@ revenue-dashboard:
   type: proprietary
   facing: internal
   owner: SurfMyAds.com
+  company: surfmyads
   action: Created
   blurb: Web interface and service for tracking and reporting commissionable earnings from affiliate partners.
   description: This project was guided through design by my small team, and I was given the opportunity to claim ownership of development for the product. The separation between desired functions clearly lended itself to development of RESTful microservices to retrieve data, modeling of a universal affiliate transaction data set, and design of an efficient web portal for reporting. Having ownership over the project, I was directly involved with the design, development, and continuous improvement of the product through my tenure at SurfMyAds.
@@ -66,6 +70,7 @@ pack-check:
   type: proprietary
   facing: internal
   owner: Fluent Edge Technologies
+  company: fluentedge
   action: Designed
   blurb: Windows application for Ecometry Open-Systems to improve warehouse order packing accuracy and efficiency.
   description: This project was my second major self-guided effort in professional software development. I led the project from design and negotiations through the first major deployment. The service was developed for internal warehouse order packers to scan product bar codes and verify scans against product and inventory databases. The available interface allowed minimal interaction from the average user, so a custom Windows forms program was developed to fetch and manipulate order data and expand around the shortcomings of the legacy predecessor program.
@@ -82,6 +87,7 @@ ecometry-merge:
   type: proprietary
   facing: internal
   owner: Fluent Edge Technologies
+  company: fluentedge
   action: Developed
   blurb: Multi-threaded program to merge complete ecommerce data sets into a single source while preserving data integrity.
   description: This project was my first major undertaking as a professional developer, and I was given the opportunity to design, develop, and deploy the final product. Research was conducted on the Ecometry system to identify dependencies and maintain integrity. As the primary function of the service was low-level and data-centric in nature, the solution was developed as a class library in C# using SQL stored procedures and accessed through scheduled executables. Multi-Threading was employed to process separate sections of data in parallel wherever possible to increase efficiency.
