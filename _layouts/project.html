@@ -20,6 +20,9 @@ projects: active
             {{ project.action }} in {{ project.year }} {% if project.owner %} for {{ project.owner }} {% endif %}
         </h4>
         
+        {% if project.url %}
+        <a href="{{ project.url }}">More Information <i class="fa fa-external-link" aria-hidden="true"></i></a>
+        {% endif %}
         <hr />
         
         <!-- Project content -->
