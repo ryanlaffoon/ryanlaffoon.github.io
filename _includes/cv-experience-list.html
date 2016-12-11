@@ -1,0 +1,24 @@
+{% for item in cv.experience %}  
+	{% assign company = site.data.companies[item.company] %}
+		
+	<p>
+		<div class="experience-header">
+		<div itemprop="jobTitle">{{ company.title }}</div>, 
+		<div itemprop="affiliation">{{ company.name }}</div>, 
+		<div itemprop="addressLocality">{{ company.address.city }}</div>
+		<div itemprop="addressRegion">{{ company.address.state }}</div>, {{ company.start }} - {{ company.end }}
+		</div>
+	</p>
+	<ul>
+		<li>{{ company.blurb }}</li>
+		
+		{% for company-project in company.projects%}
+			{% assign project = site.data.projects[company-project] %}
+			<li>
+			<span class="experience-project">{{ project.title }} ({{ project.year }})</span>: {{ project.blurb }}<br />
+				<span class="experience-tags">{{ project.tags }}</span>
+			</li>
+		{% endfor %}
+	</ul>
+		
+{% endfor %}
