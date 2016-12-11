@@ -6,14 +6,14 @@
 		<span itemprop="affiliation">{{ company.name }}</span><br />
 		<span itemprop="jobTitle">{{ company.title }}</span><br />
 		<span itemprop="addressLocality">{{ company.address.city }}</span>, <span itemprop="addressRegion">{{ company.address.state }}</span>
-		{{ company.start | date: %Y }} - {{ company.end | date: %Y }}
+		{{ company.start | date: "%Y" }} - {{ company.end | date: "%Y" }}
 		</span>
 	</p>
 	<ul>
 		<li>{{ company.blurb }}</li>
 		
-		{% for company-project in company.projects%}
-			{% assign project = site.data.projects[company-project] %}
+		{% for company-project in company.projects %}
+			{% assign project = site.data.projects[company-project.project] %}
 			<li>
 			<span class="experience-project">{{ project.title }} ({{ project.year }})</span>: {{ project.blurb }}<br />
 				<span class="experience-tags">{{ project.tags }}</span>
