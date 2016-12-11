@@ -2,20 +2,18 @@ ewu:
   name: "Eastern Washington University"
   degree: "Bachelor of Science"
   degree-short: "BS"
-  majors:
-   - major: "Computer Science"
+  major: "Computer Science"
   minors:
    - minor: "Physics"
    - minor: "3D Modeling and Animation"
   start: 2006-09-20
   end: 2010-06-11
   address:
-   - label: "Eastern Washington University"
-     street: "526 5th St"
-     city: "Cheney"
-     state: "WA"
-     zip: "99004"
-     country: "USA"
+   street: "526 5th St"
+   city: "Cheney"
+   state: "WA"
+   zip: "99004"
+   country: "USA"
   url: "http://www.ewu.edu"
   phone: "(509) 359-2900"
   description: "Eastern Washington University is a regional, comprehensive public university located in Cheney, Washington, with programs offered at campuses in Cheney, EWU Spokane at the Riverpoint Campus and at multiple campus locations throughout the state."
