@@ -43,9 +43,9 @@ surfmyads:
      country: "USA"
   url: "http://www.surfmyads.com"
   phone: "(424) 214-5470"
-  blurb: "Full stack web and application development in a startup environment for an affiliate marketing and internet promotions agency."
+  blurb: "Full stack web and application development in a collaborative startup environment for an affiliate marketing and internet promotions agency."
   description: "SurfMyAds.com, Inc. owns, develops and operates online shopping websites that help consumers save time and money every day, while providing high-quality sales and traffic to online retailers. A leader in performance marketing, SurfMyAds.com, Inc. is fueled by the goal of constant growth and innovation. New project development, international reach and premium marketing strategies are cornerstone to the consistent value driven by SurfMyAds.com, Inc. to both retail partners and online shoppers."
-  methodology: "Agile/Waterfall Hybrid"
+  methodology: "Agile Hybrid"
   tags: "C#, ASP.Net, MVC, Web API, SQL, JavaScript, Marketing"
   
 fluentedge:
@@ -62,7 +62,7 @@ fluentedge:
      country: "USA"
   url: "http://www.fluentedge.com"
   phone: "(208) 765-2900"
-  blurb: "Full stack web and application development in a small startup environment."
-  description: "Startup, small development shop built around servicing enterprise ecommerce data solutions & custom web application development."
-  methodology: "Agile/Waterfall Hybrid"
+  blurb: "Full stack web and application development in an independent startup environment. Control of project planning & estimation through full software development lifecycle."
+  description: "Fluent Edge Technologies is a small software development business providing products and services for enterprise ecommerce data solutions, custom web application development and IT support."
+  methodology: "Agile Hybrid"
   tags: "C#, ASP.Net, VB.Net, ASP, MVC, Web API, SQL, JavaScript"
