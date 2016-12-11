@@ -4,6 +4,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:title/
-  employers:
+  companies:
     output: true
-    permalink: /employers/:title/
+    permalink: /companies/:title/
