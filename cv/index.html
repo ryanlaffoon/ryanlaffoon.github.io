@@ -5,16 +5,14 @@ nav: cv
 cv: mine
 description: CV for Ryan Laffoon, a Developer and Musician living and working in Seattle.
 ---
-
 {% assign cv = site.data.cv[page.cv] %}
-
+{% assign person = site.data.profiles[cv.profile] %}
 <div class="cv">
 
 	{% if cv.file %} 
 		<a href="{{ cv.file }}" class="btn btn-default pull-right" title="Download"><i class="fa fa-download"></i></a> 
 	{% endif %}
     
-	{% assign person = site.data.profiles[cv.profile] %}
 	<div itemscope itemtype="https://schema.org/Person">
 	<span itemprop="name">
 		<h1>{{ person.name.first }} {{ person.name.last }}</h1>
