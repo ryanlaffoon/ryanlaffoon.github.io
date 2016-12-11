@@ -5,7 +5,7 @@
 		<span class="experience-header">
 		<span itemprop="affiliation">{{ company.name }}</span><br />
 		<span itemprop="jobTitle">{{ company.title }}</span><br />
-		<span itemprop="addressLocality">{{ company.address.main.city }}</span>, <span itemprop="addressRegion">{{ company.address.main.state }}</span>
+		<span itemprop="addressLocality">{{ company.address[main].city }}</span>, <span itemprop="addressRegion">{{ company.address[main].state }}</span>
 		{{ company.start | date: "%Y" }} - {{ company.end | date: "%Y" }}
 		</span>
 	</p>
