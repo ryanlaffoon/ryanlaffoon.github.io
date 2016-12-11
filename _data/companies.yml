@@ -21,6 +21,9 @@ lowes:
   blurb: "Full stack web and application development in an enterprise environment for a fortune 50 home improvement retail corporation."
   description: "Lowe's is a fortune 49 American company that operates a chain of retail home improvement and appliance stores in the United States, Canada, and Mexico."
   methodology: "Agile, SCRUM"
+  projects:
+   - project: quote-tool
+   - project: platform-redesign
   tags: "C#, ASP.Net, MVC, Web API, SQL, JavaScript, Retail, Fortune 50"
   
 surfmyads:
@@ -46,6 +49,9 @@ surfmyads:
   blurb: "Full stack web and application development in a collaborative startup environment for an affiliate marketing and internet promotions agency."
   description: "SurfMyAds.com, Inc. owns, develops and operates online shopping websites that help consumers save time and money every day, while providing high-quality sales and traffic to online retailers. A leader in performance marketing, SurfMyAds.com, Inc. is fueled by the goal of constant growth and innovation. New project development, international reach and premium marketing strategies are cornerstone to the consistent value driven by SurfMyAds.com, Inc. to both retail partners and online shoppers."
   methodology: "Agile Hybrid"
+  projects:
+   - project: conversion-dashboard
+   - project: revenue-dashboard
   tags: "C#, ASP.Net, MVC, Web API, SQL, JavaScript, Marketing"
   
 fluentedge:
@@ -65,4 +71,7 @@ fluentedge:
   blurb: "Full stack web and application development in an independent startup environment. Control of project planning & estimation through full software development lifecycle."
   description: "Fluent Edge Technologies is a small software development business providing products and services for enterprise ecommerce data solutions, custom web application development and IT support."
   methodology: "Agile Hybrid"
+  projects:
+   - project: pack-check
+   - project: ecometry-merge
   tags: "C#, ASP.Net, VB.Net, ASP, MVC, Web API, SQL, JavaScript"
