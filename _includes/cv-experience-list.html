@@ -3,11 +3,14 @@
 	{% assign address = company.address | first %}
 	<p>
 		<span class="experience-header">
-		<span class="pull-left">{{ company.name }}</span>
-		<span class="pull-right">{{ company.start | date: "%Y" }} - {{ company.end | date: "%Y" }}</span><br />
+		<div class="pull-left">{{ company.name }}</div>
+		<div class="pull-right">{{ company.start | date: "%Y" }} - {{ company.end | date: "%Y" }}</div>
 		</span>
-		<span itemprop="addressLocality">{{ address.city }}</span>, <span itemprop="addressRegion">{{ address.state }}</span>
-		<span itemprop="jobTitle">{{ company.title }}</span><br />
+		<span class="experience-tags">
+			<span itemprop="addressLocality">{{ address.city }}</span>, <span itemprop="addressRegion">{{ address.state }}</span>
+		</span>
+		
+		<span class="experience-header" itemprop="jobTitle">{{ company.title }}</span><br />
 	</p>
 	<ul>
 		<li>{{ company.blurb }}</li>

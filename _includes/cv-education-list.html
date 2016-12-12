@@ -9,12 +9,16 @@
 			<br />
 			<span itemprop="alumniOf">{{ college.name }}</span><br />
 		</span>
-		<span itemprop="addressLocality">{{ college.address.city }}</span>, <span itemprop="addressRegion">{{ college.address.state }}</span>
-		<br />
 		<span class="experience-tags">
-			{% if college.minors %} {% for minor in college.minors %} Minor: {{ minor.minor }} <br /> {% endfor %} {% endif %}
-			{% if college.notes %}{{ college.notes }} <br /> {% endif %}
-			{% if college.gpa %}GPA: {{ college.gpa }} {% endif %}
+			<span itemprop="addressLocality">{{ college.address.city }}</span>, <span itemprop="addressRegion">{{ college.address.state }}</span>
 		</span>
+		<br />
+		<div class="experience-content">
+			<ul>
+			{% if college.minors %} <li> Minor: {{ college.minors | array_to_sentence_string }} </li> {% endif %}
+			{% if college.notes %} <li> {{ college.notes }} </li> {% endif %}
+			{% if college.gpa %} <li> GPA: {{ college.gpa }} </li> {% endif %}
+			</ul>
+		</div>
 	</p>
 {% endfor %}
