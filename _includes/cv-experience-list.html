@@ -2,16 +2,17 @@
 	{% assign company = site.data.companies[item.company] %}
 	{% assign address = company.address | first %}
 	<p>
-		<span class="experience-header">
-		<div class="pull-left">{{ company.name }}</div>
-		<div class="pull-right">{{ company.start | date: "%Y" }} - {{ company.end | date: "%Y" }}</div>
-		</span>
-		<span class="experience-tags">
-			<span itemprop="addressLocality">{{ address.city }}</span>, <span itemprop="addressRegion">{{ address.state }}</span>
-		</span>
+		<div class="experience-header">
+			<div class="pull-left">{{ company.name }}</div>
+			<div class="pull-right">{{ company.start | date: "%Y" }} - {{ company.end | date: "%Y" }}</div>
+			<div class="clearfix"></div>
+		</div>
 		
-		<span class="experience-header" itemprop="jobTitle">{{ company.title }}</span><br />
-	</p>
+		<div class="experience-tags">
+			<span itemprop="addressLocality">{{ address.city }}</span>, <span itemprop="addressRegion">{{ address.state }}</span>
+		</div>
+		
+		<div class="experience-header" itemprop="jobTitle">{{ company.title }}</div>
 	<ul>
 		<li>{{ company.blurb }}</li>
 		
