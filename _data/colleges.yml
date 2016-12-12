@@ -4,8 +4,8 @@ ewu:
  degree-short: "BS"
  major: "Computer Science"
  minors:
-  - minor: "Physics"
-  - minor: "3D Modeling & Animation"
+  - "Physics"
+  - "3D Modeling & Animation"
  start: 2006-09-20
  end: 2010-06-11
  address:
