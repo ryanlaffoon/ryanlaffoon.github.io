@@ -51,10 +51,21 @@ projects: active
         {% if company.projects %}
         <div class="companyinfo">
             <h4 class="sectiontitle">Projects</h4>
+			<ul>
 			{% for company-project in company.projects %}
-			{% assign project = site.data.projects[company-project] %}
-				<a href="{{ project.page }}">{{ project.name }}</a> ({{ project.year }})
+			{% assign project = site.data.projects[company-project.project] %}
+				<li>
+				<span class="company-project">
+				{% if project.page %}
+					<a href="{{ project.page }}">{{ project.name }}</a> 
+				{% else %}
+					{{ project.name }}
+				{% endif %}
+					({{ project.year }})</span>: {{ project.blurb }}<br />
+					<span class="project-tags">{{ project.tags }}</span>
+				</li>
 			{% endfor %}
+			</ul>
         </div>     
         {% endif %}
         
