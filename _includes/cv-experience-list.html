@@ -1,14 +1,13 @@
 {% for item in cv.experience %}  
 	{% assign company = site.data.companies[item.company] %}
-	{% assign main = "main" %}
 	{% assign address = company.address | first %}
 	<p>
 		<span class="experience-header">
-		<span itemprop="affiliation">{{ company.name }}</span><br />
-		<span itemprop="jobTitle">{{ company.title }}</span><br />
-		<span itemprop="addressLocality">{{ address.city }}</span>, <span itemprop="addressRegion">{{ address.state }}</span>
-		{{ company.start | date: "%Y" }} - {{ company.end | date: "%Y" }}
+		<span class="pull-left">{{ company.name }}</span>
+		<span class="pull-right">{{ company.start | date: "%Y" }} - {{ company.end | date: "%Y" }}</span><br />
 		</span>
+		<span itemprop="addressLocality">{{ address.city }}</span>, <span itemprop="addressRegion">{{ address.state }}</span>
+		<span itemprop="jobTitle">{{ company.title }}</span><br />
 	</p>
 	<ul>
 		<li>{{ company.blurb }}</li>

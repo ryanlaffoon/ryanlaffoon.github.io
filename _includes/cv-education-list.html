@@ -1,12 +1,15 @@
 {% for item in cv.education %}  
 	{% assign college = site.data.colleges[item.college] %}
 	<p>
-		<span class="experience-header">{{ college.degree-short }} - 
-		{% if college.major %} {{ college.major }} {% endif %}<br />
-		<span itemprop="alumniOf">{{ college.name }}</span><br />
-		<span itemprop="addressLocality">{{ college.address.city }}</span>, <span itemprop="addressRegion">{{ college.address.state }}</span>
-			<span class="pull-right">{{ college.end | date: "%Y" }}</span>
+		<span class="experience-header">
+			<span class="pull-left">{{ college.degree-short }} - 
+			{% if college.major %} {{ college.major }} {% endif %}
+			</span>
+			<span class="pull-right">{{ college.end | date: "%Y" }}</span>		
+			<br />
+			<span itemprop="alumniOf">{{ college.name }}</span><br />
 		</span>
+		<span itemprop="addressLocality">{{ college.address.city }}</span>, <span itemprop="addressRegion">{{ college.address.state }}</span>
 		<br />
 		<span class="experience-tags">
 			{% if college.minors %} {% for minor in college.minors %} Minor: {{ minor.minor }} <br /> {% endfor %} {% endif %}
