@@ -84,6 +84,9 @@ ul.listprojects li {
 .experience-project, .experience-header {
 	font-weight: bold;
 }
+.experience-title {
+	font-size: 1.5em;
+}
 .experience-tags{
 	font-style: italic;
 }
