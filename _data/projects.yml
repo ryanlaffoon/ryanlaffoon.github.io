@@ -1,5 +1,6 @@
 quote-tool:
   name: Quote Tool
+  page: /projects/Quote-Tool/
   author: Ryan Laffoon
   year: 2016
   type: proprietary
@@ -16,6 +17,7 @@ quote-tool:
   
 platform-redesign:
   name: Platform Redesign
+  page: /projects/Platform-Redesign/
   author: Ryan Laffoon
   year: 2015
   type: proprietary
@@ -33,6 +35,7 @@ platform-redesign:
   
 conversion-dashboard:
   name: Conversion Dashboard
+  page: /projects/Conversion-Dashboard/
   author: Ryan Laffoon
   year: 2014
   type: proprietary
@@ -49,6 +52,7 @@ conversion-dashboard:
   
 revenue-dashboard:
   name: Revenue Dashboard
+  page: /projects/Revenue-Dashboard/
   author: Ryan Laffoon
   year: 2013
   type: proprietary
@@ -65,6 +69,7 @@ revenue-dashboard:
   
 pack-check:
   name: Pack Check
+  page: /projects/Pack-Check/
   author: Ryan Laffoon
   year: 2012
   type: proprietary
@@ -82,6 +87,7 @@ pack-check:
   
 ecometry-merge:
   name: Ecometry Merge
+  page: /projects/Ecometry-Merge/
   author: Ryan Laffoon
   year: 2011
   type: proprietary
