@@ -80,21 +80,25 @@ ul.listprojects li {
 } 
 
 /* CV */
+.cv-project, .cv-company, .cv-title, .cv-header{
+	font-weight: bold;
+}
 
 .cv-header{
-	font-weight: bold;
 	font-size: 1.7em;
 	text-transform: uppercase;
 	text-align: center;
 }
 
-.experience-project, .experience-header {
-	font-weight: bold;
+.cv-company {
+	font-size: 1.4em;
 }
-.experience-title {
-	font-size: 1.3em;
+
+.cv-title {
+	font-size: 1.2em;
 }
-.experience-tags{
+
+.cv-tags{
 	font-style: italic;
 }
 

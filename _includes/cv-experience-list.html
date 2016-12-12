@@ -2,27 +2,25 @@
 	{% assign company = site.data.companies[item.company] %}
 	{% assign address = company.address | first %}
 	<p>
-		<div class="experience-header">
-			<div class="pull-left experience-title">{{ company.name }}</div>
-			<div class="pull-right">{{ company.start | date: "%Y" }} - {{ company.end | date: "%Y" }}</div>
-			<div class="clearfix"></div>
-		</div>
+		<div class="pull-left cv-company">{{ company.name }}</div>
+		<div class="pull-right">{{ company.start | date: "%Y" }} - {{ company.end | date: "%Y" }}</div>
+		<div class="clearfix"></div>
 		
-		<div class="experience-tags">
+		<div class="cv-tags">
 			<span itemprop="addressLocality">{{ address.city }}</span>, <span itemprop="addressRegion">{{ address.state }}</span>
 		</div>
 		
-		<div class="experience-header" itemprop="jobTitle">{{ company.title }}</div>
-	<ul>
-		<li>{{ company.blurb }}</li>
-		
-		{% for company-project in company.projects %}
-			{% assign project = site.data.projects[company-project.project] %}
-			<li>
-			<span class="experience-project">{{ project.name }} ({{ project.year }})</span>: {{ project.blurb }}<br />
-				<span class="experience-tags">{{ project.tags }}</span>
-			</li>
-		{% endfor %}
-	</ul>
+		<div class="cv-title" itemprop="jobTitle">{{ company.title }}</div>
+		<ul>
+			<li>{{ company.blurb }}</li>
+			
+			{% for company-project in company.projects %}
+				{% assign project = site.data.projects[company-project.project] %}
+				<li>
+				<span class="cv-project">{{ project.name }} ({{ project.year }})</span>: {{ project.blurb }}<br />
+					<span class="cv-tags">{{ project.tags }}</span>
+				</li>
+			{% endfor %}
+		</ul>
 		
 {% endfor %}
