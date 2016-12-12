@@ -81,11 +81,17 @@ ul.listprojects li {
 
 /* CV */
 
+.cv-header{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.7em;
+}
+
 .experience-project, .experience-header {
 	font-weight: bold;
 }
 .experience-title {
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 .experience-tags{
 	font-style: italic;

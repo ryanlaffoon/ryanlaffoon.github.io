@@ -27,17 +27,17 @@ description: CV for Ryan Laffoon, a Developer and Musician living and working in
 	{% endif %}
 
 	{% if cv.experience %}
-        <h2>Experience</h2>
+        <div class="cv-header">Experience</div>
 		{% include cv-experience-list.html %}
 	{% endif %}
 	
 	{% if cv.education %}
-		<h2>Education</h2>
+		<div class="cv-header">Education</div>
 		{% include cv-education-list.html %}
 	{% endif %}
 	
 	{% if cv.techsummary %}
-	<h2>Technical Summary</h2>
+	<div class="cv-header">Technical Summary</div>
 
 		{% if cv.techsummary.languages %}
 			<dl class="dl-horizontal">
