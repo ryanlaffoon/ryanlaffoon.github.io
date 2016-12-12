@@ -16,8 +16,8 @@ description: Ryan Laffoon is a Software Developer and Musician living and workin
 		<p class="lead">{{ profile.lead }}</p>
 	{% endif %}
 	
-	{% if profile.intro %}
-		{% for blurb in profile.intro %}
+	{% if profile.intros %}
+		{% for blurb in profile.intros %}
 			<p>{{ blurb }}</p>
 		{% endfor %}
 	{% endif %}
