@@ -82,9 +82,10 @@ ul.listprojects li {
 /* CV */
 
 .cv-header{
+	font-weight: bold;
+	font-size: 1.7em;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 1.7em;
 }
 
 .experience-project, .experience-header {
