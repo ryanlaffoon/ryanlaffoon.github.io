@@ -47,6 +47,16 @@ projects: active
         </div>     
         {% endif %}
         
+		<!-- Company Projects content -->
+        {% if company.projects %}
+        <div class="companyinfo">
+            <h4 class="sectiontitle">Projects</h4>
+			{% for company-project in company.projects %}
+			{% assign project = site.data.projects[company-project] %}
+				<a href="{{ project.page }}">{{ project.name }}</a> ({{ project.year }})
+			{% endfor %}
+        </div>     
+        {% endif %}
         
         <!-- Company Contact Information content -->
         <h4 class="sectiontitle">Company Contact</h4>
