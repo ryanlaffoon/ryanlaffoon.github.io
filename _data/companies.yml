@@ -1,5 +1,6 @@
 lowes:
   name: "Lowe's"
+  page: "/companies/Lowes/"
   title: "Senior Software Developer"
   start: 2015-07-27
   end: 2016-08-23
@@ -28,6 +29,7 @@ lowes:
   
 surfmyads:
   name: "SurfMyAds.com"
+  page: "/companies/SurfMyAds.com/"
   title: "Software Engineer"
   start: 2012-07-16
   end: 2015-02-27
@@ -56,6 +58,7 @@ surfmyads:
   
 fluentedge:
   name: "Fluent Edge Technologies"
+  page: "/companies/Fluent-Edge-Technologies/
   title: "Software Developer"
   start: 2010-07-05
   end: 2012-06-29
