@@ -2,9 +2,10 @@
 	{% assign company = site.data.companies[item.company] %}
 	{% assign address = company.address | first %}
 	<p>
-		<div class="pull-left cv-company">{{ company.name }}</div>
-		<div class="pull-right">{{ company.start | date: "%Y" }} - {{ company.end | date: "%Y" }}</div>
-		<div class="clearfix"></div>
+		<div class="clearfix">
+			<div class="pull-left cv-company"><a href="{{ company.url }}">{{ company.name }}</a></div>
+			<div class="pull-right">{{ company.start | date: "%Y" }} - {{ company.end | date: "%Y" }}</div>
+		</div>
 		
 		<div class="cv-tags">
 			<span itemprop="addressLocality">{{ address.city }}</span>, <span itemprop="addressRegion">{{ address.state }}</span>
@@ -17,7 +18,7 @@
 			{% for company-project in company.projects %}
 				{% assign project = site.data.projects[company-project.project] %}
 				<li>
-				<span class="cv-project">{{ project.name }} ({{ project.year }})</span>: {{ project.blurb }}<br />
+				<span class="cv-project"><a href="{{ project.url }}">{{ project.name }}</a> ({{ project.year }})</span>: {{ project.blurb }}<br />
 					<span class="cv-tags">{{ project.tags }}</span>
 				</li>
 			{% endfor %}
