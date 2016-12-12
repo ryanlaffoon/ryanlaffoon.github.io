@@ -1,26 +1,22 @@
 me:
  name:
-  first: Ryan
-  last: Laffoon
-  middle: Todd
-  suffix: Sr
+  first: "Ryan"
+  last: "Laffoon"
+  middle: "Todd"
  contact:
-  address:
-   street: 20812 52nd Ave W
-   city: Lynnwood
-   state: WA
-   zip: 98036
-   country: USA
   social:
-   twitter: ryan_laffoon
-   pinterest: ryanlaffoon
-   github: ryanlaffoon
-   linkedin: ryan-laffoon
-   stackoverflow: ryanlaffoon
-  phone:
-   cell: (509) 290-1865
-  email: ryan_laffoon@msn.com
+   twitter: "ryan_laffoon"
+   pinterest: "ryanlaffoon"
+   github: "ryanlaffoon"
+   linkedin: "ryan-laffoon"
+   stackoverflow: "ryanlaffoon"
+  email: "ryan_laffoon@msn.com"
   bio:
-   gender: Male
+   gender: "Male"
    birthdate: 1983-05-19
- image-url: ryan.jpg
+ image-url: "/img/ryan.jpg"
+ lead: "Hi, I'm Ryan Laffoon! I'm a software developer from Seattle, and I've been building web applications and services since 2000!"
+ intro: 
+  - "I love technology & I'm excited by the creative and collaborative process of software development. I created this site in order to showcase some of the work I've done and share some of that excitement."
+  - "Please feel free to check out my <a href="/cv/">Credentials</a>, browse through some of the <a href="/projects">Projects</a> and <a href='/companies/'>Companies</a> I've worked on and for over the years, and peruse my collection of <a href="/notes/">Notes</a>."
+  - "I'm also available for hire as a developer or consultant. Please <a href="contact">get in contact with me</a> if you're interested in working with me."
