@@ -20,7 +20,7 @@ projects: active
         <h1 class="title">{{ company.name }}</h1>
         
         <h4 class="credit">
-            Employed from {{ company.start }} to {{ company.end }}
+            Employed from {{ company.start | date: "%B %d, %Y" }} to {{ company.end | date: "%B %d, %Y" }}
         </h4>
         
         {% if company.title %}
