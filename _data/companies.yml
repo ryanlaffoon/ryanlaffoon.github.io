@@ -1,7 +1,7 @@
 lowes:
   name: "Lowe's"
   page: "/companies/Lowes/"
-  image-url: "/img/lowes-logo.jpg"
+  image-url: "/img/lowes_logo.jpg"
   title: "Senior Software Developer"
   start: 2015-07-27
   end: 2016-08-23
@@ -31,7 +31,7 @@ lowes:
 surfmyads:
   name: "SurfMyAds.com"
   page: "/companies/SurfMyAds.com/"
-  image-url: "/img/sma-logo.png"
+  image-url: "/img/sma_logo.png"
   title: "Software Engineer"
   start: 2012-07-16
   end: 2015-02-27
@@ -61,7 +61,7 @@ surfmyads:
 fluentedge:
   name: "Fluent Edge Technologies"
   page: "/companies/Fluent-Edge-Technologies/"
-  image-url: "/img/feti-logo.png"
+  image-url: "/img/feti_logo.png"
   title: "Software Developer"
   start: 2010-07-05
   end: 2012-06-29
