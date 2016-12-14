@@ -12,7 +12,11 @@ projects: active
                 <a href="/companies/"><i class="fa fa-arrow-circle-up"></i>&nbsp;Companies</a>
             </div>        
         </div>
-        
+		{% if company.image-url %}
+		<span>				
+			<img class="logo-large" src="{{ company.image-url }}" />&nbsp;&nbsp;
+		</span>
+		{% endif %}	
         <h1 class="title">{{ company.name }}</h1>
         
         <h4 class="credit">

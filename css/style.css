@@ -96,6 +96,14 @@ ul.listprojects li {
 	font-style: italic;
 }
 
+.logo-small{
+	height: 18px;
+}
+.logo-large{
+	height: 50px;
+}
+
+
 /* Contact */
 .contactIcons, .contactForm { 
 	vertical-align: top;
