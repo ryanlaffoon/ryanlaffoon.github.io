@@ -7,3 +7,6 @@ collections:
   companies:
     output: true
     permalink: /companies/:title/
+  colleges:
+    output: true
+    permalink: /colleges/:title/
