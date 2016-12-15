@@ -9,16 +9,21 @@
   index: 2
  
 - name: "companies"
-  title: "Companies"
+  title: "Professional Experience"
   url: "/companies/"
   index: 3
+  
+- name: "colleges"
+  title: "Education"
+  url: "/colleges/"
+  index: 4
 
 - name: "notes"
   title: "Notes"
   url: "/notes/"
-  index: 4
+  index: 5
  
 - name: "contact"
   title: "Contact"
   url: "/contact/"
-  index: 5
+  index: 6
