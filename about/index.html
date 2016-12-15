@@ -1,20 +1,17 @@
 ---
 layout: default
 title: About This Site
+about: about
 description: Credits and information about the website ryanlaffoon.github.io, the personal portfolio website for Ryan Laffoon, a Developer and Musician living and working in Seattle.
 ---
+{% assign about = site.data.about[page.about] %}
 <div class="about">
-    <h5><em>ryanlaffoon.github.io</em> is:</h5>
+	<div class="title">
+        <h3 class="title">{{ page.title }}</h3>
+    </div>
     <ul class="list-unstyled">
-        <li><a href="http://creativecommons.org/licenses/by/3.0/deed.en_US" target="_blank" title="Licensed under a Creative Commons Attribution 3.0 Unported License."><i class="fa fa-creative-commons fa-fw"></i></a>Licensed under a Creative Commons Attribution 3.0 Unported License.</li>
-        <li><a href="http://validator.w3.org/nu/?doc=https%3A%2F%2Fryanlaffoon.github.io%2F" target="_blank" title="Marked up with W3C validated HTML5"><i class="fa fa-html5 fa-fw"></i></a>Marked up with W3C validated HTML5</li>
-        <li><a href="http://fonts.google.com/specimen/Rubik" target="_blank" title="Using typeface Rubik"><i class="fa fa-google fa-fw"></i></a>Using typeface Rubik</li>
-        <li><a href="http://www.google.com/fonts/specimen/Montserrat" target="_blank" title="Using typeface Montserrat"><i class="fa fa-google fa-fw"></i></a>Using typeface Montserrat</li>
-        <li><a href="http://jekyllrb.com/" target="_blank" title="Powered by Jekyll"><i class="fa fa-flask fa-fw"></i></a>Powered by Jekyll</li>
-        <li><a href="http://getbootstrap.com/" target="_blank" title="Built with Bootstrap 3.0"><i class="fa fa-wrench fa-fw"></i></a>Built with Bootstrap 3.0</li>
-        <li><a href="http://github.com/ryanlaffoon/ryanlaffoon.github.io" target="_blank" title="Source on GitHub"><i class="fa fa-github fa-fw"></i></a>Source on GitHub</li>
-        <li><a href="http://pages.github.com/" target="_blank" title="Hosted on GitHub Pages"><i class="fa fa-cloud fa-fw"></i></a>Hosted on GitHub Pages</li>
-        <li><a href="http://jmcglone.com/guides/github-pages/" target="_blank" title="Inspired and derived from Jonathan McGlone's Github Pages Guide"><i class="fa fa-code-fork fa-fw"></i></a>Inspired and derived from Jonathan McGlone's Github Pages Guide</li>
-        <li><a href="#" title="A work in progress"><i class="fa fa-cogs fa-fw"></i></a>A work in progress</li>
+        {% for item in about %}
+			 <li><a href="{{ item.url }}" target="_blank" title="{{ item.blurb }}"><i class="{{ item.icon }}"></i></a>{{ item.blurb }}</li>
+		{% endfor %}
     </ul>
 </div>

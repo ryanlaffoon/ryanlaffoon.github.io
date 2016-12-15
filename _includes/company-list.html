@@ -1,7 +1,7 @@
-<div class="companylist">
+<div class="entitylist">
     {% assign sorted_companies = (site.companies | sort: 'end') %}
     {% for company in sorted_companies reversed" %}
-    <ul class="listcompany list-unstyled">
+    <ul class="listentity list-unstyled">
         <li>
 			{% if company.image-url %}
 			<span>				

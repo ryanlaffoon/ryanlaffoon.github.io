@@ -42,39 +42,25 @@ img.avatar {
 .marketing p.lead { line-height: 30px; }
 
 
+/* Lists */
+.entitylist { 
+	margin: 0 auto; 
+}
+ul.listentity { 
+	margin: 0 auto; 
+}
+ul.listentity li {
+	line-height: 30px;
+	text-indent: -10px;
+	margin-left: 20px;
+} 
 
-/* Notes */
-.notelist, projectlist { 
-	margin: 0 auto; 
-}
-ul.listnotes { 
-	margin: 0 auto; 
-}
-ul.listnotes li {
-	line-height: 30px;
-	text-indent: -10px;
-	margin-left: 20px;
-} 
-/* Projects */
-.listprojects { 
-	margin: 0 auto; 
-}
-ul.listprojects { 
-	margin: 0 auto; 
-}
-ul.listprojects li {
-	line-height: 30px;
-	text-indent: -10px;
-	margin-left: 20px;
-} 
 /* Note */
 
 .credit { 
 	font-weight: 200; 
 	font-style: italic; 
 }
-
-
 
 /* CV */
 
@@ -84,7 +70,7 @@ ul.listprojects li {
 	text-align: center;
 }
 
-.cv-company {
+.cv-entity {
 	font-size: 1.4em;
 }
 
@@ -95,6 +81,8 @@ ul.listprojects li {
 .cv-tags{
 	font-style: italic;
 }
+
+/* Logos */
 
 .logo-small{
 	height: 18px;

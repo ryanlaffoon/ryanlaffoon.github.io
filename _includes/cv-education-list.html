@@ -3,7 +3,7 @@
 	{% assign address = college.address | first %}
 	<p>
 		<div class="clearfix">
-			<div class="pull-left cv-college" itemprop="alumniOf">
+			<div class="pull-left cv-entity" itemprop="alumniOf">
 			{% if college.page %}
 			<a href="{{ college.page }}">{{ college.name }}</a>
 			{% else %}

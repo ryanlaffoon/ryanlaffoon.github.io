@@ -1,7 +1,7 @@
-<div class="collegelist">
+<div class="entitylist">
     {% assign sorted_colleges = (site.colleges | sort: 'end') %}
     {% for college in sorted_colleges reversed" %}
-    <ul class="listcompany list-unstyled">
+    <ul class="listentity list-unstyled">
         <li>
 			{% if college.image-url %}
 			<span>				

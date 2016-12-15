@@ -1,7 +1,7 @@
-<div class="projectlist">
+<div class="entitylist">
     {% assign sorted_projects = (site.projects | sort: 'year') %}
     {% for project in sorted_projects reversed" %}
-    <ul class="listprojects list-unstyled">
+    <ul class="listentity list-unstyled">
         <li>
             <span>
                 <i class="{{ project.icon }} fa-fw"></i> 
