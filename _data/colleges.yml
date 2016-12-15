@@ -29,7 +29,7 @@ yvcc:
  start: 2001-09-20
  end: 2005-12-15
  address:
-  - label: "Eastern Washington University"
+  - label: "Yakima Valley Community College"
     street: "South 16th Ave & Nob Hill Blvd"
     city: "Yakima"
     state: "WA"
