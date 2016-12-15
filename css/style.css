@@ -43,6 +43,7 @@ img.avatar {
 
 
 /* Lists */
+
 .entitylist { 
 	margin: 0 auto; 
 }
@@ -91,8 +92,8 @@ ul.listentity li {
 	height: 50px;
 }
 
-
 /* Contact */
+
 .contactIcons, .contactForm { 
 	vertical-align: top;
 	text-align: center;
@@ -115,11 +116,4 @@ ul.listentity li {
 	margin:auto;
 	display: inline-block;
 	padding: 0 10px;
-}
-
-/* About */
-.about ul.list-unstyled li { 
-	line-height: 30px;
-	text-indent: -10px;
-	margin-left: 10px;
 }

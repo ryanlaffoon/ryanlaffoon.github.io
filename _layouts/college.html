@@ -100,7 +100,7 @@ nav: colleges
         <h4 class="sectiontitle">Contact</h4>
         <div class="collegebody">
         {% if college.url %}
-            <p><a href="{{ college.url }}"><i class="fa fa-globe"></i> &nbsp; {{ college.url }}</a></p>
+            <p><a href="{{ college.url }}" target="_blank"><i class="fa fa-globe"></i> &nbsp; {{ college.url }}</a></p>
         {% endif %}
         {% if college.phone %}
             <p><phone><i class="fa fa-phone"></i> &nbsp; {{ college.phone }}</phone></p>
