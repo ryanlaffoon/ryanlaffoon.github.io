@@ -1,6 +1,6 @@
 ---
 layout: default
-projects: active
+nav: projects
 ---
 
 {% assign company = site.data.companies[page.company] %}
@@ -10,7 +10,6 @@ projects: active
         <div>
             {% include header-breadcrumb.html %}       
         </div>
-		
 		{% if company.image-url %}
 		<span>				
 			<img class="logo-large" src="{{ company.image-url }}" />&nbsp;&nbsp;

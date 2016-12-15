@@ -1,14 +1,15 @@
 ---
 layout: default
-projects: active
+nav: projects
 ---
 
 {% assign project = site.data.projects[page.project] %}
 {% assign company = site.data.companies[project.company] %}
 <div class="projects">
     <div class="project single">
-		{% include header-breadcrumb.html %}
-        <div>
+		<div>
+            {% include header-breadcrumb.html %}       
+        </div>        <div>
         <h1 class="title"><i class="{{ project.icon }}"></i>&nbsp;&nbsp;{{ project.name }}</h1>
         </div>
         

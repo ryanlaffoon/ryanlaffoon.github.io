@@ -1,6 +1,6 @@
 ---
 layout: default
-colleges: active
+nav: colleges
 ---
 
 {% assign college = site.data.colleges[page.college] %}
@@ -9,8 +9,7 @@ colleges: active
     <div class="college single">
         <div>
             {% include header-breadcrumb.html %}       
-        </div>
-		
+        </div>	
 		{% if college.image-url %}
 		<span>				
 			<img class="logo-large" src="{{ college.image-url }}" />&nbsp;&nbsp;
