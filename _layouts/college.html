@@ -23,31 +23,28 @@ colleges: active
             Attended from {{ college.start | date: "%B %d, %Y" }} to {{ college.end | date: "%B %d, %Y" }}
         </h4>
         
-        {% if college.degree-short %}
-        <h4 class="sectiontitle">Earned {{ college.degree-short }} in {{ college.major }}</h4>
-        {% endif %}
-        
-		{% if college.minors %} 
-		<div class="collegebody"> 
-			Minor: {{ college.minors | array_to_sentence_string }} 
-		</div> 
-		{% endif %}
-		
-        {% if college.notes %}
-        <div class="collegebody">
-            {{ college.notes }}
-        </div>
-        {% endif %}
-        
-        <hr />
-        
 		<!-- college Degree content -->
         {% if college.degree %}
         <div class="collegeinfo">
-            <h4 class="sectiontitle">Degree</h4>
-            {{ college.degree }}
+            <h4 class="sectiontitle">Degree Earned</h4>
+            {{ college.degree }} in {{ college.major }}
+			
+			{% if college.minors %} 
+			<div class="collegebody"> 
+				Minor: {{ college.minors | array_to_sentence_string }} 
+			</div> 
+			{% endif %}
+			        
+			{% if college.notes %}
+			<div class="collegebody">
+				{{ college.notes }}
+			</div>
+			{% endif %}
         </div>     
         {% endif %}
+
+        <hr />
+
         <!-- College Description content -->
         {% if college.description %}
         <h4 class="sectiontitle">Description</h4>
@@ -55,9 +52,7 @@ colleges: active
             {{ college.description }}
         </div>
         {% endif %}
-        
 
-        
 		<!-- college Projects content -->
         {% if college.projects %}
         <div class="collegeinfo">
