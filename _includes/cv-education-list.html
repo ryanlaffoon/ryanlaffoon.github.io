@@ -1,13 +1,20 @@
 {% for item in cv.education %}  
 	{% assign college = site.data.colleges[item.college] %}
+	{% assign address = college.address | first %}
 	<p>
 		<div class="clearfix">
-			<div class="pull-left cv-company" itemprop="alumniOf">{{ college.name }}</div>
+			<div class="pull-left cv-college" itemprop="alumniOf">
+			{% if college.page %}
+			<a href="{{ college.page }}">{{ college.name }}</a>
+			{% else %}
+			{{ college.name }}
+			{% endif %}
+			</div>
 			<div class="pull-right">{{ college.end | date: "%Y" }}</div>
 		</div>	
 		
 		<div class="cv-tags">
-			<span itemprop="addressLocality">{{ college.address.city }}</span>, <span itemprop="addressRegion">{{ college.address.state }}</span>
+			<span itemprop="addressLocality">{{ address.city }}</span>, <span itemprop="addressRegion">{{ address.state }}</span>
 		</div>
 		
 		<div class="cv-title" >{{ college.degree-short }} - 
