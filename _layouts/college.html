@@ -1,0 +1,119 @@
+---
+layout: default
+projects: active
+---
+
+{% assign college = site.data.colleges[page.college] %}
+
+<div class="colleges">
+    <div class="college single">
+        <div>
+            {% include header-breadcrumb.html %}       
+        </div>
+		
+		{% if college.image-url %}
+		<span>				
+			<img class="logo-large" src="{{ college.image-url }}" />&nbsp;&nbsp;
+		</span>
+		{% endif %}	
+		
+        <h1 class="title">{{ college.name }}</h1>
+        
+        <h4 class="credit">
+            Attended from {{ college.start | date: "%B %d, %Y" }} to {{ college.end | date: "%B %d, %Y" }}
+        </h4>
+        
+        {% if college.title %}
+        <h4 class="sectiontitle">{{ college.title }}</h4>
+        {% endif %}
+        
+        {% if college.blurb %}
+        <div class="companybody">
+            {{ college.blurb }}
+        </div>
+        {% endif %}
+        
+        <hr />
+        
+        <!-- college Description content -->
+        {% if college.description %}
+        <h4 class="sectiontitle">Description</h4>
+        <div class="collegebody">
+            {{ college.description }}
+        </div>
+        {% endif %}
+        
+        <!-- college Methodology content -->
+        {% if college.methodology %}
+        <div class="companyinfo">
+            <h4 class="sectiontitle">Methodology</h4>
+            {{ college.methodology }}
+        </div>     
+        {% endif %}
+        
+		<!-- college Projects content -->
+        {% if college.projects %}
+        <div class="companyinfo">
+            <h4 class="sectiontitle">Projects</h4>
+			<ul>
+			{% for college-project in college.projects %}
+			{% assign project = site.data.projects[college-project.project] %}
+				<li>
+				<span class="company-project">
+				{% if project.page %}
+					<a href="{{ project.page }}">{{ project.name }}</a> 
+				{% else %}
+					{{ project.name }}
+				{% endif %}
+					({{ project.year }})</span>: {{ project.blurb }}<br />
+					<span class="project-tags">{{ project.tags }}</span>
+				</li>
+			{% endfor %}
+			</ul>
+        </div>     
+        {% endif %}
+        
+        <!-- college Contact Information content -->
+        <h4 class="sectiontitle">college Contact</h4>
+        <div class="companybody">
+        {% if college.url %}
+            <p><i class="fa fa-globe"></i> &nbsp; <a href="{{ college.url }}">{{ college.url }}</a></p>
+        {% endif %}
+        {% if college.phone %}
+            <p><i class="fa fa-phone"></i> &nbsp; <phone>{{ college.phone }}</phone></p>
+        {% endif %}
+        {% if college.address %}
+            {% for address in college.address %}
+            <address>
+                <i class="fa fa-map-marker"></i> &nbsp; {{ address.label }} <br />
+                {{ address.street }} <br />
+                {{ address.city }}, {{ address.state }} {{ address.zip }} {{ address.country }}
+            </address>
+            {% endfor %}
+        {% endif %}
+        </div>
+        
+        <!-- Company Tags content -->
+        {% if company.tags %}
+        <div class="companyinfo">
+            <h4 class="sectiontitle">Tags</h4>
+            {{ company.tags }}
+        </div>
+        {% endif %}
+
+        <hr />
+        
+        <!-- Company navigation -->
+        <div class="companynav">            <h4 class="sectiontitle">More college</h4>
+            <div class="pagenavigation"><a href="/companies/"><i class="fa fa-arrow-circle-up"></i>&nbsp;All Colleges</a></div>
+            {% include pagenavigation.html %}
+        </div>
+        
+        <hr />
+
+        <!-- Company comments -->
+        <div class="companycomments">
+            {% include disqus.html %}
+        </div>
+    </div>
+</div>
