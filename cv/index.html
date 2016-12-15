@@ -28,16 +28,6 @@ description: CV for Ryan Laffoon, a Developer and Musician living and working in
 		<p>{{ cv.summary }}</p> 
 	{% endif %}
 
-	{% if cv.experience %}
-        <div class="cv-header">Experience</div>
-		{% include cv-experience-list.html %}
-	{% endif %}
-	
-	{% if cv.education %}
-		<div class="cv-header">Education</div>
-		{% include cv-education-list.html %}
-	{% endif %}
-	
 	{% if cv.techsummary %}
 	<div class="cv-header">Technical Summary</div>
 
@@ -70,4 +60,16 @@ description: CV for Ryan Laffoon, a Developer and Musician living and working in
 		{% endif %}
 
 	{% endif %}
+	
+	{% if cv.experience %}
+        <div class="cv-header"><a href="/companies/"><i class="fa fa-briefcase fa-fw"></i> &nbsp; Experience</a></div>
+		{% include cv-experience-list.html %}
+	{% endif %}
+	
+	{% if cv.education %}
+		<div class="cv-header"><a href="/colleges/"><i class="fa fa-graduation-cap fa-fw"></i> &nbsp; Education</a></div>
+		{% include cv-education-list.html %}
+	{% endif %}
+	
+
 </div>
