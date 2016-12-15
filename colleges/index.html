@@ -1,0 +1,24 @@
+---
+layout: default
+title: Colleges
+breadcrumb: Colleges
+tagline: Information about Colleges that I've attended. Feel free to dive in for more information!
+nav: companies
+description: Educational information about Ryan Laffoon, A Developer and Musician living and working in Seattle.
+---
+<div class="companies">
+	{% include header-breadcrumb.html %}
+    <div class="title">
+        <h3 class="title">
+            {{ page.title }}
+        </h3>
+    </div>
+    <div class="tagline">
+        <p class="tagline">
+            {{ page.tagline }}
+        </p>
+    </div>
+    <div class="content">
+        {% include college-list.html %}
+    </div>
+</div>

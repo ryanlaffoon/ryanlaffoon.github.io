@@ -1,0 +1,42 @@
+{% for item in cv.experience %}  
+	{% assign company = site.data.companies[item.company] %}
+	{% assign address = company.address | first %}
+<p>
+	<div class="clearfix">
+		<div class="pull-left cv-company">
+		{% if company.page %}
+			<a href="{{ company.page }}">{{ company.name }}</a>
+		{% else %}
+			{{ company.name }}
+		{% endif %}
+		</div>
+		<div class="pull-right">{{ company.start | date: "%Y" }} - {{ company.end | date: "%Y" }}</div>
+	</div>
+	
+	<div class="cv-tags">
+		<span itemprop="addressLocality">{{ address.city }}</span>, <span itemprop="addressRegion">{{ address.state }}</span>
+	</div>
+	
+	<div class="cv-title" itemprop="jobTitle">{{ company.title }}</div>
+	
+	<div class="cv-content">{{ company.blurb }}</div>
+					
+	{% if company.projects %}
+	<div class="cv-project">Projects</div>
+	<ul>
+	{% for company-project in company.projects %}
+		{% assign project = site.data.projects[company-project.project] %}
+		<li>
+		<span class="cv-project">
+		{% if project.page %}
+			<a href="{{ project.page }}">{{ project.name }}</a> 
+		{% else %}
+			{{ project.name }}
+		{% endif %}
+			({{ project.year }})</span>: {{ project.blurb }}<br />
+			<span class="cv-tags">{{ project.tags }}</span>
+		</li>
+	{% endfor %}
+	</ul>
+	{% endif %}
+{% endfor %}

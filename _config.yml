@@ -4,3 +4,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:title/
+  companies:
+    output: true
+    permalink: /companies/:title/
+  colleges:
+    output: true
+    permalink: /colleges/:title/

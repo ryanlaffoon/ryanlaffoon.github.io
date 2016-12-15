@@ -3,10 +3,7 @@
 
 body { font-family: 'Rubik', sans-serif; font-size: 16px; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Rubik', sans-serif; font-weight: 700;}
-
 blockquote p { font-size: 16px; line-height: 1.6em; }
-
 
 
 /* Masthead */
@@ -58,14 +55,6 @@ ul.listnotes li {
 	text-indent: -10px;
 	margin-left: 20px;
 } 
-
-/* Note */
-
-.note .credit { 
-	font-weight: 200; 
-	font-style: italic; 
-}
-
 /* Projects */
 .listprojects { 
 	margin: 0 auto; 
@@ -78,32 +67,42 @@ ul.listprojects li {
 	text-indent: -10px;
 	margin-left: 20px;
 } 
-.project .credit { 
+/* Note */
+
+.credit { 
 	font-weight: 200; 
 	font-style: italic; 
 }
 
+
+
 /* CV */
-.cv {
-    line-height: 23px;
-    width: 90%;
-    margin: 0 auto;
+
+.cv-header{
+	font-size: 1.7em;
+	text-transform: uppercase;
+	text-align: center;
 }
-    .cv li {
-        line-height: 23px;
-    }
-    .cv h2 {
-        font-size: 26.5px;
-    }
-    .cv h1 {
-        font-size: 32.5px;
-    }
-    .experience-project, .experience-header {
-        font-weight: bold;
-    }
-    .experience-tags{
-        font-style: italic;
-    }
+
+.cv-company {
+	font-size: 1.4em;
+}
+
+.cv-title {
+	font-size: 1.2em;
+}
+
+.cv-tags{
+	font-style: italic;
+}
+
+.logo-small{
+	height: 18px;
+}
+.logo-large{
+	height: 50px;
+}
+
 
 /* Contact */
 .contactIcons, .contactForm { 

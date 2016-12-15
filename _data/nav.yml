@@ -1,15 +1,24 @@
-cv:
- title: CV
- url: /cv/
+- name: "cv"
+  title: "CV"
+  url: "/cv/"
+  index: 1
+  
+- name: "projects"
+  title: "Projects"
+  url: "/projects/"
+  index: 2
+ 
+- name: "companies"
+  title: "Companies"
+  url: "/companies/"
+  index: 3
 
-projects:
- title: Projects
- url: /projects/
+- name: "notes"
+  title: "Notes"
+  url: "/notes/"
+  index: 4
  
-notes:
- title: Notes
- url: /notes/
- 
-contact:
- title: Contact
- url: /contact/
+- name: "contact"
+  title: "Contact"
+  url: "/contact/"
+  index: 5

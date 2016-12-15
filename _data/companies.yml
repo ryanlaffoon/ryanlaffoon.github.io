@@ -1,0 +1,83 @@
+lowes:
+  name: "Lowe's"
+  page: "/companies/Lowes/"
+  image-url: "/img/lowes_logo.jpg"
+  title: "Senior Software Developer"
+  start: 2015-07-27
+  end: 2016-08-23
+  address:
+   - label: "CSC-K, ATGStores.com"
+     street: "11410 NE 122nd Way, Suite 200"
+     city: "Kirkland"
+     state: "WA"
+     zip: "98034"
+     country: "USA"
+   - label: "CSC-M, Corporate Headquarters"
+     street: "1000 Lowes Blvd"
+     city: "Mooresville"
+     state: "NC"
+     zip: "28117"
+     country: "USA"
+  url: "https://www.lowes.com"
+  phone: "(425) 814-2515"
+  blurb: "Full stack web and application development in an enterprise environment for a fortune 50 home improvement retail corporation."
+  description: "Lowe's is a fortune 49 American company that operates a chain of retail home improvement and appliance stores in the United States, Canada, and Mexico."
+  methodology: "Agile, SCRUM"
+  projects:
+   - project: quote-tool
+   - project: platform-redesign
+  tags: "C#, ASP.Net, MVC, Web API, SQL, JavaScript, Retail, Fortune 50"
+  
+surfmyads:
+  name: "SurfMyAds.com"
+  page: "/companies/SurfMyAds.com/"
+  image-url: "/img/sma_logo.png"
+  title: "Software Engineer"
+  start: 2012-07-16
+  end: 2015-02-27
+  address: 
+   - label: "Coeur d'Alene Office"
+     street: "206 E Indiana Ave, Suite B"
+     city: "Coeur d'Alene"
+     state: "ID"
+     zip: "83814"
+     country: "USA" 
+   - label: "Santa Monica Office"
+     street: "321 Santa Monica Blvd, Suite 300"
+     city: "Santa Monica"
+     state: "CA"
+     zip: "90401"
+     country: "USA"
+  url: "https://www.surfmyads.com"
+  phone: "(424) 214-5470"
+  blurb: "Full stack web and application development in a collaborative startup environment for an affiliate marketing and internet promotions agency."
+  description: "SurfMyAds.com, Inc. owns, develops and operates online shopping websites that help consumers save time and money every day, while providing high-quality sales and traffic to online retailers. A leader in performance marketing, SurfMyAds.com, Inc. is fueled by the goal of constant growth and innovation. New project development, international reach and premium marketing strategies are cornerstone to the consistent value driven by SurfMyAds.com, Inc. to both retail partners and online shoppers."
+  methodology: "Agile Hybrid"
+  projects:
+   - project: conversion-dashboard
+   - project: revenue-dashboard
+  tags: "C#, ASP.Net, MVC, Web API, SQL, JavaScript, Marketing"
+  
+fluentedge:
+  name: "Fluent Edge Technologies"
+  page: "/companies/Fluent-Edge-Technologies/"
+  image-url: "/img/feti_logo.png"
+  title: "Software Developer"
+  start: 2010-07-05
+  end: 2012-06-29
+  address:
+   - label: "Coeur d'Alene Office"
+     street: "250 Northwest Blvd, Suite 105"
+     city: "Coeur d'Alene"
+     state: "ID"
+     zip: "83814"
+     country: "USA"
+  url: "https://www.fluentedge.com"
+  phone: "(208) 765-2900"
+  blurb: "Full stack web and application development in an independent startup environment. Control of project planning & estimation through full software development lifecycle."
+  description: "Fluent Edge Technologies is a small software development business providing products and services for enterprise ecommerce data solutions, custom web application development and IT support."
+  methodology: "Agile Hybrid"
+  projects:
+   - project: pack-check
+   - project: ecometry-merge
+  tags: "C#, ASP.Net, VB.Net, ASP, MVC, Web API, SQL, JavaScript"

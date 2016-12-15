@@ -1,0 +1,41 @@
+ewu:
+ name: "Eastern Washington University"
+ degree: "Bachelor of Science"
+ degree-short: "BS"
+ major: "Computer Science"
+ minors:
+  - "Physics"
+  - "3D Modeling & Animation"
+ start: 2006-09-20
+ end: 2010-06-11
+ address:
+  - label: "Eastern Washington University"
+    street: "526 5th St"
+    city: "Cheney"
+    state: "WA"
+    zip: "99004"
+    country: "USA"
+ url: "http://www.ewu.edu"
+ phone: "(509) 359-2900"
+ description: "Eastern Washington University is a regional, comprehensive public university located in Cheney, Washington, with programs offered at campuses in Cheney, EWU Spokane at the Riverpoint Campus and at multiple campus locations throughout the state."
+ notes: "Dean's List"
+ gpa: 3.68
+ 
+yvcc:
+ name: "Yakima Valley Community College"
+ degree: "Associate of Arts - Direct Transfer Agreement"
+ degree-short: "AA-DTA"
+ major: "General Studies"
+ start: 2001-09-20
+ end: 2005-12-15
+ address:
+  - label: "Yakima Valley Community College"
+    street: "South 16th Ave & Nob Hill Blvd"
+    city: "Yakima"
+    state: "WA"
+    zip: "98902"
+    country: "USA"
+ url: "http://www.yvcc.edu"
+ phone: "(509) 574-4600"
+ description: "Yakima Valley Community College is one of the oldest community colleges in the state of Washington. Founded in 1928, the college has a long tradition of quality in teaching and in its commitment to students. Yakima Valley Community College is a public, two-year institution of higher education which is a part of one of the best comprehensive community college systems in the nation. As such, the college offers programs in adult basic education, English as a Second Language, lower division arts and sciences, professional and technical education, and community services. Yakima Valley Community College employs a talented and dedicated faculty whose primary interest is in delivering the best possible instruction to students."
+ notes: "Dean's List"

@@ -1,20 +1,25 @@
 ---
 layout: default
 title: ryanlaffoon.github.io
-cv: passive
-projects: passive
-notes: passive
-contact: passive
+profile: me
 description: Ryan Laffoon is a Software Developer and Musician living and working in Seattle.
 ---
+{% assign profile = site.data.profiles[page.profile] %}
 <div class="row marketing">
     <div class="col-md-4">
-        <img class="img-circle avatar" alt="Ryan Laffoon" src="img/ryan.jpg">
+	{% if profile.image-url %}
+		<img class="img-circle avatar" alt="{{ profile.name.first }} {{ profile.name.last }}" src="{{ profile.image-url }}">
+	{% endif %}
     </div>
     <div itemscope itemtype="http://data-vocabulary.org/Person" class="col-md-8">
-        <p class="lead">Hi, I'm <span itemprop="name">Ryan Laffoon</span>! I'm a  <span itemprop="title">software developer</span> from <span itemprop="locale">Seattle</span>, and I've been building web applications and services since 2010.</p>
-        <p>I love technology &amp; I'm excited by the creative and collaborative process of software development. I created this site in order to showcase some of the work I've done and share some of that excitement.</p>
-        <p>Please feel free to check out my <a href="/cv/">Credentials</a>, browse through some of the <a href="/projects">Projects</a> I've worked on over the years, and peruse my collection of <a href="/notes/">Notes</a>.</p>
-        <p>I'm also available for hire as a <span itemprop="title">developer or consultant</span>. Please <a href="contact">get in contact with me</a> if you're interested in working with me.</p>
+	{% if profile.lead %}
+		<p class="lead">{{ profile.lead }}</p>
+	{% endif %}
+	
+	{% if profile.intros %}
+		{% for blurb in profile.intros %}
+			<p>{{ blurb }}</p>
+		{% endfor %}
+	{% endif %}
     </div>
 </div>
