@@ -1,6 +1,6 @@
 ---
 layout: default
-projects: active
+colleges: active
 ---
 
 {% assign college = site.data.colleges[page.college] %}
@@ -23,19 +23,32 @@ projects: active
             Attended from {{ college.start | date: "%B %d, %Y" }} to {{ college.end | date: "%B %d, %Y" }}
         </h4>
         
-        {% if college.title %}
-        <h4 class="sectiontitle">{{ college.title }}</h4>
+        {% if college.degree-short %}
+        <h4 class="sectiontitle">Earned {{ college.degree-short }} in {{ college.major }}</h4>
         {% endif %}
         
-        {% if college.blurb %}
-        <div class="companybody">
-            {{ college.blurb }}
+		{% if college.minors %} 
+		<div class="collegebody"> 
+			Minor: {{ college.minors | array_to_sentence_string }} 
+		</div> 
+		{% endif %}
+		
+        {% if college.notes %}
+        <div class="collegebody">
+            {{ college.notes }}
         </div>
         {% endif %}
         
         <hr />
         
-        <!-- college Description content -->
+		<!-- college Degree content -->
+        {% if college.degree %}
+        <div class="collegeinfo">
+            <h4 class="sectiontitle">Degree</h4>
+            {{ college.degree }}
+        </div>     
+        {% endif %}
+        <!-- College Description content -->
         {% if college.description %}
         <h4 class="sectiontitle">Description</h4>
         <div class="collegebody">
@@ -43,17 +56,11 @@ projects: active
         </div>
         {% endif %}
         
-        <!-- college Methodology content -->
-        {% if college.methodology %}
-        <div class="companyinfo">
-            <h4 class="sectiontitle">Methodology</h4>
-            {{ college.methodology }}
-        </div>     
-        {% endif %}
+
         
 		<!-- college Projects content -->
         {% if college.projects %}
-        <div class="companyinfo">
+        <div class="collegeinfo">
             <h4 class="sectiontitle">Projects</h4>
 			<ul>
 			{% for college-project in college.projects %}
@@ -72,15 +79,37 @@ projects: active
 			</ul>
         </div>     
         {% endif %}
-        
-        <!-- college Contact Information content -->
-        <h4 class="sectiontitle">college Contact</h4>
-        <div class="companybody">
+        		
+		<!-- College Courses content -->
+        {% if college.courses %}
+        <div class="collegeinfo">
+            <h4 class="sectiontitle">Courses</h4>
+			<ul>
+			{% for college-course in college.courses %}
+			{% assign course = site.data.courses[college-course.course] %}
+				<li>
+				<span class="college-course">
+				{% if course.page %}
+					<a href="{{ course.page }}">{{ course.name }}</a> 
+				{% else %}
+					{{ course.name }}
+				{% endif %}
+					({{ course.year }})</span>: {{ course.blurb }}<br />
+					<span class="course-tags">{{ course.tags }}</span>
+				</li>
+			{% endfor %}
+			</ul>
+        </div>     
+        {% endif %}
+		
+        <!-- College Contact Information content -->
+        <h4 class="sectiontitle">Contact</h4>
+        <div class="collegebody">
         {% if college.url %}
-            <p><i class="fa fa-globe"></i> &nbsp; <a href="{{ college.url }}">{{ college.url }}</a></p>
+            <p><a href="{{ college.url }}"><i class="fa fa-globe"></i> &nbsp; {{ college.url }}</a></p>
         {% endif %}
         {% if college.phone %}
-            <p><i class="fa fa-phone"></i> &nbsp; <phone>{{ college.phone }}</phone></p>
+            <p><phone><i class="fa fa-phone"></i> &nbsp; {{ college.phone }}</phone></p>
         {% endif %}
         {% if college.address %}
             {% for address in college.address %}
@@ -94,25 +123,25 @@ projects: active
         </div>
         
         <!-- Company Tags content -->
-        {% if company.tags %}
-        <div class="companyinfo">
+        {% if college.tags %}
+        <div class="collegeinfo">
             <h4 class="sectiontitle">Tags</h4>
-            {{ company.tags }}
+            {{ college.tags }}
         </div>
         {% endif %}
 
         <hr />
         
-        <!-- Company navigation -->
-        <div class="companynav">            <h4 class="sectiontitle">More college</h4>
-            <div class="pagenavigation"><a href="/companies/"><i class="fa fa-arrow-circle-up"></i>&nbsp;All Colleges</a></div>
+        <!-- College navigation -->
+        <div class="collegenav">            <h4 class="sectiontitle">More Colleges</h4>
+            <div class="pagenavigation"><a href="/colleges/"><i class="fa fa-arrow-circle-up"></i>&nbsp;All Colleges</a></div>
             {% include pagenavigation.html %}
         </div>
         
         <hr />
 
-        <!-- Company comments -->
-        <div class="companycomments">
+        <!-- College comments -->
+        <div class="collegecomments">
             {% include disqus.html %}
         </div>
     </div>
