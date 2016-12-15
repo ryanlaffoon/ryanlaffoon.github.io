@@ -7,16 +7,16 @@ projects: active
 
 <div class="companies">
     <div class="company single">
-        <div class="clearfix">
-            <div class="pagenavigation pull-left">
-                <a href="/companies/"><i class="fa fa-arrow-circle-up"></i>&nbsp;Companies</a>
-            </div>        
+        <div>
+            {% include header-breadcrumb.html %}       
         </div>
+		
 		{% if company.image-url %}
 		<span>				
 			<img class="logo-large" src="{{ company.image-url }}" />&nbsp;&nbsp;
 		</span>
 		{% endif %}	
+		
         <h1 class="title">{{ company.name }}</h1>
         
         <h4 class="credit">

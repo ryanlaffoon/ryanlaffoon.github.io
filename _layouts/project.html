@@ -7,10 +7,8 @@ projects: active
 {% assign company = site.data.companies[project.company] %}
 <div class="projects">
     <div class="project single">
-        <div class="clearfix">
-            <div class="pagenavigation pull-left">
-                <a href="/projects/"><i class="fa fa-arrow-circle-up"></i>&nbsp;Projects</a>
-            </div>        
+        <div>
+            {% include header-breadcrumb.html %}
         </div>
         <div>
         <h1 class="title"><i class="{{ project.icon }}"></i>&nbsp;&nbsp;{{ project.name }}</h1>
