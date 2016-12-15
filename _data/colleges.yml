@@ -1,5 +1,6 @@
 ewu:
  name: "Eastern Washington University"
+ image-url: "/img/ewu_logo.png"
  degree: "Bachelor of Science"
  degree-short: "BS"
  major: "Computer Science"
@@ -23,6 +24,7 @@ ewu:
  
 yvcc:
  name: "Yakima Valley Community College"
+ image-url: "/img/yvcc_logo.jpg"
  degree: "Associate of Arts - Direct Transfer Agreement"
  degree-short: "AA-DTA"
  major: "General Studies"
