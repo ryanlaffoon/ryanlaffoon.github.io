@@ -3,13 +3,9 @@
     {% for college in sorted_colleges reversed" %}
     <ul class="listentity list-unstyled">
         <li>
-			{% if college.image-url %}
-			<span>				
-				<img class="logo-small" src="{{ college.image-url }}" />&nbsp;
-			</span>
-			{% endif %}	
             <span>
-                {{ college.start }} - {{ college.end }} &nbsp; &raquo; &nbsp;
+                <i class="fa fa-university fa-fw"/></i>&nbsp;
+				{{ college.start }} - {{ college.end }} &nbsp; &raquo; &nbsp;
             </span> 
             <a href="{{ college.url }}">{{ college.title }}</a>
         </li>

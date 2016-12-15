@@ -3,13 +3,9 @@
     {% for company in sorted_companies reversed" %}
     <ul class="listentity list-unstyled">
         <li>
-			{% if company.image-url %}
-			<span>				
-				<img class="logo-small" src="{{ company.image-url }}" />&nbsp;
-			</span>
-			{% endif %}	
             <span>
-                {{ company.start }} - {{ company.end }} &nbsp; &raquo; &nbsp;
+                <i class="fa fa-briefcase fa-fw"/></i>&nbsp;
+				{{ company.start }} - {{ company.end }} &nbsp; &raquo; &nbsp;
             </span> 
             <a href="{{ company.url }}">{{ company.title }}</a>
         </li>
