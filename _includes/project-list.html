@@ -4,7 +4,10 @@
 	    {% for project in sorted_projects reversed" %}
 		{% assign icon = site.data.projects[project.project].icon %}
         <li>
-			<a href="{{ project.url }}"><i class="{{ icon }}"></i>{{ project.title }}</a>
+			<span class="clearfix">
+				<span class="pull-left"><a href="{{ project.url }}"><i class="{{ icon }}"/></i>{{ project.title }}</a></span>
+				<span class="pull-right">{{ project.year }}</span>
+			</span>
         </li>
 		{% endfor %}
     </ul>
