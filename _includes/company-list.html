@@ -1,7 +1,7 @@
 <div class="entitylist">
     {% assign sorted_companies = (site.companies | sort: 'end') %}
-    {% for company in sorted_companies reversed" %}
     <ul class="listentity list-unstyled">
+	{% for company in sorted_companies reversed" %}
         <li>
             <span>
                 <i class="fa fa-briefcase fa-fw"/></i>&nbsp;
@@ -9,6 +9,6 @@
             </span> 
             <a href="{{ company.url }}">{{ company.title }}</a>
         </li>
+	{% endfor %}
     </ul>
-    {% endfor %}
 </div>

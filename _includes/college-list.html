@@ -1,7 +1,8 @@
 <div class="entitylist">
     {% assign sorted_colleges = (site.colleges | sort: 'end') %}
-    {% for college in sorted_colleges reversed" %}
+    
     <ul class="listentity list-unstyled">
+	{% for college in sorted_colleges reversed" %}
         <li>
             <span>
                 <i class="fa fa-university fa-fw"/></i>&nbsp;
@@ -9,6 +10,6 @@
             </span> 
             <a href="{{ college.url }}">{{ college.title }}</a>
         </li>
+	{% endfor %}
     </ul>
-    {% endfor %}
 </div>
