@@ -10,7 +10,7 @@ nav: projects
 		<div>
             {% include header-breadcrumb.html %}       
         </div>        <div>
-        <h1 class="title"><i class="{{ project.icon }}"></i>&nbsp;&nbsp;{{ project.name }}</h1>
+        <h1 class="title"><i class="{{ project.icon }}"></i>{{ project.name }}</h1>
         </div>
         
         <h4 class="credit">
@@ -64,7 +64,7 @@ nav: projects
         <!-- Project navigation -->
         <div class="projectnav">
             <h4 class="sectiontitle">More Projects</h4>
-            <div class="pagenavigation"><a href="/projects/"><i class="fa fa-arrow-circle-up"></i>&nbsp;All Projects</a></div>
+            <div class="pagenavigation"><a href="/projects/"><i class="fa fa-arrow-circle-up fa-fw"></i>All Projects</a></div>
             {% include pagenavigation.html %}
         </div>
         
