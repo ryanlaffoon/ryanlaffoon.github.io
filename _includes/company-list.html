@@ -3,11 +3,10 @@
     <ul class="listentity list-unstyled">
 	{% for company in sorted_companies reversed" %}
         <li>
-            <span>
-                <i class="fa fa-briefcase fa-fw"/></i>&nbsp;
-				{{ company.start }} - {{ company.end }} &nbsp; &raquo; &nbsp;
-            </span> 
-            <a href="{{ company.url }}">{{ company.title }}</a>
+			<span class="clearfix">
+				<span class="pull-left"><a href="{{ company.url }}"><i class="fa fa-briefcase fa-fw"/></i>{{ company.title }}</a></span>
+				<span class="pull-right">{{ company.start }} - {{ company.end }}</span>
+			</span>
         </li>
 	{% endfor %}
     </ul>
