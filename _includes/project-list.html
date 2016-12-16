@@ -1,12 +1,10 @@
 <div class="entitylist">
     {% assign sorted_projects = (site.projects | sort: 'year') %}
-    {% for project in sorted_projects reversed" %}
     <ul class="listentity list-unstyled">
+	    {% for project in sorted_projects reversed" %}
         <li>
-            <span>
-                <a href="{{ project.url }}"><i class="{{ project.icon }}"></i>{{ project.title }}</a>
-            </span>
+			<a href="{{ project.url }}"><i class="{{ project.icon }}"></i>{{ project.title }}</a>
         </li>
+		{% endfor %}
     </ul>
-    {% endfor %}
 </div>
