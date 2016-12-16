@@ -98,6 +98,6 @@ ecometry-merge:
   blurb: "Multi-threaded program to merge complete ecommerce data sets into a single source while preserving data integrity."
   description: "This project was my first major undertaking as a professional developer, and I was given the opportunity to design, develop, and deploy the final product. Research was conducted on the Ecometry system to identify dependencies and maintain integrity. As the primary function of the service was low-level and data-centric in nature, the solution was developed as a class library in C# using SQL stored procedures and accessed through scheduled executables. Multi-Threading was employed to process separate sections of data in parallel wherever possible to increase efficiency."
   purpose: "The purpose of this project was to create solution capable of merging large retail Ecometry databases. The project originated from a client wishing to merge two major retail divisions, each containing their own Ecometry solution. The end goal was to craft a reusable solution and eventually offer more complex data migration services as a business service."
-  result: "The data merge system was developed to completion for the original retail client and successfully deployed, resulting in a nearly 50% reduction in maintenance overhead of the redundant system."
+  result: "The application was developed to completion for the original retail client and successfully deployed, resulting in a nearly 50% reduction in maintenance overhead of the redundant system."
   tags: "C#, SQL, Multi-Threading"
   icon: "fa fa-database fa-fw"
