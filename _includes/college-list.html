@@ -4,11 +4,10 @@
     <ul class="listentity list-unstyled">
 	{% for college in sorted_colleges reversed" %}
         <li>
-            <span>
-                <i class="fa fa-university fa-fw"/></i>&nbsp;
-				{{ college.start }} - {{ college.end }} &nbsp; &raquo; &nbsp;
-            </span> 
-            <a href="{{ college.url }}">{{ college.title }}</a>
+            <span class="clearfix">
+				<span class="pull-left"><a href="{{ college.url }}"><i class="fa fa-university fa-fw"/>{{ college.title }}</a></i></span>
+				<span class="pull-right">{{ college.start }} - {{ college.end }}</span>
+			</span>
         </li>
 	{% endfor %}
     </ul>
