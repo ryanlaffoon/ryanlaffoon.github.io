@@ -22,7 +22,7 @@
 	<div class="cv-content">{{ company.blurb }}</div>
 					
 	{% if company.projects %}
-	<div class="cv-project">Projects</div>
+	<div class="cv-project"><strong>Projects</strong></div>
 	<ul class="listcv list-unstyled">
 	{% for company-project in company.projects %}
 		{% assign project = site.data.projects[company-project.project] %}
@@ -32,8 +32,9 @@
 			<a href="{{ project.page }}"><i class="{{ project.icon }}"></i>{{ project.name }}</a> 
 		{% else %}
 			{{ project.name }}
-		{% endif %}
-			({{ project.year }})</span>: {{ project.blurb }}<br />
+		{% endif 
+		</span>
+			({{ project.year }}): {{ project.blurb }}<br />
 			<span class="cv-tags">{{ project.tags }}</span>
 		</li>
 	{% endfor %}
