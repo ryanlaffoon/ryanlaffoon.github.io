@@ -54,7 +54,11 @@ ul.listentity li {
 	line-height: 30px;
 	text-indent: -10px;
 	margin-left: 20px;
-} 
+}
+ul.listcv li{
+	text-indent: -10px;
+	margin-left: 20px;
+}
 
 /* Note */
 

@@ -23,7 +23,7 @@
 					
 	{% if company.projects %}
 	<div class="cv-project">Projects</div>
-	<ul class="listentity list-unstyled">
+	<ul class="listcv">
 	{% for company-project in company.projects %}
 		{% assign project = site.data.projects[company-project.project] %}
 		<li>
