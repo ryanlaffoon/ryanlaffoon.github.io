@@ -76,15 +76,15 @@ nav: projects
         <h4 class="sectiontitle">Company Contact</h4>
         <div class="companybody">
         {% if company.url %}
-            <p><a href="{{ company.url }}" target="_blank"><i class="fa fa-globe"></i> &nbsp; {{ company.url }}</a></p>
+            <p><a href="{{ company.url }}" target="_blank"><i class="fa fa-globe fa-fw"></i>{{ company.url }}</a></p>
         {% endif %}
         {% if company.phone %}
             <p><phone><i class="fa fa-phone fa-fw"></i>{{ company.phone }}</phone></p>
         {% endif %}
         {% if company.address %}
-            {% for address in company.address %}
+            {% for address in company.address %}<i class="fa fa-map-marker fa-fw"></i>
             <address>
-                <i class="fa fa-map-marker fa-fw"></i>{{ address.label }}<br />
+                {{ address.label }}<br />
                 {{ address.street }} <br />
                 {{ address.city }}, {{ address.state }} {{ address.zip }} {{ address.country }}
             </address>
