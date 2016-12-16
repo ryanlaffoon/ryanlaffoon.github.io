@@ -80,11 +80,15 @@ ul.listcv li{
 }
 
 .cv-title {
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 .cv-tags{
 	font-style: italic;
+}
+
+.cv-content{
+	margin-left: 10px;
 }
 
 /* Logos */

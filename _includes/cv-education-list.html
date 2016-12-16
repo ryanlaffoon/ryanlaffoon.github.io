@@ -20,9 +20,8 @@
 		<div class="cv-title" >{{ college.degree-short }} - 
 			{% if college.major %} {{ college.major }} {% endif %}
 		</div>
-		<br />
 		<div class="cv-content">
-			<ul>
+			<ul class="listcv list-unstyled">
 			{% if college.minors %} <li> Minor: {{ college.minors | array_to_sentence_string }} </li> {% endif %}
 			{% if college.notes %} <li> {{ college.notes }} </li> {% endif %}
 			{% if college.gpa %} <li> GPA: {{ college.gpa }} </li> {% endif %}
