@@ -13,7 +13,7 @@ quote-tool:
   purpose: "The purpose of this project was to replace a legacy predecessor system with a more efficient & scalable solution. The origins of the project stemmed from the end of the Web Platform Upgrade project with Lowe's, when major internal web applications were reviewed. The existing tool fit the bill for a rewrite project with both the volume of use it experienced and the level improvement which could be leveraged from migration to a modern N-Tier application. The end goal was to deliver a performant, testable, scalable and responsive application to replace and/or expand the functionality of the existing tool."
   result: "The new tool experienced drastically increased performance and responsiveness in comparison with its legacy predecessor. Test-Driven architecture was utilized to enhance product maintainability."
   tags: "C#, ASP.Net, MVC, Web API, SQL, JavaScript"
-  icon: "fa fa-question-circle-o"
+  icon: "fa fa-question-circle-o fa-fw"
   
 platform-redesign:
   name: "Platform Redesign"
@@ -31,7 +31,7 @@ platform-redesign:
   result: "Performance in key site areas was greatly enhanced through the replacement of legacy code with modern frameworks. Maintainability was improved through the introduction and improvement of software development patterns and practices in order to reduce the accumulation of technical debt. Automated testing coverage was introduced or expanded upon as the focus of the company shifted toward continuous improvement & continuous delivery."
   url: "https://www.atgstores.com"
   tags: "C#, ASP.Net, MVC, SQL, JavaScript"
-  icon: "fa fa-code"
+  icon: "fa fa-code fa-fw"
   
 conversion-dashboard:
   name: "Conversion Dashboard"
@@ -48,7 +48,7 @@ conversion-dashboard:
   purpose: "The purpose of this project was to expand upon the Revenue Tracking System previously built at SurfMyAds, extending the reach of the system's tracking and the depth of its reporting abilities. The project originated from discussions on the effects of the implementation of the previous Revenue Tracking System, and the revelation that some manual attribution processes were still necessary alongside the automated ones. The end goal of the project was to enhance the existing tracking system to include source attribution tracking, allowing more granular reporting and reducing or removing resources used in manual tracking tasks."
   result: "The tracking and reporting system was successfully developed to completion and integrated with the previous Revenue Tracking System. Additional resources used to manually track affiliate commission attributions were reduced along with human-error through automated processes. The system continues to evolve, adapting to business needs and remains in use to this day."
   tags: "C#, ASP.Net, MVC, Web API, SQL, JavaScript"
-  icon: "fa fa-bar-chart"
+  icon: "fa fa-bar-chart fa-fw"
   
 revenue-dashboard:
   name: "Revenue Dashboard"
@@ -65,7 +65,7 @@ revenue-dashboard:
   purpose: "The purpose of this project was to create an automated solution to replace a manual revenue tracking and reporting process. The needs for the project originated prior to my joining the SurfMyAds team, and describing my thoughts on this project/solution was a key part of my interview process. As a business based on internet promotions and marketing, there was a very strong need for a centralized system to interact with multiple affiliate-marketing partners regarding earnings tracking. The end goal was to develop an automated, extensible platform based on micro services to track and report commissionable revenue earnings and reduce or remove resources used in manual tracking tasks."
   result: "The tracking services and reporting system were successfully developed to completion, and deployed to production use. The amount of resources reduced from the previous manual methods of tracking and reporting was phenomenal, removing several hours of tedious and error-prone verification per affiliate representative each day. The system was eventually expanded further into the Conversion Tracking System, and remains in use to this day."
   tags: "C#, ASP.Net, MVC, Web API, SQL, JavaScript"
-  icon: "fa fa-usd"
+  icon: "fa fa-usd fa-fw"
   
 pack-check:
   name: "Pack Check"
@@ -83,7 +83,7 @@ pack-check:
   result: "The product was developed to completion for the original client and successfully deployed to their production fulfillment line. Since then, multiple Ecometry clients have requested similar integrations and further product improvements."
   url: "https://fluentedge.com/index.php/products/18-products/26-pack-check"
   tags: "C#, Windows Forms, SQL"
-  icon: "fa fa-check-circle-o"
+  icon: "fa fa-check-circle-o fa-fw"
   
 ecometry-merge:
   name: "Ecometry Merge"
@@ -100,4 +100,4 @@ ecometry-merge:
   purpose: "The purpose of this project was to create solution capable of merging large retail Ecometry databases. The project originated from a client wishing to merge two major retail divisions, each containing their own Ecometry solution. The end goal was to craft a reusable solution and eventually offer more complex data migration services as a business service."
   result: "The data merge system was developed to completion for the original retail client and successfully deployed, resulting in a nearly 50% reduction in maintenance overhead of the redundant system."
   tags: "C#, SQL, Multi-Threading"
-  icon: "fa fa-database"
+  icon: "fa fa-database fa-fw"

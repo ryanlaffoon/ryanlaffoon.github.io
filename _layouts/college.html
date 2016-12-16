@@ -100,15 +100,15 @@ nav: colleges
         <h4 class="sectiontitle">Contact</h4>
         <div class="collegebody">
         {% if college.url %}
-            <p><a href="{{ college.url }}" target="_blank"><i class="fa fa-globe"></i> &nbsp; {{ college.url }}</a></p>
+            <p><a href="{{ college.url }}" target="_blank"><i class="fa fa-globe fa-fw"></i>{{ college.url }}</a></p>
         {% endif %}
         {% if college.phone %}
-            <p><phone><i class="fa fa-phone"></i> &nbsp; {{ college.phone }}</phone></p>
+            <p><phone><i class="fa fa-phone fa-fw"></i>{{ college.phone }}</phone></p>
         {% endif %}
         {% if college.address %}
             {% for address in college.address %}
             <address>
-                <i class="fa fa-map-marker"></i> &nbsp; {{ address.label }} <br />
+                <i class="fa fa-map-marker fa-fw"></i>{{ address.label }} <br />
                 {{ address.street }} <br />
                 {{ address.city }}, {{ address.state }} {{ address.zip }} {{ address.country }}
             </address>
@@ -127,8 +127,10 @@ nav: colleges
         <hr />
         
         <!-- College navigation -->
-        <div class="collegenav">            <h4 class="sectiontitle">More Colleges</h4>
-            <div class="pagenavigation"><a href="/colleges/"><i class="fa fa-arrow-circle-up"></i>&nbsp;All Colleges</a></div>
+        <div class="collegenav">
+			<h4 class="sectiontitle">More Colleges</h4>
+            <div class="pagenavigation">
+				<a href="/colleges/"><i class="fa fa-arrow-circle-up fa-fw"></i>All Colleges</a></div>
             {% include pagenavigation.html %}
         </div>
         

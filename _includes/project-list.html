@@ -3,11 +3,13 @@
     {% for project in sorted_projects reversed" %}
     <ul class="listentity list-unstyled">
         <li>
-            <span>
-                <i class="{{ project.icon }} fa-fw"></i> 
-                {{ project.year }} &nbsp; &raquo; &nbsp;
-            </span> 
-            <a href="{{ project.url }}">{{ project.title }}</a>
+			<div class="clearfix">
+            <div class="pull-left">
+                <a href="{{ project.url }}">
+					<i class="{{ project.icon }}"></i>{{ project.title }}</a>
+            </div> 
+			<div class="pull-right">{{ project.year }}</div>
+			</div>
         </li>
     </ul>
     {% endfor %}
