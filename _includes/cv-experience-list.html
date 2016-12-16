@@ -5,7 +5,7 @@
 	<div class="clearfix">
 		<div class="pull-left cv-entity">
 		{% if company.page %}
-			<a href="{{ company.page }}">{{ company.name }}</a>
+			<a href="{{ company.page }}"><i class="fa fa-briefcase fa-fw"></i>{{ company.name }}</a>
 		{% else %}
 			{{ company.name }}
 		{% endif %}
@@ -23,13 +23,13 @@
 					
 	{% if company.projects %}
 	<div class="cv-project">Projects</div>
-	<ul>
+	<ul class="listentity list-unstyled">
 	{% for company-project in company.projects %}
 		{% assign project = site.data.projects[company-project.project] %}
 		<li>
 		<span class="cv-project">
 		{% if project.page %}
-			<a href="{{ project.page }}">{{ project.name }}</a> 
+			<a href="{{ project.page }}"><i class="{{ project.icon }}"></i>{{ project.name }}</a> 
 		{% else %}
 			{{ project.name }}
 		{% endif %}
