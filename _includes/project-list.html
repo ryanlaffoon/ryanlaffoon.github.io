@@ -2,7 +2,7 @@
     {% assign sorted_projects = (site.projects | sort: 'year') %}
     <ul class="listentity list-unstyled">
 	    {% for project in sorted_projects reversed" %}
-		{% assign icon = site.data.projects[project].icon %}
+		{% assign icon = site.data.projects[project.project].icon %}
         <li>
 			<a href="{{ project.url }}"><i class="{{ icon }}"></i>{{ project.title }}</a>
         </li>
