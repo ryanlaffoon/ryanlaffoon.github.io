@@ -10,14 +10,14 @@ nav: colleges
         <div>
             {% include header-breadcrumb.html %}       
         </div>	
-		{% if college.image-url %}
-		<span>				
-			<img class="logo-large" src="{{ college.image-url }}" />&nbsp;&nbsp;
-		</span>
-		{% endif %}	
-		
-        <h1 class="title">{{ college.name }}</h1>
-        
+		<div class="clearfix">
+			{% if college.image-url %}
+			<span class="pull-left">				
+				<img class="logo-large" src="{{ college.image-url }}" />&nbsp;&nbsp;
+			</span>
+			{% endif %}	
+			<span class="title main pull-right">{{ college.name }}</span>
+        </div>
         <h4 class="credit">
             Attended from {{ college.start | date: "%B %d, %Y" }} to {{ college.end | date: "%B %d, %Y" }}
         </h4>
@@ -43,14 +43,6 @@ nav: colleges
         {% endif %}
 
         <hr />
-
-        <!-- College Description content -->
-        {% if college.description %}
-        <h4 class="sectiontitle">Description</h4>
-        <div class="collegebody">
-            {{ college.description }}
-        </div>
-        {% endif %}
 
 		<!-- college Projects content -->
         {% if college.projects %}
@@ -96,6 +88,14 @@ nav: colleges
         </div>     
         {% endif %}
 		
+        <!-- College Description content -->
+        {% if college.description %}
+        <h4 class="sectiontitle">About the institution</h4>
+        <div class="collegebody">
+            {{ college.description }}
+        </div>
+        {% endif %}
+		
         <!-- College Contact Information content -->
         <h4 class="sectiontitle">Contact</h4>
         <div class="collegebody">
@@ -107,12 +107,14 @@ nav: colleges
         {% endif %}
         {% if college.address %}
             {% for address in college.address %}
-			<i class="fa fa-map-marker fa-fw" aria-hidden="true">></i>
-            <address>
-                {{ address.label }} <br />
-                {{ address.street }} <br />
-                {{ address.city }}, {{ address.state }} {{ address.zip }} {{ address.country }}
-            </address>
+			<div class="clearfix">
+				<span class="pull-left"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i></span>
+				<span class="pull-left"><address>
+					{{ address.label }}<br />
+					{{ address.street }} <br />
+					{{ address.city }}, {{ address.state }} {{ address.zip }} {{ address.country }}
+				</address></span>
+			</div>
             {% endfor %}
         {% endif %}
         </div>

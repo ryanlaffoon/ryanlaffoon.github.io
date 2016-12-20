@@ -33,15 +33,7 @@ nav: projects
         {% endif %}
         
         <hr />
-        
-        <!-- Company Description -->
-        {% if company.description %}
-        <h4 class="sectiontitle">Description</h4>
-        <div class="companybody">
-            {{ company.description }}
-        </div>
-        {% endif %}
-        
+
         <!-- Company Methodology -->
         {% if company.methodology %}
         <div class="companyinfo">
@@ -71,9 +63,17 @@ nav: projects
 			</ul>
         </div>     
         {% endif %}
-        
+                
+        <!-- Company Description -->
+        {% if company.description %}
+        <h4 class="sectiontitle">About the company</h4>
+        <div class="companybody">
+            {{ company.description }}
+        </div>
+        {% endif %}
+		
         <!-- Company Contact Information -->
-        <h4 class="sectiontitle">Company Contact</h4>
+        <h4 class="sectiontitle">Contact</h4>
         <div class="companybody">
         {% if company.url %}
             <p><a href="{{ company.url }}" target="_blank"><i class="fa fa-globe fa-fw" aria-hidden="true"></i>{{ company.url }}</a></p>
