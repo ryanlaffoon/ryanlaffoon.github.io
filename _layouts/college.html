@@ -60,7 +60,7 @@ nav: colleges
 			{% for college-project in college.projects %}
 			{% assign project = site.data.projects[college-project.project] %}
 				<li>
-				<span class="company-project">
+				<span class="college-project">
 				{% if project.page %}
 					<a href="{{ project.page }}">{{ project.name }}</a> 
 				{% else %}
@@ -100,14 +100,14 @@ nav: colleges
         <h4 class="sectiontitle">Contact</h4>
         <div class="collegebody">
         {% if college.url %}
-            <p><a href="{{ college.url }}" target="_blank"><i class="fa fa-globe fa-fw"></i>{{ college.url }}</a></p>
+            <p><a href="{{ college.url }}" target="_blank"><i class="fa fa-globe fa-fw" aria-hidden="true"></i>{{ college.url }}</a></p>
         {% endif %}
         {% if college.phone %}
-            <p><phone><i class="fa fa-phone fa-fw"></i>{{ college.phone }}</phone></p>
+            <p><phone><i class="fa fa-phone fa-fw" aria-hidden="true"></i>{{ college.phone }}</phone></p>
         {% endif %}
         {% if college.address %}
             {% for address in college.address %}
-			<i class="fa fa-map-marker fa-fw"></i>
+			<i class="fa fa-map-marker fa-fw" aria-hidden="true">></i>
             <address>
                 {{ address.label }} <br />
                 {{ address.street }} <br />
@@ -131,7 +131,7 @@ nav: colleges
         <div class="collegenav">
 			<h4 class="sectiontitle">More Colleges</h4>
             <div class="pagenavigation">
-				<a href="/colleges/"><i class="fa fa-arrow-circle-up fa-fw"></i>All Colleges</a></div>
+				<a href="/colleges/"><i class="fa fa-arrow-circle-up fa-fw" aria-hidden="true"></i>All Colleges</a></div>
             {% include pagenavigation.html %}
         </div>
         

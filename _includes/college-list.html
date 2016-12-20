@@ -5,7 +5,7 @@
 	{% for college in sorted_colleges reversed" %}
         <li>
             <span class="clearfix">
-				<span class="pull-left"><a href="{{ college.url }}"><i class="fa fa-university fa-fw"/></i>{{ college.title }}</a></span>
+				<span class="pull-left"><a href="{{ college.url }}"><i class="fa fa-university fa-fw" aria-hidden="true"></i>{{ college.title }}</a></span>
 				<span class="pull-right">{{ college.start }} - {{ college.end }}</span>
 			</span>
         </li>

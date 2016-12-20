@@ -4,7 +4,7 @@
 	{% for company in sorted_companies reversed" %}
         <li>
 			<span class="clearfix">
-				<span class="pull-left"><a href="{{ company.url }}"><i class="fa fa-briefcase fa-fw"/></i>{{ company.title }}</a></span>
+				<span class="pull-left"><a href="{{ company.url }}"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i>{{ company.title }}</a></span>
 				<span class="pull-right">{{ company.start }} - {{ company.end }}</span>
 			</span>
         </li>

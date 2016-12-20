@@ -1,10 +1,10 @@
 <div class="pagenavigation">
   <div class="clearfix">
   {% if page.previous.url %}
-    <div class="pull-left"><a class="prev" href="{{page.previous.url}}"><i class="fa fa-arrow-circle-left fa-fw"></i>{{page.previous.title}}</a></div>
+    <div class="pull-left"><a class="prev" href="{{page.previous.url}}"><i class="fa fa-arrow-circle-left fa-fw" aria-hidden="true"></i>{{page.previous.title}}</a></div>
   {% endif %}
   {% if page.next.url %}
-    <div class="pull-right"><a class="next" href="{{page.next.url}}">{{page.next.title}}<i class="fa fa-arrow-circle-right fa-fw"></i></a></div>
+    <div class="pull-right"><a class="next" href="{{page.next.url}}">{{page.next.title}}<i class="fa fa-arrow-circle-right fa-fw" aria-hidden="true"></i></a></div>
   {% endif %}
   </div>
 </div>

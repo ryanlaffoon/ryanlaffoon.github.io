@@ -5,7 +5,7 @@
 		<div class="clearfix">
 			<div class="pull-left cv-entity" itemprop="alumniOf">
 			{% if college.page %}
-			<a href="{{ college.page }}"><i class="fa fa-university fa-fw"></i>{{ college.name }}</a>
+			<a href="{{ college.page }}"><i class="fa fa-university fa-fw" aria-hidden="true"></i>{{ college.name }}</a>
 			{% else %}
 			{{ college.name }}
 			{% endif %}

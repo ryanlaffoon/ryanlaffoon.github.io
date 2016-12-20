@@ -10,14 +10,15 @@ nav: projects
         <div>
             {% include header-breadcrumb.html %}       
         </div>
+		<div class="clearfix">
 		{% if company.image-url %}
-		<span>				
+		<span class="pull-left">				
 			<img class="logo-large" src="{{ company.image-url }}" />&nbsp;&nbsp;
 		</span>
 		{% endif %}	
 		
-        <h1 class="title">{{ company.name }}</h1>
-        
+			<h1 class="title pull-left">{{ company.name }}</h1>
+        </div>
         <h4 class="credit">
             Employed from {{ company.start | date: "%B %d, %Y" }} to {{ company.end | date: "%B %d, %Y" }}
         </h4>
@@ -76,18 +77,21 @@ nav: projects
         <h4 class="sectiontitle">Company Contact</h4>
         <div class="companybody">
         {% if company.url %}
-            <p><a href="{{ company.url }}" target="_blank"><i class="fa fa-globe fa-fw"></i>{{ company.url }}</a></p>
+            <p><a href="{{ company.url }}" target="_blank"><i class="fa fa-globe fa-fw" aria-hidden="true"></i>{{ company.url }}</a></p>
         {% endif %}
         {% if company.phone %}
-            <p><phone><i class="fa fa-phone fa-fw"></i>{{ company.phone }}</phone></p>
+            <p><phone><i class="fa fa-phone fa-fw" aria-hidden="true"></i>{{ company.phone }}</phone></p>
         {% endif %}
         {% if company.address %}
-            {% for address in company.address %}<i class="fa fa-map-marker fa-fw"></i>
-            <address>
-                {{ address.label }}<br />
-                {{ address.street }} <br />
-                {{ address.city }}, {{ address.state }} {{ address.zip }} {{ address.country }}
-            </address>
+            {% for address in company.address %}
+			<div class="clearfix">
+				<span class="pull-left"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i></span>
+				<span class="pull-left"><address>
+					{{ address.label }}<br />
+					{{ address.street }} <br />
+					{{ address.city }}, {{ address.state }} {{ address.zip }} {{ address.country }}
+				</address></span>
+			</div>
             {% endfor %}
         {% endif %}
         </div>
@@ -106,7 +110,7 @@ nav: projects
         <div class="companynav">
 			<h4 class="sectiontitle">More Companies</h4>
             <div class="pagenavigation">
-				<a href="/companies/"><i class="fa fa-arrow-circle-up fa-fw"></i>All Companies</a>
+				<a href="/companies/"><i class="fa fa-arrow-circle-up fa-fw" aria-hidden="true"></i>All Companies</a>
 			</div>
             {% include pagenavigation.html %}
         </div>
