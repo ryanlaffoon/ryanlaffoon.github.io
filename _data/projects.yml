@@ -1,5 +1,5 @@
 solar-system:
-  name: "Solar System Simulator"
+  name: "Solar System"
   page: "/projects/Solar-System/"
   author: "Ryan Laffoon"
   year: 2016
@@ -10,6 +10,19 @@ solar-system:
   url: "https://ryanlaffoon.github.io/solar-system/"
   tags: "HTML, CSS, JavaScript, jQuery"
   icon: "fa fa-sun-o fa-fw"
+  
+executive-browser:
+  name: "Executive Browser"
+  page: "/projects/Executive-Browser/"
+  author: "Ryan Laffoon"
+  year: 2016
+  type: "personal"
+  action: "Built"
+  blurb: "Simple AngularJS application to display information about US Presidents"
+  description: "This is a simple application built to parse and view data pertaining to current & former members of the Executive Branch of the United States (US Presidents). I wanted to construct something using AngularJS, and targeted one of my former ASP.Net applications for a re-write. This application stemmed from a previous personal project which never made it to publication & was unfortunately lost with a computer failure - a harsh lesson in the importance of backups."
+  url: "https://ryanlaffoon.github.io/executive-browser/"
+  tags: "HTML, AngularJS"
+  icon: "fa fa-user-circle fa-fw"
   
 quote-tool:
   name: "Quote Tool"
