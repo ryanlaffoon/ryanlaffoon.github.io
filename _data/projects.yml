@@ -1,10 +1,21 @@
+solar-system:
+  name: "Solar System Simulator"
+  page: "/projects/Solar-System/"
+  author: "Ryan Laffoon"
+  year: 2016
+  type: "personal"
+  blurb: "Simple HTML application to simulate movement of planetary bodies in the solar system."
+  description: "This little application stemmed from a Codecademy course called Sun, Earth and Code. I thought to expand the context of the simulation a little to show additional planets. While at first I was simply making a repetitive animation, I soon found myself looking up orbital periods, diameters and distances & making spreadsheets. Currently, the terrestrial and Jovian planets are visible (Mercury through Neptune), their 'average' colors and sizes are relatively accurate, along with their distance from the 'Sun', though none of the 'Simulation' is to scale. The sun is almost entirely absent from this simulation, displaying as a single pixel in the center of the system - This is intentional, as the scales of the planets to the sun is too small to accurately render & I wanted to focus on the planetary bodies themselves here. The speed of the simulation is set so that one orbit of Mercury lasts 1 second. If you follow the Earth (3rd terrestrial body) through an orbit, that simulates a full calendar year & gives a sense of how the planets move about the Sun relative to one another. Future plans include controls to adjust the speed, an interactive informational display"
+  url: "https://ryanlaffoon.github.io/solar-system/"
+  tags: "HTML, CSS, JavaScript, jQuery"
+  icon: "fa fa-sun-o fa-fw"
+  
 quote-tool:
   name: "Quote Tool"
   page: "/projects/Quote-Tool/"
   author: "Ryan Laffoon"
   year: 2016
   type: "proprietary"
-  facing: "internal"
   owner: "Lowe's"
   company: lowes
   action: "Created"
@@ -21,7 +32,6 @@ platform-redesign:
   author: "Ryan Laffoon"
   year: 2015
   type: "proprietary"
-  facing: "public"
   owner: "Lowe's"
   company: lowes
   action: "Executed"
@@ -29,7 +39,7 @@ platform-redesign:
   description: "This project was my first experience working with a collection of multiple cross-functional enterprise development teams on the same project. As the legacy platform and the development shop were written using earlier versions of the .Net framework, the collective design decision was made to migrate the existing code to the latest stable framework version using an N-Tier architecture. Legacy VB and ASP code was converted to C#, and patterns and practices for development were introduced and standardized across teams. Many challenges and obstacles were encountered by all of the teams, but were successfully overcome as the season and deployment freeze ended."
   purpose: "The purpose of this project was to upgrade an enterprise ecommerce web solution encompassing three company divisions with a more efficient & scalable solution. The origins for this project stem from years of rapid growth and the associated accumulation of technical debt as ATGStores.com grew from a startup and thrived through acquisition to become the west coast facing customer support center for Lowe's. The opportunity to focus on internal improvement opened during the first holiday season during ATGStores transition to Lowes, as the development department experienced an annual deployment freeze. The end goal of the project was to take the opportunity of a deployment freeze to redesign the architecture of the web platform and reduce the accumulation of technical debt through the introduction of software development patterns and practices."
   result: "Performance in key site areas was greatly enhanced through the replacement of legacy code with modern frameworks. Maintainability was improved through the introduction and improvement of software development patterns and practices in order to reduce the accumulation of technical debt. Automated testing coverage was introduced or expanded upon as the focus of the company shifted toward continuous improvement & continuous delivery."
-  url: "https://www.atgstores.com"
+  url: "http://www.atgstores.com"
   tags: "C#, ASP.Net, MVC, SQL, JavaScript"
   icon: "fa fa-code fa-fw"
   
@@ -39,7 +49,6 @@ conversion-dashboard:
   author: "Ryan Laffoon"
   year: 2014
   type: "proprietary"
-  facing: "internal"
   owner: "SurfMyAds.com"
   company: surfmyads
   action: "Developed"
@@ -56,7 +65,6 @@ revenue-dashboard:
   author: "Ryan Laffoon"
   year: 2013
   type: "proprietary"
-  facing: "internal"
   owner: "SurfMyAds.com"
   company: surfmyads
   action: "Created"
@@ -73,7 +81,6 @@ pack-check:
   author: "Ryan Laffoon"
   year: 2012
   type: "proprietary"
-  facing: "internal"
   owner: "Fluent Edge Technologies"
   company: fluentedge
   action: "Designed"
@@ -81,7 +88,7 @@ pack-check:
   description: "I personally led this project from design and development through the first major deployment. The product was developed to extend a retail warehouse order fulfillment system. The available interface allowed minimal interaction from the average user, so a custom Windows forms program was developed to expand around the shortcomings of the legacy predecessor program."
   purpose: "The purpose of this project was to create a new solution for warehouse order packing in Ecometry Open-Systems based on functionality from a legacy system. The project originated from a client wishing to improve upon the tools used by his warehouse order packing team, and I guided the project through design and development with them. The end goal was to craft a reusable solution which could be integrated with any Ecometry Open-Systems client desiring a similar function."
   result: "The product was developed to completion for the original client and successfully deployed to their production fulfillment line. Since then, multiple Ecometry clients have requested similar integrations and further product improvements."
-  url: "https://fluentedge.com/index.php/products/18-products/26-pack-check"
+  url: "http://fluentedge.com/index.php/products/18-products/26-pack-check"
   tags: "C#, Windows Forms, SQL"
   icon: "fa fa-check-circle-o fa-fw"
   
@@ -91,7 +98,6 @@ ecometry-merge:
   author: "Ryan Laffoon"
   year: 2011
   type: "proprietary"
-  facing: "internal"
   owner: "Fluent Edge Technologies"
   company: fluentedge
   action: "Developed"
