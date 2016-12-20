@@ -48,13 +48,13 @@ nav: colleges
         {% if college.projects %}
         <div class="collegeinfo">
             <h4 class="sectiontitle">Projects</h4>
-			<ul>
+			<ul class="list-unstyled">
 			{% for college-project in college.projects %}
 			{% assign project = site.data.projects[college-project.project] %}
 				<li>
 				<span class="college-project">
 				{% if project.page %}
-					<a href="{{ project.page }}">{{ project.name }}</a> 
+					<a href="{{ project.page }}"><i class="{{ project.icon }}" aria-hidden="true"></i>{{ project.name }}</a> 
 				{% else %}
 					{{ project.name }}
 				{% endif %}
@@ -70,7 +70,7 @@ nav: colleges
         {% if college.courses %}
         <div class="collegeinfo">
             <h4 class="sectiontitle">Courses</h4>
-			<ul>
+			<ul class="list-unstyled">
 			{% for college-course in college.courses %}
 			{% assign course = site.data.courses[college-course.course] %}
 				<li>

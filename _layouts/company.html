@@ -46,13 +46,13 @@ nav: projects
         {% if company.projects %}
         <div class="companyinfo">
             <h4 class="sectiontitle">Projects</h4>
-			<ul>
+			<ul class="list-unstyled">
 			{% for company-project in company.projects %}
 			{% assign project = site.data.projects[company-project.project] %}
 				<li>
 				<span class="company-project">
 				{% if project.page %}
-					<a href="{{ project.page }}">{{ project.name }}</a> 
+					<a href="{{ project.page }}"><i class="{{ project.icon }}" aria-hidden="true"></i>{{ project.name }}</a> 
 				{% else %}
 					{{ project.name }}
 				{% endif %}
