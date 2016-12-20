@@ -2,7 +2,7 @@
     {% assign sorted_proprietary_projects = (site.data.projects | where: "type","proprietary" | sort: "year") %}
     {% assign sorted_personal_projects = (site.data.projects | where: "type","personal" | sort: "year") %}
 	
-	{% if sorted_proprietary_projects %}
+	{% if sorted_proprietary_projects is defined and sorted_proprietary_projects is not empty %}
 	<h3 class="title">Proprietary</h3>
     <ul class="listentity list-unstyled">
 	    {% for proProject in sorted_proprietary_projects reversed %}
@@ -17,7 +17,7 @@
     </ul>
 	{% endif %}
 	
-	{% if sorted_personal_projects %}
+	{% if sorted_personal_projects is defined and sorted_personal_projects is not empty %}
 	<h3 class="title">Personal</h3>
     <ul class="listentity list-unstyled">
 	    {% for persProject in sorted_personal_projects reversed %}
