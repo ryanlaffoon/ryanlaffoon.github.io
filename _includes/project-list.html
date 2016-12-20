@@ -1,6 +1,6 @@
 <div class="entitylist">
-    {% assign sorted_proprietary_projects = (site.projects | where: "type","proprietary" | sort: "year") %}
-    {% assign sorted_personal_projects = (site.projects | where: "type","personal" | sort: "year") %}
+    {% assign sorted_proprietary_projects = (site.data.projects | where: "type","proprietary" | sort: "year") %}
+    {% assign sorted_personal_projects = (site.data.projects | where: "type","personal" | sort: "year") %}
 	
 	{% if sorted_proprietary_projects %}
 	<h3 class="title">Proprietary</h3>
@@ -9,7 +9,7 @@
 		{% assign proIcon = site.data.projects[proProject.project].icon %}
         <li>
 			<span class="clearfix">
-				<span class="pull-left"><a href="{{ proProject.url }}"><i class="{{ proIcon }}" aria-hidden="true"></i>{{ proProject.title }}</a></span>
+				<span class="pull-left"><a href="{{ proProject.page }}"><i class="{{ proIcon }}" aria-hidden="true"></i>{{ proProject.title }}</a></span>
 				<span class="pull-right">{{ proProject.year }}</span>
 			</span>
         </li>
@@ -24,7 +24,7 @@
 		{% assign persIcon = site.data.projects[persProject.project].icon %}
         <li>
 			<span class="clearfix">
-				<span class="pull-left"><a href="{{ persProject.url }}"><i class="{{ persIcon }}" aria-hidden="true"></i>{{ persProject.title }}</a></span>
+				<span class="pull-left"><a href="{{ persProject.page }}"><i class="{{ persIcon }}" aria-hidden="true"></i>{{ persProject.title }}</a></span>
 				<span class="pull-right">{{ persProject.year }}</span>
 			</span>
         </li>
