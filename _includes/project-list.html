@@ -1,7 +1,6 @@
 <div class="entitylist">
     {% assign sorted_proprietary_projects = (site.data.projects | where: "type","proprietary" | sort: "year") %}
     {% assign sorted_personal_projects = (site.data.projects | where: "type","personal" | sort: "year") %}
-	
 	{% if sorted_proprietary_projects %}
 	<h4 class="title">Proprietary</h3>
 	<span>Projects I've built for companies &amp; employers</span>
@@ -16,7 +15,6 @@
 		{% endfor %}
     </ul>
 	{% endif %}
-	
 	{% if sorted_personal_projects %}
 	<h4 class="title">Personal</h3>
 	<span>Projects I've built on my own</span>

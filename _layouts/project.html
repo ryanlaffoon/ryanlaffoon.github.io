@@ -3,7 +3,6 @@ layout: default
 nav: projects
 ---
 {% assign project = site.data.projects[page.project] %}
-
 <div class="projects">
     <div class="project single">
 		{% include header-breadcrumb.html %}       
@@ -30,7 +29,6 @@ nav: projects
         {% endif %}
         <hr />
         
-        <!-- Project content -->
         {% if project.purpose %}
         <h4 class="sectiontitle">Purpose &amp; Background</h4>
         <div class="projectbody">
@@ -52,7 +50,6 @@ nav: projects
         </div>
         {% endif %}
         
-        <!-- Project info -->
         {% if project.tags %}
         <div class="projectinfo">
             <h4 class="sectiontitle">Tags</h4>
@@ -61,8 +58,7 @@ nav: projects
         {% endif %}
 
         <hr />
-        
-        <!-- Project navigation -->
+
         <div class="projectnav">
             <h4 class="sectiontitle">More Projects</h4>
             <div class="pagenavigation"><a href="/projects/"><i class="fa fa-arrow-circle-up fa-fw" aria-hidden="true"></i>All Projects</a></div>
@@ -71,7 +67,6 @@ nav: projects
         
         <hr />
 
-        <!-- Project comments -->
         <div class="projectcomments">
             {% include disqus.html %}
         </div>

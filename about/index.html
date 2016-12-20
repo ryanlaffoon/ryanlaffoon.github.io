@@ -1,17 +1,21 @@
 ---
 layout: default
 title: About This Site
+breadcrumb: About
 about: about
 description: Credits and information about the website ryanlaffoon.github.io, the personal portfolio website for Ryan Laffoon, a Developer and Musician living and working in Seattle.
 ---
 {% assign about = site.data.about[page.about] %}
-<div class="title">
-	<h3 class="title">{{ page.title }}</h3>
-</div>
-<div class="entitylist">
-    <ul class="listentity list-unstyled">
-        {% for item in about %}
-			 <li><a href="{{ item.url }}" target="_blank" title="{{ item.blurb }}"><i class="{{ item.icon }}"></i>{{ item.blurb }}</a></li>
-		{% endfor %}
-    </ul>
+<div class="about">
+	{% include header-breadcrumb.html %}      
+	<div class="title">
+		<h3 class="title">{{ page.title }}</h3>
+	</div>
+	<div class="entitylist">
+		<ul class="listentity list-unstyled">
+			{% for item in about %}
+				 <li><a href="{{ item.url }}" target="_blank" title="{{ item.blurb }}"><i class="{{ item.icon }}"></i>{{ item.blurb }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
 </div>
