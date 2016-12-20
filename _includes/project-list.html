@@ -1,6 +1,6 @@
-<div class="entitylist">
-    {% assign sorted_proprietary_projects = (site.projects | where: type: "proprietary" | sort: 'year') %}
-    {% assign sorted_personal_projects = (site.projects | where: type: "personal" | sort: 'year') %}
+<div class="entitylist">'
+    {% assign sorted_proprietary_projects = (site.projects | where: "type", "proprietary" | sort: 'year') %}
+    {% assign sorted_personal_projects = (site.projects | where: "type", "personal" | sort: 'year') %}
 	
 	{% if sorted_proprietary_projects %}
 	<h3 class="title">Proprietary</h3>
