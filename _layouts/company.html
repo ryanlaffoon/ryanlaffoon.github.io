@@ -16,8 +16,7 @@ nav: projects
 			<img class="logo-large" src="{{ company.image-url }}" />&nbsp;&nbsp;
 		</span>
 		{% endif %}	
-		
-			<h1 class="title pull-left">{{ company.name }}</h1>
+			<span class="title main pull-right">{{ company.name }}</span>
         </div>
         <h4 class="credit">
             Employed from {{ company.start | date: "%B %d, %Y" }} to {{ company.end | date: "%B %d, %Y" }}

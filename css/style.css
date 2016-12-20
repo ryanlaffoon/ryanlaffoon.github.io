@@ -7,7 +7,7 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 
 
 /* Masthead */
-.header, .footer, .header, .title, .sectiontitle, .submit, .pagenavigation { 
+.header, .footer, .title, .sectiontitle, .submit, .pagenavigation { 
 	font-family: 'Montserrat', Helvetica, sans-serif; 
 	text-transform: uppercase; 
 	font-weight: normal; 
@@ -41,6 +41,9 @@ img.avatar {
 .marketing p { line-height: 25px; }
 .marketing p.lead { line-height: 30px; }
 
+.main {
+	font-size: 2em;
+}
 
 /* Lists */
 
