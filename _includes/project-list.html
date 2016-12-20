@@ -6,10 +6,9 @@
 	<h3 class="title">Proprietary</h3>
     <ul class="listentity list-unstyled">
 	    {% for proProject in sorted_proprietary_projects reversed %}
-		{% assign proIcon = site.data.projects[proProject.project].icon %}
         <li>
 			<span class="clearfix">
-				<span class="pull-left"><a href="{{ proProject.page }}"><i class="{{ proIcon }}" aria-hidden="true"></i>{{ proProject.name }}</a></span>
+				<span class="pull-left"><a href="{{ proProject.page }}"><i class="{{ proProject.icon }}" aria-hidden="true"></i>{{ proProject.name }}</a></span>
 				<span class="pull-right">{{ proProject.year }}</span>
 			</span>
         </li>
@@ -21,10 +20,9 @@
 	<h3 class="title">Personal</h3>
     <ul class="listentity list-unstyled">
 	    {% for persProject in sorted_personal_projects reversed %}
-		{% assign persIcon = site.data.projects[persProject.project].icon %}
         <li>
 			<span class="clearfix">
-				<span class="pull-left"><a href="{{ persProject.page }}"><i class="{{ persIcon }}" aria-hidden="true"></i>{{ persProject.name }}</a></span>
+				<span class="pull-left"><a href="{{ persProject.page }}"><i class="{{ persProject.icon }}" aria-hidden="true"></i>{{ persProject.name }}</a></span>
 				<span class="pull-right">{{ persProject.year }}</span>
 			</span>
         </li>
