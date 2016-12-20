@@ -46,7 +46,7 @@ nav: projects
         {% if company.projects %}
         <div class="companyinfo">
             <h4 class="sectiontitle">Projects</h4>
-			<ul class="list-unstyled">
+			<ul class="listcv list-unstyled">
 			{% for company-project in company.projects %}
 			{% assign project = site.data.projects[company-project.project] %}
 				<li>

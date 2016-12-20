@@ -48,7 +48,7 @@ nav: colleges
         {% if college.projects %}
         <div class="collegeinfo">
             <h4 class="sectiontitle">Projects</h4>
-			<ul class="list-unstyled">
+			<ul class="listcv list-unstyled">
 			{% for college-project in college.projects %}
 			{% assign project = site.data.projects[college-project.project] %}
 				<li>
