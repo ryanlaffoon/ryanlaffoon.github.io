@@ -11,7 +11,7 @@ basic-chess:
   tags: "HTML, CSS, JavaScript, jQuery"
   icon: "glyphicon glyphicon-king fa-fw"
  
- solar-system:
+solar-system:
   name: "Solar System"
   page: "/projects/Solar-System/"
   author: "Ryan Laffoon"
