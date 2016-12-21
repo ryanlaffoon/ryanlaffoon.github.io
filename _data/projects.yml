@@ -1,4 +1,17 @@
-solar-system:
+basic-chess:
+  name: "Basic Chess"
+  page: "/projects/Basic-Chess/"
+  author: "Ryan Laffoon"
+  year: 2016
+  type: "personal"
+  action: "Built"
+  blurb: "Simple HTML application for a chess game."
+  description: "I built a chess game - WIP"
+  url: "https://ryanlaffoon.github.io/basic-chess/"
+  tags: "HTML, CSS, JavaScript, jQuery"
+  icon: "glyphicon glyphicon-king fa-fw"
+  
+ solar-system:
   name: "Solar System"
   page: "/projects/Solar-System/"
   author: "Ryan Laffoon"
