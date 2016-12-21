@@ -10,7 +10,7 @@ basic-chess:
   url: "https://ryanlaffoon.github.io/basic-chess/"
   tags: "HTML, CSS, JavaScript, jQuery"
   icon: "glyphicon glyphicon-king fa-fw"
-  
+ 
  solar-system:
   name: "Solar System"
   page: "/projects/Solar-System/"
