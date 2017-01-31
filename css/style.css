@@ -128,3 +128,11 @@ ul.listcv li{
 	display: inline-block;
 	padding: 0 10px;
 }
+
+.white-king:before {
+    content: "\2654";
+}
+
+.white-checker:before {
+    content: "\26C0";
+}
