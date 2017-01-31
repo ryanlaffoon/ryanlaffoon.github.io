@@ -9,7 +9,7 @@ basic-checkers:
   description: "I built a checkers game in the style of my chess game, using HTML, CSS3, and JavaScript. The game allows for 2-player manual control, multiple consecutive jumps, and King promotions. Enjoy!"
   url: "https://ryanlaffoon.github.io/basic-checkers/"
   tags: "HTML, CSS, JavaScript"
-  icon: "white-checker"
+  icon: "fa white-checker fa-fw"
  
 
 basic-chess:
@@ -23,7 +23,7 @@ basic-chess:
   description: "I developed a chess game using HTML, CSS3, and JavaScript in late 2016 through early 2017 as a side project while searching for a new role. The game allows for 2-player manual control, calculates available moves per turn, and allows for standard play, pawn promotion & en passant attacks. Players are allowed to place their King in check, and check-mate/stalemate/castling have yet to be implemented. The game also features a 'Pawns' mode, for a new twist on strategy relying heavily upon pawn promotion and en passant attacks. Enjoy!"
   url: "https://ryanlaffoon.github.io/basic-chess/"
   tags: "HTML, CSS, JavaScript"
-  icon: "white-king"
+  icon: "white-king fa-fw"
  
 solar-system:
   name: "Solar System"

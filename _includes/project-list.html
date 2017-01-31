@@ -1,20 +1,6 @@
 <div class="entitylist">
     {% assign sorted_proprietary_projects = (site.data.projects | where: "type","proprietary" | sort: "year") %}
     {% assign sorted_personal_projects = (site.data.projects | where: "type","personal" | sort: "year") %}
-	{% if sorted_proprietary_projects %}
-	<h4 class="title">Proprietary</h3>
-	<span>Projects I've built for companies &amp; employers</span>
-    <ul class="listentity list-unstyled">
-	    {% for proProject in sorted_proprietary_projects reversed %}
-        <li>
-			<span class="clearfix">
-				<span class="pull-left"><a href="{{ proProject.page }}"><i class="{{ proProject.icon }}" aria-hidden="true"></i>{{ proProject.name }}</a></span>
-				<span class="pull-right">{{ proProject.year }}</span>
-			</span>
-        </li>
-		{% endfor %}
-    </ul>
-	{% endif %}
 	{% if sorted_personal_projects %}
 	<h4 class="title">Personal</h3>
 	<span>Projects I've built on my own</span>
@@ -22,8 +8,22 @@
 	    {% for persProject in sorted_personal_projects reversed %}
         <li>
 			<span class="clearfix">
-				<span class="pull-left"><a href="{{ persProject.page }}"><i class="{{ persProject.icon }}" aria-hidden="true"></i>{{ persProject.name }}</a></span>
+				<span class="pull-left"><a href="{{ persProject.page }}"><span class="{{ persProject.icon }}" aria-hidden="true"></span>{{ persProject.name }}</a></span>
 				<span class="pull-right">{{ persProject.year }}</span>
+			</span>
+        </li>
+		{% endfor %}
+    </ul>
+	{% endif %}
+	{% if sorted_proprietary_projects %}
+	<h4 class="title">Proprietary</h3>
+	<span>Projects I've built for companies &amp; employers</span>
+    <ul class="listentity list-unstyled">
+	    {% for proProject in sorted_proprietary_projects reversed %}
+        <li>
+			<span class="clearfix">
+				<span class="pull-left"><a href="{{ proProject.page }}"><span class="{{ proProject.icon }}" aria-hidden="true"></span>{{ proProject.name }}</a></span>
+				<span class="pull-right">{{ proProject.year }}</span>
 			</span>
         </li>
 		{% endfor %}
