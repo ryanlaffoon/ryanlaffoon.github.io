@@ -129,10 +129,10 @@ ul.listcv li{
 	padding: 0 10px;
 }
 
-.white-king:before {
-    content: "\2654";
+.chessIcon:before {
+    content: "\265A";
 }
 
-.white-checker:before {
-    content: "\26C0";
+.checkersIcon:before {
+    content: "\26C3";
 }
