@@ -6,7 +6,7 @@ basic-checkers:
   type: "personal"
   action: "Created"
   blurb: "Simple JavaScript application for a game of english checkers."
-  description: "I built a checkers game in the style of my chess game, using HTML, CSS3, and JavaScript. The game allows for 2-player manual control, multiple consecutive jumps, and King promotions. Enjoy!"
+  description: "I built a checkers game in the style of my chess game, using HTML, CSS3, and JavaScript. The game allows for 2-player manual control, multiple consecutive jumps, and crowning. Enjoy!"
   url: "https://ryanlaffoon.github.io/basic-checkers/"
   tags: "HTML, CSS, JavaScript"
   icon: "fa checkersIcon fa-fw"
