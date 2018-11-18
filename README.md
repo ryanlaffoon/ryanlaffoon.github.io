@@ -2,12 +2,4 @@
 
 ## Synopsis
 
-This project serves as the core for my personal online CV & Portfolio.
-
-## Motivation
-
-I wanted to create a starting point for an online portfolio, using GitHub Pages.
-
-## License
-
-Licensed under a Creative Commons Attribution 3.0 Unported License.
+This project serves as the core for my personal online CV & Portfolio. I started the project in 2017 while searching for a new role in Seattle, WA & utilized it to showcase my skills in a live online setting.
