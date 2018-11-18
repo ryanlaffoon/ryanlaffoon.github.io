@@ -1,3 +1,27 @@
+microsoft:
+  name: "Microsoft"
+  page: "/companies/Microsoft/"
+  image-url: "/img/ms_logo.png"
+  title: "Software Development Engineer II"
+  start: 2017-02-01
+  end: 2018-08-17
+  address:
+   - label: "Microsoft"
+     street: "One Microsoft Way"
+     city: "Redmond"
+     state: "WA"
+     zip: "98052"
+     country: "USA"
+  url: "http://www.microsoft.com"
+  phone: "(425) 882-8080"
+  blurb: "Software application development, process automation, data analysis and operations support for fraud investigation & enforcement teams"
+  description: "Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports and sells computer software, consumer electronics, personal computers, and related services."
+  methodology: "Agile, SCRUM"
+  projects:
+   - project: transaction-datawarehouse
+   - project: serf-platform
+  tags: "SQL Server, SCOPE, PowerShell, C#, ASP.Net, MVC, Azure"
+
 lowes:
   name: "Lowe's"
   page: "/companies/Lowes/"

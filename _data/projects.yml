@@ -51,6 +51,40 @@ executive-browser:
   tags: "HTML, AngularJS"
   icon: "fa fa-user-circle fa-fw"
   
+transaction-datawarehouse:
+  name: "Transaction Data Warehouse"
+  page: "/projects/Transaction-DataWH/"
+  author: "Ryan Laffoon"
+  year: 2018
+  type: "proprietary"
+  owner: "Microsoft"
+  company: microsoft
+  action: "Delivered"
+  blurb: "Development of multi-component high-volume ETL pipeline moving transaction details from a cloud system into a hardened environment for fraud investigation."
+  description: "This project was my first experience designing and developing a large-scale multi-component data pipeline. I used the SERF platform (Azure, PowerShell) to automate processes which extracted and filter the data (SCOPE, C#) for later processes to decrypt (C#, WebAPI) and store the data (SQL Server). Developed processes in addition to extract metrics around all aspects of the pipeline for automated monitoring and alerting."
+  purpose: "The purpose of this project was to provide fraud investigation teams easier access to private transaction details within a secure environment for fraud pattern analysis & active fraud investigation while retaining compliance with corporate and international regulations concerning personally identifiable data. The origins for this project stemmed from the analysis of data using previous team tools which identified aggregate patterns of anomylous activity. The need for analysis of the individual transactional data identified in the anomalies was identified & this solution was proposed and developed as a result."
+  result: "The system was built successfully, resulting in the availability of additional resources for fraud investigation & the identification of multiple fraudulent methods and potentially millions of dollars in revenue either recovered or prevented from loss through these means."
+  url: "http://www.microsoft.com"
+  tags: "C#, SQL Server, PowerShell, Azure"
+  icon: "fa fa-code fa-fw"
+
+serf-platform:
+  name: "SERF Platform"
+  page: "/projects/Serf-Platform/"
+  author: "Ryan Laffoon"
+  year: 2017
+  type: "proprietary"
+  owner: "Microsoft"
+  company: microsoft
+  action: "Developed"
+  blurb: "Development of data ETL & workflow pipeline for the automation of operations processes for fraud investigation & risk analysis."
+  description: "This project was my first experience designing and developing a large-scale multi-component data pipeline using Azure. Lots of setup in Azure for VMs and worker machines to work with the corporate domains & assets. Development in C# for functions app to perform the workflow automation. Powershell scripting for automation scripts. SQL Server setups and scripting for data storage, logging, and analytics. PowerBI reports for analytics & Ops monitoring."
+  purpose: "The purpose of this project was to provide a workflow automation solution for the larger team, ease the costs of operations & reduce downtime."
+  result: "Adoption of the system led to a reduction in downtime & costs of operations, and freed resources while improving reliability."
+  url: "http://www.microsoft.com"
+  tags: "C#, SQL Server, PowerShell, Azure"
+  icon: "fa fa-code fa-fw"
+
 quote-tool:
   name: "Quote Tool"
   page: "/projects/Quote-Tool/"
