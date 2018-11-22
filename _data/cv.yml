@@ -11,6 +11,6 @@ mine:
   - college: yvcc
  file: "/files/Laffoon-Ryan_CV.pdf"
  techsummary:
-  languages: "ASP.NET, C#, HTML5, CSS, JavaScript, SQL"
+  languages: "ASP.NET, C#, JavaScript, SQL, HTML5, CSS"
   applications: "Visual Studio, Sql Server Management Studio"
   methodologies: "Agile, Scrum, Waterfall"
