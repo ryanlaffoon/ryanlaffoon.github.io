@@ -10,7 +10,6 @@ basic-checkers:
   url: "https://ryanlaffoon.github.io/basic-checkers/"
   tags: "HTML, CSS, JavaScript"
   icon: "fa checkersIcon fa-fw"
- 
 
 basic-chess:
   name: "Basic Chess"
@@ -53,7 +52,7 @@ executive-browser:
   
 transaction-datawarehouse:
   name: "Transaction Data Warehouse"
-  page: "/projects/Transaction-DataWH/"
+  page: "/projects/Transaction-Datawarehouse/"
   author: "Ryan Laffoon"
   year: 2018
   type: "proprietary"
