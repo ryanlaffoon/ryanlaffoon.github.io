@@ -84,7 +84,6 @@ profile-data-store:
   tags: "C#/.Net, CosmosDB, Azure"
   icon: "fa fa-code fa-fw"
 
-
 transaction-datawarehouse:
   name: "Transaction Data Warehouse"
   page: "/projects/Transaction-Datawarehouse/"
