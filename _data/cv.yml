@@ -1,7 +1,8 @@
 mine:
  profile: me
- summary: "Motivated developer with a passion for technology and experience in a wide variety of roles, utilizing a variety of languages. Sound roots in full-stack .Net web application development, with exposure to agile methodology and continuous delivery. Excellent listening skills, written and oral communication. Effective at quickly adapting to varying development environments and integrating into team or self-directed environments."
+ summary: "Motivated developer with a passion for technology and 10+ years experience in full-stack .Net web application development. Excellent listening skills, written and oral communication. Effective at quickly adapting and integrating into team or self-directed environments."
  experience:
+  - company: eventcore
   - company: microsoft
   - company: lowes
   - company: surfmyads
@@ -9,8 +10,7 @@ mine:
  education:
   - college: ewu
   - college: yvcc
- file: "/files/Laffoon-Ryan_CV.pdf"
+ file: "/files/Laffoon_Ryan_CV.pdf"
  techsummary:
-  languages: "ASP.NET, C#, JavaScript, SQL, HTML5, CSS"
-  applications: "Visual Studio, Sql Server Management Studio"
+  languages: "C#/.NET, JavaScript/Typescript, SQL, HTML, SCSS, Vue.js"
   methodologies: "Agile, Scrum, Waterfall"
