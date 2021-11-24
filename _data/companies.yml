@@ -1,3 +1,27 @@
+eventcore: 
+  name: "eventcore"
+  page: "/companies/eventcore/"
+  image-url: "/img/ec_logo.jpg"
+  title: "Product Engineer"
+  start: 2018-12-17
+  end: 2021-11-11
+  address:
+   - label: "eventcore"
+     street: "4743 Ballard Avenue NW, Suite 200"
+     city: "Seattle"
+     state: "WA"
+     zip: "98107"
+     country: "USA"
+  url: "www.eventcore.com"
+  phone: "(206) 784-0626"
+  blurb: "Greenfield design & development using Vue.js, C#/.Net, Elasticsearch, CosmosDB, and Kubernetes"
+  description: "At eventcore, we innovate by staying collectively focused on creating solution-centered event registration services. We embrace the challenge of learning, growing and innovating to solve your toughest, most complex event challenges. We Stay Dedicated-- Everyone on the team is dedicated to their craft. We stay accountable to each other and our client’s work, and committed to creating a positive end result. We Stay Engaged-- We are present with our work, and committed to being available to our partners, our clients and our team members. We Serve-- We help make events happen. Our actions and behaviors have far-reaching impacts. We strive to make a difference … every day, every event, every time."
+  methodology: "Agile, SCRUM, Kanban"
+  projects:
+   - project: profile-data-store
+   - project: modern-platform
+  tags: "C#/.Net, Vue.js, Typescript, CosmosDB, Elasticsearch, Azure, Kubernetes"
+
 microsoft:
   name: "Microsoft"
   page: "/companies/Microsoft/"
@@ -12,7 +36,7 @@ microsoft:
      state: "WA"
      zip: "98052"
      country: "USA"
-  url: "http://www.microsoft.com"
+  url: "www.microsoft.com"
   phone: "(425) 882-8080"
   blurb: "Software application development, process automation, data analysis and operations support for fraud investigation & enforcement teams"
   description: "Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports and sells computer software, consumer electronics, personal computers, and related services."
@@ -42,7 +66,7 @@ lowes:
      state: "NC"
      zip: "28117"
      country: "USA"
-  url: "http://www.lowes.com"
+  url: "www.lowes.com"
   phone: "(425) 814-2515"
   blurb: "Full stack web and application development in an enterprise environment for a fortune 50 home improvement retail corporation."
   description: "Lowe's is a fortune 49 American company that operates a chain of retail home improvement and appliance stores in the United States, Canada, and Mexico."
@@ -72,7 +96,7 @@ surfmyads:
      state: "CA"
      zip: "90401"
      country: "USA"
-  url: "http://www.surfmyads.com"
+  url: "www.surfmyads.com"
   phone: "(424) 214-5470"
   blurb: "Full stack web and application development in a collaborative startup environment for an affiliate marketing and internet promotions agency."
   description: "SurfMyAds.com, Inc. owns, develops and operates online shopping websites that help consumers save time and money every day, while providing high-quality sales and traffic to online retailers. A leader in performance marketing, SurfMyAds.com, Inc. is fueled by the goal of constant growth and innovation. New project development, international reach and premium marketing strategies are cornerstone to the consistent value driven by SurfMyAds.com, Inc. to both retail partners and online shoppers."
@@ -96,7 +120,7 @@ fluentedge:
      state: "ID"
      zip: "83814"
      country: "USA"
-  url: "http://www.fluentedge.com"
+  url: "www.fluentedge.com"
   phone: "(208) 765-2900"
   blurb: "Full stack web and application development in an independent startup environment. Control of project planning & estimation through full software development lifecycle."
   description: "Fluent Edge Technologies is a small software development business providing products and services for enterprise ecommerce data solutions, custom web application development and IT support."

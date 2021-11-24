@@ -6,7 +6,7 @@ basic-checkers:
   type: "personal"
   action: "Created"
   blurb: "Simple JavaScript application for a game of english checkers."
-  description: "I built a checkers game in the style of my chess game, using HTML, CSS3, and JavaScript. The game allows for 2-player manual control, multiple consecutive jumps, and crowning. Enjoy!"
+  description: "I built a checkers game using HTML, CSS, and JavaScript. The game allows for 2-player manual control, multiple consecutive jumps, and crowning. Enjoy!"
   url: "https://ryanlaffoon.github.io/basic-checkers/"
   tags: "HTML, CSS, JavaScript"
   icon: "fa checkersIcon fa-fw"
@@ -19,7 +19,7 @@ basic-chess:
   type: "personal"
   action: "Built"
   blurb: "Simple HTML application for a chess game."
-  description: "I developed a chess game using HTML, CSS3, and JavaScript in late 2016 through early 2017 as a side project while searching for a new role. The game allows for 2-player manual control, calculates available moves per turn, and allows for standard play, pawn promotion & en passant attacks. Players are allowed to place their King in check, and check-mate/stalemate/castling have yet to be implemented. The game also features a 'Pawns' mode, for a new twist on strategy relying heavily upon pawn promotion and en passant attacks. Enjoy!"
+  description: "I developed a chess game using HTML, CSS, and JavaScript in late 2016 through early 2017 as a side project while searching for a new role. The game allows for 2-player manual control, calculates available moves per turn, and allows for standard play, pawn promotion & en passant attacks. Players are allowed to place their King in check, and check-mate/stalemate/castling have yet to be implemented. The game also features a 'Pawns' mode, for a new twist on strategy relying heavily upon pawn promotion and en passant attacks. Enjoy!"
   url: "https://ryanlaffoon.github.io/basic-chess/"
   tags: "HTML, CSS, JavaScript"
   icon: "fa chessIcon fa-fw"
@@ -49,7 +49,42 @@ executive-browser:
   url: "https://ryanlaffoon.github.io/executive-browser/"
   tags: "HTML, AngularJS"
   icon: "fa fa-user-circle fa-fw"
-  
+
+modern-platform:
+  name: "Modern Web Platform & Record Management System"
+  page: "/projects/Modern-Platform/"
+  author: "Ryan Laffoon"
+  year: 2021
+  type: "proprietary"
+  owner: "eventcore"
+  company: eventcore
+  action: "Designed"
+  blurb: "Design of a full stack solution in a greenfield environment with the Product Team to replace legacy infrastructure including a modern web portal and custom record management system utilizing Vue.js, Typescript, C#/.Net, Elasticsearch, Cosmos DB and Kubernetes."
+  description: "This project was the Minimum Viable Product for a replacement of internal legacy architecture and the basis for intended purpose of the eventcore Product Team. I worked with the team at first in an exploratory fashion while we decided upon the technology stack and planned initial development. Later, we worked in an agile/kanban fashion to implement our backlog as flow developed."
+  purpose: "The purpose of this project was to replace the legacy architecture with a modern, modular stack & allow the focus of the company to expand toward becoming a SaaS provider."
+  result: "The system continues to be built, on track to deliver MVP."
+  url: "www.eventcore.com"
+  tags: "C#, Vue.js, Typescript, CosmosDB , Kubernetes, Azure"
+  icon: "fa fa-code fa-fw"
+
+profile-data-store:
+  name: "Profile Data Store"
+  page: "/projects/Profile-Data-Store/"
+  author: "Ryan Laffoon"
+  year: 2019
+  type: "proprietary"
+  owner: "eventcore"
+  company: eventcore
+  action: "Developed"
+  blurb: " Development of a centralized service to relate cross-event user profile & registration information from various identity services utilizing C#/.Net, Elasticsearch and Cosmos DB"
+  description: "This project was a prescribed need to support the events architecture for a replacement of internal legacy architecture and the basis for intended purpose of the eventcore Product Team. I worked with the team at first in an exploratory fashion while we decided upon the technology stack and planned initial development. Later, we worked in an agile/kanban fashion to implement our backlog as flow developed."
+  purpose: "The purpose of this project was to provide a centralized means to store & relate various profile information for event clients & provide a means to integrate GDPR redaction & removal points for PII compliance."
+  result: "The system was built and has since become heavily relied upon within the company."
+  url: "www.eventcore.com"
+  tags: "C#/.Net, CosmosDB, Azure"
+  icon: "fa fa-code fa-fw"
+
+
 transaction-datawarehouse:
   name: "Transaction Data Warehouse"
   page: "/projects/Transaction-Datawarehouse/"
@@ -63,7 +98,7 @@ transaction-datawarehouse:
   description: "This project was my first experience designing and developing a large-scale multi-component data pipeline. I used the SERF platform (Azure, PowerShell) to automate processes which extracted and filter the data (SCOPE, C#) for later processes to decrypt (C#, WebAPI) and store the data (SQL Server). Developed processes in addition to extract metrics around all aspects of the pipeline for automated monitoring and alerting."
   purpose: "The purpose of this project was to provide fraud investigation teams easier access to private transaction details within a secure environment for fraud pattern analysis & active fraud investigation while retaining compliance with corporate and international regulations concerning personally identifiable data. The origins for this project stemmed from the analysis of data using previous team tools which identified aggregate patterns of anomylous activity. The need for analysis of the individual transactional data identified in the anomalies was identified & this solution was proposed and developed as a result."
   result: "The system was built successfully, resulting in the availability of additional resources for fraud investigation & the identification of multiple fraudulent methods and potentially millions of dollars in revenue either recovered or prevented from loss through these means."
-  url: "http://www.microsoft.com"
+  url: "www.microsoft.com"
   tags: "C#, SQL Server, PowerShell, Azure"
   icon: "fa fa-code fa-fw"
 
@@ -80,7 +115,7 @@ serf-platform:
   description: "This project was my first experience designing and developing a large-scale multi-component data pipeline using Azure. Lots of setup in Azure for VMs and worker machines to work with the corporate domains & assets. Development in C# for functions app to perform the workflow automation. Powershell scripting for automation scripts. SQL Server setups and scripting for data storage, logging, and analytics. PowerBI reports for analytics & Ops monitoring."
   purpose: "The purpose of this project was to provide a workflow automation solution for the larger team, ease the costs of operations & reduce downtime."
   result: "Adoption of the system led to a reduction in downtime & costs of operations, and freed resources while improving reliability."
-  url: "http://www.microsoft.com"
+  url: "www.microsoft.com"
   tags: "C#, SQL Server, PowerShell, Azure"
   icon: "fa fa-code fa-fw"
 
@@ -113,7 +148,7 @@ platform-redesign:
   description: "This project was my first experience working with a collection of multiple cross-functional enterprise development teams on the same project. As the legacy platform and the development shop were written using earlier versions of the .Net framework, the collective design decision was made to migrate the existing code to the latest stable framework version using an N-Tier architecture. Legacy VB and ASP code was converted to C#, and patterns and practices for development were introduced and standardized across teams. Many challenges and obstacles were encountered by all of the teams, but were successfully overcome as the season and deployment freeze ended."
   purpose: "The purpose of this project was to upgrade an enterprise ecommerce web solution encompassing three company divisions with a more efficient & scalable solution. The origins for this project stem from years of rapid growth and the associated accumulation of technical debt as ATGStores.com grew from a startup and thrived through acquisition to become the west coast facing customer support center for Lowe's. The opportunity to focus on internal improvement opened during the first holiday season during ATGStores transition to Lowes, as the development department experienced an annual deployment freeze. The end goal of the project was to take the opportunity of a deployment freeze to redesign the architecture of the web platform and reduce the accumulation of technical debt through the introduction of software development patterns and practices."
   result: "Performance in key site areas was greatly enhanced through the replacement of legacy code with modern frameworks. Maintainability was improved through the introduction and improvement of software development patterns and practices in order to reduce the accumulation of technical debt. Automated testing coverage was introduced or expanded upon as the focus of the company shifted toward continuous improvement & continuous delivery."
-  url: "http://www.atgstores.com"
+  url: "www.atgstores.com"
   tags: "C#, ASP.Net, MVC, SQL, JavaScript"
   icon: "fa fa-code fa-fw"
   
@@ -162,7 +197,7 @@ pack-check:
   description: "I personally led this project from design and development through the first major deployment. The product was developed to extend a retail warehouse order fulfillment system. The available interface allowed minimal interaction from the average user, so a custom Windows forms program was developed to expand around the shortcomings of the legacy predecessor program."
   purpose: "The purpose of this project was to create a new solution for warehouse order packing in Ecometry Open-Systems based on functionality from a legacy system. The project originated from a client wishing to improve upon the tools used by his warehouse order packing team, and I guided the project through design and development with them. The end goal was to craft a reusable solution which could be integrated with any Ecometry Open-Systems client desiring a similar function."
   result: "The product was developed to completion for the original client and successfully deployed to their production fulfillment line. Since then, multiple Ecometry clients have requested similar integrations and further product improvements."
-  url: "http://fluentedge.com/index.php/products/18-products/26-pack-check"
+  url: "fluentedge.com/index.php/products/18-products/26-pack-check"
   tags: "C#, Windows Forms, SQL"
   icon: "fa fa-check-circle-o fa-fw"
   
