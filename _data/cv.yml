@@ -2,6 +2,7 @@ mine:
  profile: me
  summary: "Motivated developer with a passion for technology and 10+ years experience in full-stack .Net web application development. Excellent listening skills, written and oral communication. Effective at quickly adapting and integrating into team or self-directed environments."
  experience:
+  - company: r1rcm
   - company: eventcore
   - company: microsoft
   - company: lowes
@@ -12,5 +13,6 @@ mine:
   - college: yvcc
  file: "/files/Laffoon_Ryan_CV.pdf"
  techsummary:
-  languages: "C#/.NET, JavaScript/Typescript, SQL, HTML, SCSS, Vue.js"
-  methodologies: "Agile, Scrum, Waterfall"
+  languages: "C#/.NET, JavaScript/Typescript, Vue, Angular, SQL, MongoDB, CosmosDB, HTML, Sass, CSS"
+  methodologies: "Agile, TDD, DDD, CI/CD, DevOps"
+  tools: "Visual Studio, VSCode, Git, Azure, Jira, Confluence"

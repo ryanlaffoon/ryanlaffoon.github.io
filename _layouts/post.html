@@ -4,52 +4,48 @@ nav: notes
 ---
 <div class="notes">
     <div class="note single">
-		<div>
-            {% include header-breadcrumb.html %}       
-        </div>        
+        <div>
+            {% include header-breadcrumb.html %}
+        </div>
         <!-- Note Title -->
         <div>
             <h1 class="title"><i class="{{ page.icon }}" aria-hidden="true"></i>{{ page.title }}</h1>
         </div>
-        
+
         <!-- Note Subtitle -->
         <div>
             <h5 class="title">{{page.subtitle}}</h5>
         </div>
-        
+
         <!-- Note Credits -->
         <h4 class="credit">
             <info datetime="{{ page.date }}">
                 {{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
             </info>
         </h4>
-        
+
         <hr />
-        
+
         <!-- Note Content -->
         <div class="notebody">
             {{ content }}
         </div>
-        
+
         <!-- Note Signature -->
         <div class="notesignature">
-            
+
         </div>
-        
+
         <hr />
-        
+
         <!-- Note Navigation -->
-        <div class="notenav">      
+        <div class="notenav">
             <h4 class="sectiontitle">More Notes</h4>
-            <div class="pagenavigation"><a href="/notes/"><i class="fa fa-arrow-circle-up fa-fw" aria-hidden="true"></i>All Notes</a></div>
+            <div class="pagenavigation"><a href="/notes/"><i class="fa fa-arrow-circle-up fa-fw"
+                        aria-hidden="true"></i>All Notes</a></div>
             {% include pagenavigation.html %}
         </div>
-        
+
         <hr />
-        
-        <!-- Note comments -->
-        <div class="notecomments">
-            {% include disqus.html %}
-        </div>
     </div>
 </div>

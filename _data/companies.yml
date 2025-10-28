@@ -1,3 +1,20 @@
+r1rcm: 
+  name: "R1 RCM"
+  page: "/companies/r1rcm/"
+  image-url: "/img/r1_logo.jpg"
+  title: "Software Engineer III"
+  start: 2021-12-17
+  end: 2025-04-17
+  address:
+   - label: "R1 RCM Corporate Headquarters"
+     street: "433 W. Ascension Way, Suite 200"
+     city: "Murray"
+     state: "UT"
+     zip: "84123"
+     country: "USA"
+  url: "www.r1rcm.com"
+  phone: "(833) 304-1213"
+  methodology: "Agile"
 eventcore: 
   name: "eventcore"
   page: "/companies/eventcore/"
@@ -16,7 +33,7 @@ eventcore:
   phone: "(206) 784-0626"
   blurb: "Greenfield design & development using Vue.js, C#/.Net, Elasticsearch, CosmosDB, and Kubernetes"
   description: "At eventcore, we innovate by staying collectively focused on creating solution-centered event registration services. We embrace the challenge of learning, growing and innovating to solve your toughest, most complex event challenges. We Stay Dedicated-- Everyone on the team is dedicated to their craft. We stay accountable to each other and our client’s work, and committed to creating a positive end result. We Stay Engaged-- We are present with our work, and committed to being available to our partners, our clients and our team members. We Serve-- We help make events happen. Our actions and behaviors have far-reaching impacts. We strive to make a difference … every day, every event, every time."
-  methodology: "Agile, SCRUM, Kanban"
+  methodology: "Agile, SCRUM"
   projects:
    - project: profile-data-store
    - project: modern-platform
@@ -40,7 +57,7 @@ microsoft:
   phone: "(425) 882-8080"
   blurb: "Software application development, process automation, data analysis and operations support for fraud investigation & enforcement teams"
   description: "Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports and sells computer software, consumer electronics, personal computers, and related services."
-  methodology: "Agile, SCRUM"
+  methodology: "Agile"
   projects:
    - project: transaction-datawarehouse
    - project: serf-platform
@@ -54,18 +71,13 @@ lowes:
   start: 2015-07-27
   end: 2016-08-23
   address:
-   - label: "CSC-K, ATGStores.com"
+   - label: "CSC-K, ATGStores"
      street: "11410 NE 122nd Way, Suite 200"
      city: "Kirkland"
      state: "WA"
      zip: "98034"
      country: "USA"
-   - label: "CSC-M, Corporate Headquarters"
-     street: "1000 Lowes Blvd"
-     city: "Mooresville"
-     state: "NC"
-     zip: "28117"
-     country: "USA"
+
   url: "www.lowes.com"
   phone: "(425) 814-2515"
   blurb: "Full stack web and application development in an enterprise environment for a fortune 50 home improvement retail corporation."
@@ -77,8 +89,8 @@ lowes:
   tags: "C#, ASP.Net, MVC, Web API, SQL, JavaScript, Retail, Fortune 50"
   
 surfmyads:
-  name: "SurfMyAds.com"
-  page: "/companies/SurfMyAds.com/"
+  name: "SurfMyAds"
+  page: "/companies/SurfMyAds/"
   image-url: "/img/sma_logo.png"
   title: "Software Engineer"
   start: 2012-07-16
@@ -90,7 +102,7 @@ surfmyads:
      state: "ID"
      zip: "83814"
      country: "USA" 
-   - label: "Santa Monica Office"
+   - label: "Corporate Office"
      street: "321 Santa Monica Blvd, Suite 300"
      city: "Santa Monica"
      state: "CA"
@@ -100,30 +112,21 @@ surfmyads:
   phone: "(424) 214-5470"
   blurb: "Full stack web and application development in a collaborative startup environment for an affiliate marketing and internet promotions agency."
   description: "SurfMyAds.com, Inc. owns, develops and operates online shopping websites that help consumers save time and money every day, while providing high-quality sales and traffic to online retailers. A leader in performance marketing, SurfMyAds.com, Inc. is fueled by the goal of constant growth and innovation. New project development, international reach and premium marketing strategies are cornerstone to the consistent value driven by SurfMyAds.com, Inc. to both retail partners and online shoppers."
-  methodology: "Agile Hybrid"
+  methodology: "Agile"
   projects:
    - project: conversion-dashboard
    - project: revenue-dashboard
   tags: "C#, ASP.Net, MVC, Web API, SQL, JavaScript, Marketing"
   
 fluentedge:
-  name: "Fluent Edge Technologies"
-  page: "/companies/Fluent-Edge-Technologies/"
+  name: "Fluent Edge"
+  page: "/companies/Fluent-Edge/"
   image-url: "/img/feti_logo.png"
   title: "Software Developer"
   start: 2010-07-05
   end: 2012-06-29
-  address:
-   - label: "Coeur d'Alene Office"
-     street: "250 Northwest Blvd, Suite 105"
-     city: "Coeur d'Alene"
-     state: "ID"
-     zip: "83814"
-     country: "USA"
-  url: "www.fluentedge.com"
-  phone: "(208) 765-2900"
   blurb: "Full stack web and application development in an independent startup environment. Control of project planning & estimation through full software development lifecycle."
-  description: "Fluent Edge Technologies is a small software development business providing products and services for enterprise ecommerce data solutions, custom web application development and IT support."
+  description: "Fluent Edge is a small software development business providing products and services for enterprise ecommerce data solutions, custom web application development and IT support."
   methodology: "Agile Hybrid"
   projects:
    - project: pack-check
