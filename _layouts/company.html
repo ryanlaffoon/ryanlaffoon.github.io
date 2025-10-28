@@ -13,7 +13,7 @@ nav: projects
 		<div class="clearfix">
 		{% if company.image-url %}
 		<span class="pull-left">				
-			<img class="logo-large" src="{{ company.image-url }}" />&nbsp;&nbsp;
+			<img class="logo-large" src="{{ company.image-url }}" alt="" />&nbsp;&nbsp;
 		</span>
 		{% endif %}	
 			<span class="title main pull-right">{{ company.name }}</span>
@@ -116,9 +116,5 @@ nav: projects
         
         <hr />
 
-        <!-- Company comments -->
-        <div class="companycomments">
-            {% include disqus.html %}
-        </div>
     </div>
 </div>

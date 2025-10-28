@@ -1,2 +1,4 @@
 ﻿_site/
 /.vs
+Gemfile
+*.lock

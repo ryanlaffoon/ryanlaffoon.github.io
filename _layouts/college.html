@@ -13,7 +13,7 @@ nav: colleges
 		<div class="clearfix">
 			{% if college.image-url %}
 			<span class="pull-left">				
-				<img class="logo-large" src="{{ college.image-url }}" />&nbsp;&nbsp;
+				<img class="logo-large" src="{{ college.image-url }}" alt="College Logo" />&nbsp;&nbsp;
 			</span>
 			{% endif %}	
 			<span class="title main pull-right">{{ college.name }}</span>
@@ -138,10 +138,5 @@ nav: colleges
         </div>
         
         <hr />
-
-        <!-- College comments -->
-        <div class="collegecomments">
-            {% include disqus.html %}
-        </div>
     </div>
 </div>
